@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="timer">
+  <properties>
+   <property name="draw" type="bool" value="true"/>
+   <property name="skin" type="int" value="0"/>
+   <property name="startActive" type="bool" value="true"/>
+   <property name="time" type="int" value="3"/>
+  </properties>
+  <point/>
+ </object>
+</template>

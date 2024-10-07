@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="reverb" width="64" height="64">
+  <properties>
+   <property name="minRadius" type="float" value="10"/>
+   <property name="reverbType" type="int" value="0"/>
+   <property name="wetness" type="float" value="2"/>
+  </properties>
+  <ellipse/>
+ </object>
+</template>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<params>
+
+  <parSection name="tilesets">
+    
+    <entry id="0">
+      <prop name="location" type="string">devSet</prop>
+    </entry>
+    
+  </parSection>
+  <parSection name="level">
+
+    <entry id="0">
+      <prop name="script" type="string">sdebug</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="name" type="string">whyareyouhere</prop>
+      <prop name="file" type="string">debug</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="1">
+      <prop name="script" type="string">sdebug</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">mainMenu</prop>
+      <prop name="file" type="string">cnull</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="2">
+      <prop name="script" type="string">s0m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c0</prop>
+      <prop name="file" type="string">c0m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="3">
+      <prop name="script" type="string">s1m0a</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c1</prop>
+      <prop name="file" type="string">c1m0a</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="4">
+      <prop name="script" type="string">s1m0b</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c1</prop>
+      <prop name="file" type="string">c1m0b</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="5">
+      <prop name="script" type="string">s2m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c2</prop>
+      <prop name="file" type="string">c2m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="6">
+      <prop name="script" type="string">s2m1</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c2</prop>
+      <prop name="file" type="string">c2m1</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="7">
+      <prop name="script" type="string">s3m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c3</prop>
+      <prop name="file" type="string">c3m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="8">
+      <prop name="script" type="string">s3m1</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c3</prop>
+      <prop name="file" type="string">c3m1</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="9">
+      <prop name="script" type="string">s3m2</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c3</prop>
+      <prop name="file" type="string">c3m2</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="10">
+      <prop name="script" type="string">s3m3</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c3</prop>
+      <prop name="file" type="string">c3m3</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="11">
+      <prop name="script" type="string">s4m0a</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c4</prop>
+      <prop name="file" type="string">c4m0a</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="12">
+      <prop name="script" type="string">s4m0b</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c4</prop>
+      <prop name="file" type="string">c4m0b</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="13">
+      <prop name="script" type="string">s5m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c5</prop>
+      <prop name="file" type="string">c5m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="14">
+      <prop name="script" type="string">s5m1</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c5</prop>
+      <prop name="file" type="string">c5m1</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="15">
+      <prop name="script" type="string">s6m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c5</prop>
+      <prop name="file" type="string">c6m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="16">
+      <prop name="script" type="string">s6m1</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">2</prop>
+      <prop name="name" type="string">c6</prop>
+      <prop name="file" type="string">c6m1</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="17">
+      <prop name="script" type="string">s6m2</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c6</prop>
+      <prop name="file" type="string">c6m2</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="18">
+      <prop name="script" type="string">s7m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c7</prop>
+      <prop name="file" type="string">c7m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="19">
+      <prop name="script" type="string">s8m0</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">0</prop>
+      <prop name="name" type="string">c8</prop>
+      <prop name="file" type="string">c8m0</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="20">
+      <prop name="script" type="string">s9m0a</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">1</prop>
+      <prop name="name" type="string">c9</prop>
+      <prop name="file" type="string">c9m0a</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+    <entry id="21">
+      <prop name="script" type="string">s2m1</prop>
+      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="sky" type="int">1</prop>
+      <prop name="name" type="string">c9</prop>
+      <prop name="file" type="string">c9m0b</prop>
+      <prop name="pos" type="string">0,0</prop>
+    </entry>
+
+  </parSection>
+
+  <parSection name="skybox">
+
+    <entry id="0">
+      <prop name="base" type="string">skybox1</prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">true,2,16</prop>
+      <prop name="ambient" type="string">#131318</prop>
+    </entry>
+    <entry id="1">
+      <prop name="base" type="string"></prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">false,1,1</prop>
+      <prop name="ambient" type="string">#16121B</prop>
+    </entry>
+    <entry id="2">
+      <prop name="base" type="string">skybox2</prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">false,1,1</prop>
+      <prop name="ambient" type="string">#16020E</prop>
+    </entry>
+
+  </parSection>
+
+  <parSection name="particle">
+
+    <entry id="0">
+      <prop name="anim" type="string">a:testPart, 7, 1, 10</prop>
+      <prop name="color" type="string">#B32525</prop>
+    </entry>
+    <entry id="1">
+      <prop name="anim" type="string">a:sparkPart, 5, 2, 5</prop>
+    </entry>
+
+  </parSection>
+  
+  <parSection name="scene">
+  
+    <entry id="0"> 
+      <prop name="a0" type="string">player, false, false, /./, /</prop>
+      <prop name="a1" type="string">100.100, true, false, 100.100, /</prop>
+      <prop name="a2" type="string">throngler, false, false, 752.800, /</prop>
+    </entry>
+
+  </parSection>
+  
+  <parSection name="cuts">
+  
+    <entry id="0">
+      <prop name="name" type="string">ui_weaponSlash</prop>
+      <prop name="rect" type="string">0,0,26,26</prop>
+    </entry>
+    <entry id="1">
+      <prop name="name" type="string">ui_weaponPeirce</prop>
+      <prop name="rect" type="string">27,0,26,26</prop>
+    </entry>
+    <entry id="2">
+      <prop name="name" type="string">ui_weaponBlunt</prop>
+      <prop name="rect" type="string">0,27,26,26</prop>
+    </entry>
+    <entry id="3">
+      <prop name="name" type="string">ui_jbStart</prop>
+      <prop name="rect" type="string">27,27,4,9</prop>
+    </entry>
+    <entry id="4">
+      <prop name="name" type="string">ui_jbMid</prop>
+      <prop name="rect" type="string">32,27,1,9</prop>
+    </entry>
+    <entry id="5">
+      <prop name="name" type="string">ui_jbMid1</prop>
+      <prop name="rect" type="string">40,27,1,9</prop>
+    </entry>
+    <entry id="6">
+      <prop name="name" type="string">ui_jbEnd</prop>
+      <prop name="rect" type="string">34,27,5,9</prop>
+    </entry>
+    <entry id="7">
+      <prop name="name" type="string">ui_boost</prop>
+      <prop name="rect" type="string">54,0,16,16</prop>
+    </entry>
+    <entry id="8">
+      <prop name="name" type="string">ui_boss</prop>
+      <prop name="rect" type="string">54,17,16,16</prop>
+    </entry>
+    <entry id="9">
+      <prop name="name" type="string">ui_dashInd</prop>
+      <prop name="rect" type="string">27,37,11,11</prop>
+    </entry>
+    <entry id="10">
+      <prop name="name" type="string">ui_health</prop>
+      <prop name="rect" type="string">44,27,9,9</prop>
+    </entry>
+    <entry id="11">
+      <prop name="name" type="string">ui_boostDead</prop>
+      <prop name="rect" type="string">54,34,16,16</prop>
+    </entry>
+
+  </parSection>
+</params>

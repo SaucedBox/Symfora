@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="light">
+  <properties>
+   <property name="angle" type="float" value="270"/>
+   <property name="brightness" type="float" value="3"/>
+   <property name="color" type="color" value="#ffffffff"/>
+   <property name="dirRadius" type="float" value="80"/>
+   <property name="directional" type="bool" value="false"/>
+   <property name="falloff" type="float" value="2"/>
+   <property name="radius" type="float" value="1"/>
+   <property name="shadows" type="bool" value="true"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+  <point/>
+ </object>
+</template>

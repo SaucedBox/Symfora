@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="catalyst_jet" width="28" height="8">
+  <properties>
+   <property name="charged" type="bool" value="false"/>
+   <property name="draw" type="bool" value="true"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

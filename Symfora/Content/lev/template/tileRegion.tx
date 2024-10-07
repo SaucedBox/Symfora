@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="tileRegion" width="256" height="112">
+  <properties>
+   <property name="tilesetID" type="int" value="0"/>
+   <property name="transition" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

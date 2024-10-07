@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="catalyst" width="28" height="8">
+  <properties>
+   <property name="boostMult" type="float" value="1"/>
+   <property name="charged" type="bool" value="false"/>
+   <property name="draw" type="bool" value="true"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

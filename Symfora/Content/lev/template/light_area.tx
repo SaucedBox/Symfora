@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="light_area" width="160" height="145">
+  <properties>
+   <property name="brightness" type="float" value="3"/>
+   <property name="color" type="color" value="#ffdcddff"/>
+   <property name="radius" type="float" value="1"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

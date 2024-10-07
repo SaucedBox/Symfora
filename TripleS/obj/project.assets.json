@@ -1,0 +1,471 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "KeraLua/1.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/KeraLua.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/KeraLua.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios/native/liblua54.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/liblua54.framework/liblua54": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-x64/native/liblua54.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/maccatalyst/native/liblua54.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "maccatalyst"
+          },
+          "runtimes/maccatalyst/native/liblua54.framework/liblua54": {
+            "assetType": "native",
+            "rid": "maccatalyst"
+          },
+          "runtimes/osx/native/liblua54.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tvos/native/liblua54.framework/Info.plist": {
+            "assetType": "native",
+            "rid": "tvos"
+          },
+          "runtimes/tvos/native/liblua54.framework/liblua54": {
+            "assetType": "native",
+            "rid": "tvos"
+          },
+          "runtimes/win-arm/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/lua54.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.2.1105": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Library.SDL": "2.26.5.5",
+          "NVorbis": "0.10.4"
+        },
+        "compile": {
+          "lib/net8.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MonoGame.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/MonoGame.Framework.DesktopGL.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "MonoGame.Library.SDL/2.26.5.5": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "NLua/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "KeraLua": "1.3.1"
+        },
+        "compile": {
+          "lib/net6.0/NLua.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/NLua.dll": {}
+        }
+      },
+      "NVorbis/0.10.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NVorbis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NVorbis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeraLua/1.3.1": {
+      "sha512": "DSZkJx3+9YmJONylrJY2xvjmBBT6oPZO1Iv+MBZh4Ta8KsYewKmpp5n+yW2J5vkIxkJ1yxiQuHE+iKw25Kw6GA==",
+      "type": "package",
+      "path": "keralua/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/net46/KeraLua.targets",
+        "keralua.1.3.1.nupkg.sha512",
+        "keralua.nuspec",
+        "lib/MonoAndroid/KeraLua.dll",
+        "lib/MonoAndroid/KeraLua.xml",
+        "lib/net46/KeraLua.dll",
+        "lib/net46/KeraLua.xml",
+        "lib/net6.0-android28/KeraLua.dll",
+        "lib/net6.0-android28/KeraLua.xml",
+        "lib/net6.0-ios11.0/KeraLua.dll",
+        "lib/net6.0-ios11.0/KeraLua.xml",
+        "lib/net6.0-maccatalyst13.0/KeraLua.dll",
+        "lib/net6.0-maccatalyst13.0/KeraLua.xml",
+        "lib/net6.0-macos10.13/KeraLua.dll",
+        "lib/net6.0-macos10.13/KeraLua.xml",
+        "lib/net6.0-tvos11.0/KeraLua.dll",
+        "lib/net6.0-tvos11.0/KeraLua.xml",
+        "lib/net6.0/KeraLua.dll",
+        "lib/net6.0/KeraLua.xml",
+        "lib/netstandard2.0/KeraLua.dll",
+        "lib/netstandard2.0/KeraLua.xml",
+        "lib/uap10.0/KeraLua.dll",
+        "lib/uap10.0/KeraLua.pri",
+        "lib/uap10.0/KeraLua.xml",
+        "lib/xamarinios/KeraLua.dll",
+        "lib/xamarinios/KeraLua.xml",
+        "lib/xamarinmac/KeraLua.dll",
+        "lib/xamarinmac/KeraLua.xml",
+        "lib/xamarintvos/KeraLua.dll",
+        "lib/xamarintvos/KeraLua.xml",
+        "runtimes/android-arm/native/liblua54.so",
+        "runtimes/android-arm64/native/liblua54.so",
+        "runtimes/android-x64/native/liblua54.so",
+        "runtimes/android-x86/native/liblua54.so",
+        "runtimes/ios/native/liblua54.framework/Info.plist",
+        "runtimes/ios/native/liblua54.framework/liblua54",
+        "runtimes/linux-x64/native/liblua54.so",
+        "runtimes/maccatalyst/native/liblua54.framework/Info.plist",
+        "runtimes/maccatalyst/native/liblua54.framework/liblua54",
+        "runtimes/osx/native/liblua54.dylib",
+        "runtimes/tvos/native/liblua54.framework/Info.plist",
+        "runtimes/tvos/native/liblua54.framework/liblua54",
+        "runtimes/win-arm/native/lua54.dll",
+        "runtimes/win-arm64/native/lua54.dll",
+        "runtimes/win-x64/native/lua54.dll",
+        "runtimes/win-x86/native/lua54.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/lua54.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/lua54.dll"
+      ]
+    },
+    "MonoGame.Framework.DesktopGL/3.8.2.1105": {
+      "sha512": "QwjhmpyMZ9js4zqoYN/0cz//nYZ1u5yB8KWJ1P7nbViqfUyzuFDvGqgUEXFLp+n0Rx4z9PuKfwL5nQpp9LrXhg==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.8.2.1105",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Framework.DesktopGL.targets",
+        "lib/net8.0/MonoGame.Framework.dll",
+        "lib/net8.0/MonoGame.Framework.xml",
+        "monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec",
+        "runtimes/linux-x64/native/libopenal.so.1",
+        "runtimes/osx/native/libopenal.1.dylib",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/soft_oal.dll"
+      ]
+    },
+    "MonoGame.Library.SDL/2.26.5.5": {
+      "sha512": "wSbYCCLeT3p3GZtU8GaYA5+XTjt4kM01yIvik3qm3sjU53jf/w0Pp0GBvOTCHgKxEGwb/IinHIASMcLuVnmgCA==",
+      "type": "package",
+      "path": "monogame.library.sdl/2.26.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "monogame.library.sdl.2.26.5.5.nupkg.sha512",
+        "monogame.library.sdl.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.0.so.0",
+        "runtimes/osx/native/libSDL2.dylib",
+        "runtimes/win-x64/native/SDL2.dll"
+      ]
+    },
+    "NLua/1.6.0": {
+      "sha512": "0+p4yrJoAGfsMuoZpcdSpp8jNHrZs9nyGPoYLbHaxzqbPZIS8RhBO1fnQLYsECrTMiQVledR3bDkEfRybjBdpw==",
+      "type": "package",
+      "path": "nlua/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/MonoAndroid/NLua.dll",
+        "lib/MonoAndroid/NLua.pdb",
+        "lib/net46/NLua.dll",
+        "lib/net6.0-android28/NLua.dll",
+        "lib/net6.0-ios11.0/NLua.dll",
+        "lib/net6.0-maccatalyst13.0/NLua.dll",
+        "lib/net6.0-macos10.13/NLua.dll",
+        "lib/net6.0-tvos11.0/NLua.dll",
+        "lib/net6.0/NLua.dll",
+        "lib/netstandard2.0/NLua.dll",
+        "lib/uap10.0/NLua.dll",
+        "lib/uap10.0/NLua.pri",
+        "lib/xamarinios/NLua.dll",
+        "lib/xamarinios/NLua.pdb",
+        "lib/xamarinmac/NLua.dll",
+        "lib/xamarinmac/NLua.pdb",
+        "lib/xamarintvos/NLua.dll",
+        "lib/xamarintvos/NLua.pdb",
+        "nlua.1.6.0.nupkg.sha512",
+        "nlua.nuspec"
+      ]
+    },
+    "NVorbis/0.10.4": {
+      "sha512": "WYnil3DhQHzjCY0dM9I2B3r1vWip90AOuQd25KE4NrjPQBg0tBJFluRLm5YPnO5ZLDmwrfosY8jCQGQRmWI/Pg==",
+      "type": "package",
+      "path": "nvorbis/0.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net45/NVorbis.dll",
+        "lib/net45/NVorbis.xml",
+        "lib/netstandard2.0/NVorbis.dll",
+        "lib/netstandard2.0/NVorbis.xml",
+        "nvorbis.0.10.4.nupkg.sha512",
+        "nvorbis.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MonoGame.Framework.DesktopGL >= 3.8.2.1105",
+      "NLua >= 1.6.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sawyer/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj",
+      "projectName": "TripleS",
+      "projectPath": "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj",
+      "packagesPath": "/Users/sawyer/.nuget/packages/",
+      "outputPath": "/Users/sawyer/Desktop/SymforaMaster/TripleS/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sawyer/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": {
+            "target": "Package",
+            "version": "[3.8.2.1105, )"
+          },
+          "NLua": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

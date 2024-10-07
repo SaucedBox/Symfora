@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/humPart1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/humPart2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/humPart3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/skybox/skybox1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/skybox/skybox2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/sparkPart.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/test.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/testPart.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/ui.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/wire_hori.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/assets/wire_vert.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/areaLighting.fx</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/bloom.fx</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/lighting.fx</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/phantom.fx</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/soano.fx</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/DefaultFont.bmp</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont.bmp</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont_bold.bmp</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont_italy.bmp</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont_small.bmp</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/til/devSet.png</File>
+    <File>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/til/r_tileset1.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

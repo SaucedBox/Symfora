@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="ballista">
+  <properties>
+   <property name="direction" type="int" value="180"/>
+   <property name="draw" type="bool" value="true"/>
+   <property name="speed" type="float" value="1"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+  <point/>
+ </object>
+</template>

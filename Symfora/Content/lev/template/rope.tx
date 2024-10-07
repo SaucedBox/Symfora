@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="rope">
+  <properties>
+   <property name="drawStretched" type="bool" value="false"/>
+   <property name="segments" type="int" value="6"/>
+   <property name="texture" value=""/>
+   <property name="width" type="float" value="1"/>
+  </properties>
+  <polyline points="0,0 0,64"/>
+ </object>
+</template>

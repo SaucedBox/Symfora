@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont_bold.bmp</SourceFile>
+  <SourceTime>2023-12-14T18:29:31.9769297-08:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/bin/DesktopGL/Content/font/MainFont_bold.xnb</DestFile>
+  <DestTime>2023-12-14T18:29:37.9589986-08:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2022-07-26T04:44:56-07:00</ImporterTime>
+  <Processor>FontTextureProcessor</Processor>
+  <ProcessorTime>2022-07-26T04:44:56-07:00</ProcessorTime>
+  <Parameters>
+    <Key>FirstCharacter</Key>
+    <Value> </Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

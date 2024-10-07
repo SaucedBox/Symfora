@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="blockade" width="16" height="64">
+  <properties>
+   <property name="ballistaVunerable" type="bool" value="true"/>
+   <property name="skin" type="int" value="0"/>
+   <property name="type" type="int" value="0"/>
+  </properties>
+ </object>
+</template>

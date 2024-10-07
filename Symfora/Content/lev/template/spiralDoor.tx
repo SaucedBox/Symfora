@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="spiralDoor" width="16" height="32">
+  <properties>
+   <property name="startActive" type="bool" value="true"/>
+   <property name="teleportTarget" value=""/>
+  </properties>
+ </object>
+</template>

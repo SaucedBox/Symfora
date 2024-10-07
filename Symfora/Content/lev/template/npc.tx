@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="npc">
+  <properties>
+   <property name="id" type="int" value="0"/>
+   <property name="noticeDist" type="int" value="715"/>
+   <property name="perma" type="bool" value="false"/>
+   <property name="phantom" type="int" value="0"/>
+   <property name="wanderDist" type="int" value="0"/>
+  </properties>
+  <point/>
+ </object>
+</template>

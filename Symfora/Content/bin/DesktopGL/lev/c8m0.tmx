@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="118">
+ <tileset firstgid="1" source="../til/devSet.tsx"/>
+ <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
+  <data encoding="csv"/>
+ </layer>
+ <layer id="1" name="ground" width="64" height="32">
+  <data encoding="csv">
+   <chunk x="0" y="0" width="16" height="16">
+47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="2" name="collision" width="64" height="32">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup color="#ff8284" id="7" name="npcs"/>
+ <objectgroup color="#fffa61" id="8" name="lights"/>
+ <objectgroup color="#7de8b9" id="11" name="deco"/>
+ <objectgroup color="#8aadff" id="9" name="puzzles"/>
+ <objectgroup id="3" name="general"/>
+ <objectgroup color="#00ff00" id="4" name="nodegraph"/>
+ <objectgroup color="#ffffff" id="12" name="regions"/>
+</map>

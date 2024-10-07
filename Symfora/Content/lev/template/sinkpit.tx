@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="sinkpit" width="80" height="16">
+  <properties>
+   <property name="count" type="int" value="2"/>
+   <property name="draw" type="bool" value="true"/>
+   <property name="maxAttacking" type="int" value="1"/>
+   <property name="skin" type="int" value="0"/>
+  </properties>
+ </object>
+</template>

@@ -1,0 +1,439 @@
+{
+    "activeFile": "lev/c8m0.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "bin/DesktopGL",
+        "bin/DesktopGL/Content/lev",
+        "til",
+        "bin/DesktopGL/Content",
+        "lev",
+        "lev/template"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Program Files (x86)/Steam/steamapps/common/Carrion/Content/Levels/jungle.json": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1985.6666666666665,
+                "y": 2234.6666666666665
+            }
+        },
+        "C:/Program Files (x86)/Steam/steamapps/common/Carrion/Content/Levels/overworld.json": {
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 5197.25,
+                "y": 949.5
+            }
+        },
+        "C:/Program Files (x86)/Steam/steamapps/common/Carrion/Content/TileSets/tiles.json": {
+            "scaleInDock": 1
+        },
+        "C:/Program Files (x86)/Steam/steamapps/common/Carrion/UserContent/Tester/Levels/my_level.json": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 766.3333333333333,
+                "y": 1435.3333333333333
+            }
+        },
+        "C:/Program Files (x86)/Steam/steamapps/common/Carrion/UserContent/Tester/TileSets/tiles.json": {
+            "scaleInDock": 1,
+            "scaleInEditor": 8
+        },
+        "bin/DesktopGL/Content/lev/c2m0.tmx": {
+            "scale": 3.6701171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.19754137619074,
+                "y": 128.19754137619074
+            }
+        },
+        "bin/DesktopGL/Content/til/devSet.tsx": {
+            "scaleInDock": 1
+        },
+        "lev/c0m0.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1280.25,
+                "y": 765.25
+            }
+        },
+        "lev/c1m0a.tmx": {
+            "expandedObjectLayers": [
+                8,
+                12,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 1281,
+                "y": 769
+            }
+        },
+        "lev/c1m0b.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 384.25,
+                "y": 256.25
+            }
+        },
+        "lev/c2m0.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1152.3333333333333,
+                "y": 640.3333333333333
+            }
+        },
+        "lev/c2m1.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                10,
+                4,
+                3
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 896.25,
+                "y": 640.25
+            }
+        },
+        "lev/c3m0.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                9,
+                7,
+                8
+            ],
+            "scale": 0.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 712,
+                "y": 816
+            }
+        },
+        "lev/c3m1.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 768.6666666666666,
+                "y": 768.6666666666666
+            }
+        },
+        "lev/c3m2.tmx": {
+            "expandedObjectLayers": [
+                8,
+                13,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 1,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 896.5,
+                "y": 896.5
+            }
+        },
+        "lev/c3m3.tmx": {
+            "expandedObjectLayers": [
+                8,
+                13,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.25,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1026,
+                "y": 894
+            }
+        },
+        "lev/c4m0.tmx": {
+            "expandedObjectLayers": [
+                8,
+                3
+            ],
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1436,
+                "y": 1210
+            }
+        },
+        "lev/c4m0a.tmx": {
+            "expandedObjectLayers": [
+                4,
+                13,
+                9,
+                7,
+                3,
+                8
+            ],
+            "scale": 1.0719,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 1689.5232764250395,
+                "y": 1504.8045526634946
+            }
+        },
+        "lev/c4m0b.tmx": {
+            "expandedObjectLayers": [
+                8,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 1025,
+                "y": 513
+            }
+        },
+        "lev/c5m0.tmx": {
+            "expandedObjectLayers": [
+                8,
+                13,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.33,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 1534.848484848485,
+                "y": 1277.272727272727
+            }
+        },
+        "lev/c5m1.tmx": {
+            "expandedObjectLayers": [
+                4,
+                13,
+                9,
+                7,
+                3,
+                8
+            ],
+            "scale": 0.5197,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1350.7792957475467,
+                "y": 417.54858572253215
+            }
+        },
+        "lev/c6m0.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                7,
+                8,
+                9
+            ],
+            "scale": 0.2864,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1152.2346368715084,
+                "y": 768.1564245810056
+            }
+        },
+        "lev/c6m1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                7,
+                8,
+                9
+            ],
+            "scale": 0.2468,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 895.4619124797406,
+                "y": 1021.0696920583468
+            }
+        },
+        "lev/c6m2.tmx": {
+            "expandedObjectLayers": [
+                8,
+                12,
+                9,
+                7,
+                4,
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 1152.6666666666665,
+                "y": 895.3333333333333
+            }
+        },
+        "lev/c7m0.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                7,
+                8,
+                9
+            ],
+            "scale": 1.163,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 828.8907996560617,
+                "y": 1577.815993121238
+            }
+        },
+        "lev/c8m0.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                7,
+                8
+            ],
+            "scale": 0.4159,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 610.723731666266,
+                "y": -88.96369319547966
+            }
+        },
+        "lev/c9m0a.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                7,
+                8,
+                9
+            ],
+            "scale": 0.75,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 497.3333333333333,
+                "y": 2225.333333333333
+            }
+        },
+        "lev/c9m0b.tmx": {
+            "expandedObjectLayers": [
+                3,
+                8
+            ],
+            "scale": 0.9976,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 383.9214113873296,
+                "y": 255.61347233360064
+            }
+        },
+        "lev/cnull.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128,
+                "y": 127.75
+            }
+        },
+        "lev/debug.tmx": {
+            "expandedObjectLayers": [
+                4,
+                7,
+                3,
+                8
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 768,
+                "y": 384.66666666666674
+            }
+        },
+        "til/devSet.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 5.5
+        },
+        "til/reader.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        }
+    },
+    "last.executablePath": "C:/Users/sawye/source/games/Symfora Project/Symfora/bin/Debug/net6.0/Symfora.exe",
+    "last.imagePath": "C:/Users/sawye/source/games/Symfora Project/Symfora/Content/til",
+    "last.objectTemplatePath": "C:/Users/sawye/source/games/Symfora Project/Symfora/Content/lev/template",
+    "last.workingDirectory": "C:/Users/sawye/source/games/Symfora Project/Symfora",
+    "map.height": 100,
+    "map.orientation": 0,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 100,
+    "openFiles": [
+        "lev/c6m1.tmx",
+        "lev/c6m0.tmx",
+        "lev/c7m0.tmx",
+        "lev/c8m0.tmx",
+        "lev/c9m0a.tmx"
+    ],
+    "project": "symfora.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "lev/c6m1.tmx",
+        "lev/c6m0.tmx",
+        "lev/c7m0.tmx",
+        "lev/c9m0a.tmx",
+        "lev/c8m0.tmx",
+        "lev/c3m0.tmx",
+        "lev/c5m1.tmx",
+        "lev/c4m0a.tmx",
+        "lev/c9m0b.tmx",
+        "lev/c6m2.tmx",
+        "lev/c3m2.tmx",
+        "lev/c3m1.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

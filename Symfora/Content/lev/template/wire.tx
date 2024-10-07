@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="wireOverlay">
+  <properties>
+   <property name="target" value=""/>
+  </properties>
+  <polyline points="0,0 32,0 32,-32 0,-48"/>
+ </object>
+</template>

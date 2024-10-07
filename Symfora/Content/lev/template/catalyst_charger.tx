@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="catalyst_charger">
+  <properties>
+   <property name="startActive" type="bool" value="true"/>
+   <property name="target" value=""/>
+  </properties>
+  <point/>
+ </object>
+</template>

@@ -1,0 +1,391 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin assets/humPart1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/humPart1.png
+
+#begin assets/humPart2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/humPart2.png
+
+#begin assets/humPart3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/humPart3.png
+
+#begin assets/skybox/skybox1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/skybox/skybox1.png
+
+#begin assets/skybox/skybox2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/skybox/skybox2.png
+
+#begin assets/sparkPart.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/sparkPart.png
+
+#begin assets/test.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/test.png
+
+#begin assets/testPart.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/testPart.png
+
+#begin assets/ui.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/ui.png
+
+#begin assets/wire_hori.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/wire_hori.png
+
+#begin assets/wire_vert.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:assets/wire_vert.png
+
+#begin audio/Game.bank
+/copy:audio/Game.bank
+
+#begin audio/Master.bank
+/copy:audio/Master.bank
+
+#begin audio/Master.strings.bank
+/copy:audio/Master.strings.bank
+
+#begin effects/areaLighting.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/areaLighting.fx
+
+#begin effects/bloom.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/bloom.fx
+
+#begin effects/lighting.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/lighting.fx
+
+#begin effects/phantom.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/phantom.fx
+
+#begin effects/soano.fx
+/importer:EffectImporter
+/processor:EffectProcessor
+/processorParam:DebugMode=Auto
+/build:effects/soano.fx
+
+#begin font/DefaultFont.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:font/DefaultFont.bmp
+
+#begin font/MainFont.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:font/MainFont.bmp
+
+#begin font/MainFont_bold.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:font/MainFont_bold.bmp
+
+#begin font/MainFont_italy.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:font/MainFont_italy.bmp
+
+#begin font/MainFont_small.bmp
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:font/MainFont_small.bmp
+
+#begin lev/c0m0.tmx
+/copy:lev/c0m0.tmx
+
+#begin lev/c1m0a.tmx
+/copy:lev/c1m0a.tmx
+
+#begin lev/c1m0b.tmx
+/copy:lev/c1m0b.tmx
+
+#begin lev/c2m0.tmx
+/copy:lev/c2m0.tmx
+
+#begin lev/c2m1.tmx
+/copy:lev/c2m1.tmx
+
+#begin lev/c3m0.tmx
+/copy:lev/c3m0.tmx
+
+#begin lev/c3m1.tmx
+/copy:lev/c3m1.tmx
+
+#begin lev/c3m2.tmx
+/copy:lev/c3m2.tmx
+
+#begin lev/c3m3.tmx
+/copy:lev/c3m3.tmx
+
+#begin lev/c4m0a.tmx
+/copy:lev/c4m0a.tmx
+
+#begin lev/c4m0b.tmx
+/copy:lev/c4m0b.tmx
+
+#begin lev/c5m0.tmx
+/copy:lev/c5m0.tmx
+
+#begin lev/c5m1.tmx
+/copy:lev/c5m1.tmx
+
+#begin lev/c6m0.tmx
+/copy:lev/c6m0.tmx
+
+#begin lev/c6m1.tmx
+/copy:lev/c6m1.tmx
+
+#begin lev/c6m2.tmx
+/copy:lev/c6m2.tmx
+
+#begin lev/c7m0.tmx
+/copy:lev/c7m0.tmx
+
+#begin lev/c8m0.tmx
+/copy:lev/c8m0.tmx
+
+#begin lev/c9m0a.tmx
+/copy:lev/c9m0a.tmx
+
+#begin lev/c9m0b.tmx
+/copy:lev/c9m0b.tmx
+
+#begin lev/cnull.tmx
+/copy:lev/cnull.tmx
+
+#begin lev/debug.tmx
+/copy:lev/debug.tmx
+
+#begin loc/eng.xml
+/copy:loc/eng.xml
+
+#begin param.xml
+/copy:param.xml
+
+#begin script/s0m0.lua
+/copy:script/s0m0.lua
+
+#begin script/s1m0a.lua
+/copy:script/s1m0a.lua
+
+#begin script/s1m0b.lua
+/copy:script/s1m0b.lua
+
+#begin script/s2m0.lua
+/copy:script/s2m0.lua
+
+#begin script/s2m1.lua
+/copy:script/s2m1.lua
+
+#begin script/s3m0.lua
+/copy:script/s3m0.lua
+
+#begin script/s3m1.lua
+/copy:script/s3m1.lua
+
+#begin script/s3m2.lua
+/copy:script/s3m2.lua
+
+#begin script/s3m3.lua
+/copy:script/s3m3.lua
+
+#begin script/s4m0a.lua
+/copy:script/s4m0a.lua
+
+#begin script/s4m0b.lua
+/copy:script/s4m0b.lua
+
+#begin script/s5m0.lua
+/copy:script/s5m0.lua
+
+#begin script/s5m1.lua
+/copy:script/s5m1.lua
+
+#begin script/s6m0.lua
+/copy:script/s6m0.lua
+
+#begin script/s6m1.lua
+/copy:script/s6m1.lua
+
+#begin script/s6m2.lua
+/copy:script/s6m2.lua
+
+#begin script/s7m0.lua
+/copy:script/s7m0.lua
+
+#begin script/s8m0.lua
+/copy:script/s8m0.lua
+
+#begin script/s9m0a.lua
+/copy:script/s9m0a.lua
+
+#begin script/sdebug.lua
+/copy:script/sdebug.lua
+
+#begin til/devSet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:til/devSet.png
+
+#begin til/devSet.tsx
+/copy:til/devSet.tsx
+
+#begin til/r_tileset1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:til/r_tileset1.png
+
+#begin til/region0.xml
+/copy:til/region0.xml
+
+#begin til/region1.xml
+/copy:til/region1.xml
+

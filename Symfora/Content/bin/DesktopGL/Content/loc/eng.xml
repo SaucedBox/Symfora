@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loc>
+    <ui>
+        <line id="whyareyouhere">Why are you here?</line>
+        <line id="mainmenu">Press X to enter GOOPY GOBLIN MODE</line>
+        <line id="c0">Ponderosa Court</line>
+        <line id="c1">Ponderosa District</line>
+        <line id="c2">The Shallows</line>
+        <line id="c3">Relayer</line>
+        <line id="c4">Paralevo</line>
+        <line id="c5">Upper Chlorals</line>
+        <line id="c6">Lower Chlorals</line>
+        <line id="c7">The Guardians</line>
+        <line id="c8">Onaos</line>
+        <line id="c9">Soano</line>
+        <line id="menuSetting">Settings</line>
+        <line id="menuButExit">Exit Game</line>
+        <line id="pauseButResume">Resume</line>
+        <line id="pauseButTitle">Quit to Title</line>
+        <line id="settingButApply">Apply</line>
+        <line id="setting0">Fullscreen</line>
+        <line id="setting4">Resolution</line>
+        <line id="setting1">Graphics Level</line>
+        <line id="setting2">Dev Mode</line>
+        <line id="setting3">Brightness</line>
+        <line id="settingKjump">Jump</line>
+        <line id="settingKramLeft">Ram Left</line>
+        <line id="settingKramRight">Ram Right</line>
+        <line id="settingKinteract">Interact</line>
+        <line id="settingKup">Up</line>
+        <line id="settingKdown">Down</line>
+        <line id="settingKleft">Left</line>
+        <line id="settingKright">Right</line>
+        <line id="settingKboost">Boost</line>
+        <line id="settingKeybind">Press any key to bind...</line>
+        <line id="gameInteraction">{0} to Interact</line>
+        <line id="menuUpgrade">Upgrades</line>
+        <line id="upgrade-1">None</line>
+        <line id="upgrade0">Sharp Deflection</line>
+        <line id="upgrade1">Double Deflection</line>
+        <line id="upgrade2">Flowing Ram</line>
+        <line id="upgrade3">Corpse Accension</line>
+        <line id="upgrade4">Anger's Display</line>
+        <line id="upgrade5">Spewing Emission</line>
+        <line id="upgrade6">Spider's Key</line>
+        <line id="upgrade7">Submission</line>
+        <line id="upgrade8">Refelection</line>
+        <line id="upgrade9">Weaver's Key</line>
+        <line id="upgrade0Desc">All projectiles will damage blockades\ninstead of just ballista rounds. Deflected\nprojectiles will also deal more damage.</line>
+        <line id="upgrade1Desc">When you deflected a projectile, a second\nprojectile will be created and fly\nin the opposite direction.</line>
+        <line id="upgrade2Desc">Vertical ramming will result in two rapid\nback-and-forth spurts.</line>
+        <line id="upgrade3Desc">Throwing a corpse will create a homing\nprojectile upon hitting the ground.</line>
+        <line id="upgrade4Desc">Ramming into an enemy will send said enemy\nflying upwards.</line>
+        <line id="upgrade5Desc">While in jet boost mode, a projectile will\nemit from your back at random intervals.</line>
+        <line id="upgrade6Desc">After releasing from a wall or ceiling hug,\nyou can perform a powerful ram\nwhile boosted.</line>
+        <line id="upgrade7Desc">When at full health, a ram will result in a\nhoming ram which when used will\nsubtract one health point.</line>
+        <line id="upgrade8Desc">When an enemy performs a downward ram onto you,\nsaid enemy will be damaged and\nlaunced back into the air.</line>
+        <line id="upgrade9Desc">Allows for the ability of ceiling hanging and\ndownards, vertical rams.</line>
+        <line id="upgradePoints">Area Phantom Points</line>
+        <line id="upgradeCurrent">Aquired Upgrades</line>
+        <line id="charTitle">Character</line>
+        <line id="charStatTitle">Stats</line>
+        <line id="charStatPoints">Stat Point(s)</line>
+        <line id="charStat0">Max Health</line>
+        <line id="charStat1">Max Air Boosts</line>
+        <line id="charStat2">Max Self Boosts</line>
+        <line id="charStat3">Max Jet Time</line>
+        <line id="charStat4">Speed</line>
+        <line id="charStat5">Jump Height</line>
+        <line id="charStat6">Ram Speed</line>
+        <line id="charStat7">Knockback Res.</line>
+        <line id="charUpgradeTut">Click on an upgrade to change it, then select one for that slot.</line>
+        <line id="charUpgradeEquiped">Equiped:</line>
+        <line id="charUpgradeUnlocked">Unlocked:</line>
+        <line id="charStatTut">Click on the button below to change stats. Limited\nto stat points listed above.</line>
+        <line id="charSeconds">sec.</line>
+        <line id="charResetStats">Reset Stats</line>
+        <line id="charChangeStats0">Change Stats</line>
+        <line id="charChangeStats1">Finish Changing</line>
+        <line id="charChangeStats2">Insufficient Points</line>
+        <line id="charApply">Apply</line>
+        <line id="libraryTitle">Texts</line>
+        <line id="libraryTally">discovered</line>
+        <line id="libraryTip">Select a text to read.</line>
+        <line id="libraryEscape">Back</line>
+        <line id="mainmenuContinue">Continue</line>
+        <line id="mainmenuSaveLoad">Load Save</line>
+        <line id="mainmenuExit">Exit</line>
+        <line id="mainmenuSlot">Slot</line>
+        <line id="mainmenuWipe">Wipe Save</line>
+        <line id="mainmenuWipeConfirm">Are you sure you want to delete this save?</line>
+        <line id="generalYes">Yes</line>
+        <line id="generalNo">No</line>
+        <line id="mainmenuCopyright">Copyright 2024 Delirium Software, All Rights Reserved.</line>
+        <line id="boss0">Stenonat</line>
+        <line id="boss1">Fynalie</line>
+        <line id="boss2">Lake Monstrosity</line>
+        <line id="boss3">Jesersant</line>
+        <line id="boss4">Bafixi</line>
+        <line id="boss5">Azaprota</line>
+    </ui>
+    <dialogue>
+        <line id="tutorial0">Use {0} and {1} to move.</line>
+        <line id="tutorial1">Use {0} to jump.</line>
+        <line id="tutorial2">Use {0} to boost yourself.</line>
+        <line id="tutorial3">When you're airborne and boosted, you can\nuse {0} and {1} to ram into targets.</line>
+        <line id="tutorial4">Use {0} again to jump while boosted and airborne.</line>
+        <line id="tutorial5">You can also use {0} to ram downwards when boosted.</line>
+        <line id="tutorial6">Boost pads will also boost you, but\nwon't use a stamina point (lime circles on left).</line>
+        <line id="tutorial7">{0} then {1} to ram into barricade.</line>
+        <line id="tutorial8">These doors will save your progress\nand restore self-boosts upon interaction.</line>
+        <line id="tutorial9">Hold right click near an enemy to pick\nit up when it's dead. Release to throw.</line>
+        <line id="tutorial10">Tossing corpses onto magnets (right side of room)\nwill activate contraptions.</line>
+        <line id="tutorial11">Pressing {0} when near a projectile while\nairborne will boost yourself.</line>
+        <line id="tutorial12">Ramming into one will deflect it to the sender.</line>
+        <line id="tutorial13">Enemies will heal you upon death.</line>
+
+        <line id="book0Title">Columnizer #1</line>
+        <line id="book0Subtitle">A Note from the Column Government</line>
+        <line id="book0Contents">Dear Schitz,\n\nWe as a team are actively improving our local communities by supplying affordable housing to consumers. Our ministries are taking active precautions to make sure that we are addressing the issues seen in Relayer as optimally as possible. Our goal is to benefit all people from all walks of life, race, and gender to ensure a welcome environment for families and businesses alike. The statistics that we use to carefully calculate what and where we build are only from the most trusted Scholar researchers, data analysts, and economists, so we can be proud to say that our developments are eco-friendly.\n\nThanks, Jannet Smith</line>
+        
+        <line id="book1Title">Columnizer #2</line>
+        <line id="book1Subtitle">A Complaint from a Ponderosa Citizen</line>
+        <line id="book1Contents">I'm tired of these tramps coming onto these paths and blocking them when I go for my morning walks. One of them even tried to assault my son, who is only 7, and no one does anything around here! We need more funding for guards around here to wipe out all of the vermin. The government is too damn liberal about these things! Like how they don't increase my pay and increase the reductions instead because of these damn homeless people.</line>
+        
+        <line id="book2Title">Columnizer #3</line>
+        <line id="book2Subtitle">A Warning from Pugna of the Volare Guild</line>
+        <line id="book2Contents">This thing is never shut off. Ever. I've seen this thing run for 2 weeks straight without maintenance. It's almost like they don't care about the health of the machines around here. But who cares? The Scholars say it's what humanity needs, so be it.</line>
+        
+        <line id="book3Title">Columnizer #4</line>
+        <line id="book3Subtitle">A Note from Pugna of the Volare Guild (it's covered in oil)</line>
+        <line id="book3Contents">It's a shame what happened to this place. No people, just [unreadable]</line>
+        
+        <line id="book4Title">Columnizer #5</line>
+        <line id="book4Subtitle">A Page From a Book by Reywas Nesnah</line>
+        <line id="book4Contents">Picture this, if you will. This place used to be a warm, flourishing place with birds and other animals that would be commonly seen wandering around here everyday. But now, after endless toxic rain, the infrastructure was destroyed, and all businesses lost their jobs. The Faucet Reef spilled out so much oil after the implosion, when the Oil River started to flow, that the people here went in droves to seek the medicinal plants below. Now, as a 15 year old, despite my age I see that this was not a freak accident like most people say. People here are so gullible that they will take everything at face value.</line>
+        
+        <line id="book5Title">Columnizer #6</line>
+        <line id="book5Subtitle">An Observation from Scholar Peitharchia Andras</line>
+        <line id="book5Contents">You're gonna pay for this shit. It's impossible to publish anything. You will strike down any potential for publishing. You dictate every word I write. I know why: it's because you don't want me to go “off the rails”, and make us look bad, and maybe say that we did something wrong. 2 years of my life just for it to fly under the radar, just because of you? That last little bit? I've spent so long testing, experimenting, and getting to be in a lab like this one, let alone even becoming a Scholar in the first place. Stop making excuses. Stop being a narcissist. Have some fucking mercy. I'm going to find something new, and I'm taking my research with me.\n- Peitharchia</line>
+        
+        <line id="book6Title">Columnizer #7</line>
+        <line id="book6Subtitle">A Note from Pugna of the Volare Guild</line>
+        <line id="book6Contents">Rest. Rest at the base. The great curved pillars of time and life, that stand forever absolute. I realize that this is the gateway to the abyss, but I never thought it could be so beautiful. The step below hell awaits on the true ground.\n\nThe Scholars come here in droves once a year, every year, to look at the progress of the lift. Every year it's just the same. A test subject goes down the lift, either dies, disappears, or comes back up never the same when they descended.</line>
+        
+        <line id="book7Title">The Tale of Symfora</line>
+        <line id="book7Subtitle">By Vetus the Prophet</line>
+        <line id="book7Contents"></line>
+        
+        <line id="book8Title">Close to the Edge</line>
+        <line id="book8Subtitle">A poem from the tome "Bound Calamity" by Maynard Jack Kaiser</line>
+        <line id="book8Contents">Earth\nAnd\nColumns\nThat is all\nWe can live off of\nWe were born so close to the edge\nOf insanity\nDestined to\nControl\nAll\nLife\n\nA note:\nIt seems like everyone here, on this column, is bound to go to the Scholars, and then attempt to try to revolutionize the world but then fall to some nihilism when they sell out. And if you don't become a scholar and were born below Ponderosa, you have no way to climb the ladder. The only true way to be contempt with life, I feel, is to fall back into nature; to go back to the roots. That does not mean to live in faith of God, or Azaprota, as it will push you to anger and destruction, like so many others who will fight and die over land and god.\n\nWhen the pendulums of your life align from the polyrhythm within, for a moment, in that time and in that moment, you will be inside and outside this experience.</line>
+        
+        <line id="book9Title">112358</line>
+        <line id="book9Subtitle">[missing]</line>
+        <line id="book9Contents"></line>
+
+        <line id="scene0Act0">Test for echo</line>
+        <line id="scene0Act1">Penistown</line>
+        <line id="scene0Act2">11 hours in the tin pan</line>
+
+        <line id="scene1Act0">Where were you?</line>
+        <line id="scene1Act1">On a walk.</line>
+
+        <line id="scene2Act0">Anyways, I wonder what it would be like going into another section.\nThe locals would probably kill you,\nbut that's just the way it works, this big tower.</line>
+        <line id="scene2Act1">Oh yeah. Yep. It- it's probably the Scholars that do that,\nbut that's a group of people that should be thrown off this column.</line>
+        <line id="scene2Act2">I wanted to ask you this. Have you\never encountered the gang, Iudeus?</line>
+        <line id="scene2Act3">No. But one of their members I think\nwent to Pre-Scholars here.</line>
+        <line id="scene2Act4">Ok. From what I've read I think they're\nanti-symforist, or anti-scholar.</line>
+        <line id="scene2Act5">Why are they so prevalent?</line>
+        <line id="scene2Act6">They must be very good fighters. They probably train\nVolare all day long when they're not causing chaos.</line>
+        <line id="scene2Act7">Well you maybe could beat them up.</line>
+        <line id="scene2Act8">Possibly. At least I'm not a moron like they are.</line>
+        <line id="scene2Act9">Well...</line>
+        <line id="scene2Act10">I think they're against the Scholars too. That's probably\ntheir whole thing. They probably rave about M.J.K.</line>
+        <line id="scene2Act11">I just said that.</line>
+        <line id="scene2Act12">Every person in Ponderosa is a moron, brainwashed by\nthe Scholars and symforism. Living on false hopes and beliefs.</line>
+        <line id="scene2Act13">That gang isn't brainwashed, but they're just like apes,\nconstantly angry and aggressive to anything living.</line>
+        <line id="scene2Act14">Even the adults around here are all cultist idiots too,\nprobably reading all 560 pages of The Tale to Symfora every night.</line>
+        <line id="scene2Act15">Probably.</line>
+
+        <line id="scene3Act0">Hey. How's it going?</line>
+        <line id="scene3Act1">Good.</line>
+        <line id="scene3Act2">Great. I've got some news. In the old literary catalog,\nonly 10 texts are left missing. The volunteers have been\nvery effective at finding them.</line>
+        <line id="scene3Act3">We've found some random notes and pieces from people\nlaying around the place, so we're organizing them into\na collection named Columnizer.</line>
+        <line id="scene3Act4">Ah. This is off topic, but do you happen to\nhave any recommendations for new books?</line>
+        <line id="scene3Act5">Well I think that the ones by Maynard J. Kaiser\nwould be interesting to you. Maynard was a very\noutspoken criticizer of symforism, like you.</line>
+        <line id="scene3Act6">Well... that's not the full picture.\nYou still want to uphold our anonymity with our\nconversations, correct?</line>
+        <line id="scene3Act7">Yes...?</line>
+        <line id="scene3Act8">Ok. I hold a few grudges in my life.\nAgainst humans. It has become too much of\na burden to remain here.</line>
+        <line id="scene3Act9">Oh. Well, to be blunt, that is a very\negocentric decision. Naive. But,\ndon't take it from me. It's your choice.</line>
+        <line id="scene3Act10">I can't keep doing this. The art world,\nthis district, the Scholars, and my school are\nall full of snobs, bigots, cultists and morons.</line>
+        <line id="scene3Act11">I can't go anywhere else on this level.\nI know that if I descend I will most likely die,\nbut I see the risk to be inferior to the potential reward.</line>
+        <line id="scene3Act12">I don't know how to feel about this.\nHow will you get back?</line>
+        <line id="scene3Act13">I'll see.</line>
+        <line id="scene3Act14">I guess this might be my last time seeing you.</line>
+        <line id="scene3Act15">Perhaps.</line>
+        <line id="scene3Act16">Feel free to look at the browser some\nmore before you go.</line>
+        <line id="scene3Act17">Thank you.</line>
+        <line id="scene3Act18">Goodbye.</line>
+
+        <line id="scene4Act0">You're staying?</line>
+        <line id="scene4Act1">No, but I found this note on the way out.\nI think it might be good for Columizer.</line>
+        <line id="scene4Act2">Oh, thanks. I'll add it to the collection\nand look at it later. Are you really still leaving?</line>
+        <line id="scene4Act3">Yes. Right now.</line>
+        <line id="scene4Act4">Well, remember what I told you. I don't know if I'll\nhave the courage to keep my mouth shut.\nThis is beyond me at this point.</line>
+        <line id="scene4Act5">You won't hear from me again, and if you do,\nyou won't want to see me.</line>
+        <line id="scene4Act6">...</line>
+        <line id="scene4Act7">Goodbye.</line>
+        <line id="scene4Act8">Goodbye.</line>
+
+        <line id="scene5Act0">Don't be a fool, get a pool.</line>
+        <line id="scene5Act1">Hey, hey, yeah, tell 'em to bring out the lobster!</line>
+
+        <line id="scene6Act0">I wish that this place could just be reset. I wish that the\nScholars didn't exist, I wish that the government wasn't corrupt,</line>
+        <line id="scene6Act1">I wish that my peers would stop wasting time, and I wish that\nwhatever god may be, would give a reason for our existence.</line>
+        <line id="scene6Act2">Four grudges I guess. This has got to stop. No one cares anymore.\nI've trapped myself. I need to run far away from this rusty cage.</line>
+        <line id="scene6Act3">I've got the skills to do it. This is it.\nWhenever I get the chance, I will run. Maybe even tomorrow.</line>
+        <line id="scene6Act4">After all, it's the week break tomorrow, which means I\nhave to go to my uncle Sapiens' library; a perfect opportunity.</line>
+
+        <line id="scene7Act0">You see this?! Look at us!</line>
+        <line id="scene7Act1">Open the gates! Let us down there!</line>
+        <line id="scene7Act2">We're gonna kill all your Scholars if you don't!</line>
+        <line id="scene7Act3">Shut the hell up Myran.</line>
+        <line id="scene7Act4">Looks like they got locked out\nof their dojo down in the jungle.</line>
+
+        <line id="scene8Act0">Look who it is! Akid!</line>
+        <line id="scene8Act1">Get your ass over here.\nThe whole government is watching us now.</line>
+        <line id="scene8Act2">You know, I'm trying to get down there too.</line>
+        <line id="scene8Act3">Not a chance. Come here.</line>
+        <line id="scene8Act4">Well it's almost 10. Could have just waited.\nYou have the keys to the section doors, right?</line>
+        <line id="scene8Act5">We just want the government to know.</line>
+        <line id="scene8Act6">Why don't you just follow me down there?</line>
+        <line id="scene8Act7">Alright, let's go then!</line>
+        <line id="scene8Act8">Get his ass, Gorjan!</line>
+
+        <line id="scene9Act0">Look who showed up! I've been waiting for you,\nbut now's the time for you to go home.</line>
+        <line id="scene9Act1">How did you get ahead of me ahead of me?</line>
+        <line id="scene9Act2">You don't need to know that.</line>
+
+        <line id="scene10Act0">Build more! This place needs more bright minds!</line>
+        <line id="scene10Act1">Think about it. I- mean, we needs to go-go-go up.\nAbove. God will take us th-th-there\nwith our Scholars minds.</line>
+        <line id="scene10Act2">You need to stop thinking about those things, man.</line>
+        <line id="scene10Act3">Dig down! We need to see it! The Scholar tomes say so!</line>
+
+        <line id="scene11Act0">Why? He didn't even lose the key in that hallway.</line>
+        <line id="scene11Act1">You shut your goddamn mouth. He betrayed us.</line>
+        <line id="scene11Act2">It's Akid!</line>
+        <line id="scene11Act3">Nice work, dipshit. You see this guy? This is\nwhat we will do to you! Get on your\nknees! You ass will bow down to me!</line>
+        <line id="scene11Act4">One day, I will get my wings. Everyday I wander around\nhere with nothing to do. You hear me asshole?</line>
+        <line id="scene11Act5">Everyday is just the same shit over and over again.\nThat's how people go insane.\nAnd you know what they get?</line>
+        <line id="scene11Act6">They die in my hands! If God wanted to change this,\nit would change something! But no,\nso we must destroy all livi-</line>
+        <line id="scene11Act7">You're twisted.</line>
+        <line id="scene11Act8">Don't you ever fucking cut me off again! You made it\nall the way down here just to die!\nYou're the moron! And now look at Lucant here.</line>
+        <line id="scene11Act9">Look at what happened to Myran just above. Just like you.\nNo smarter than the rest! No one is smart!\nWhat the hell does being smart even mean!?</line>
+        <line id="scene11Act10">Does anything mean something? Nothing matters!\nEveryone should just go to hell,\nand my ass has to be the one to do it!</line>
+        <line id="scene11Act11">I understand.</line>
+        <line id="scene11Act12">What? That you're going to die?</line>
+        <line id="scene11Act13">No you imbecile! My point is what he understands.\nYou know what Gorjan, I've had enough,\njust kill him already.</line>
+        <line id="scene11Act14">Fuck!</line>
+
+        <line id="scene12Act0">I see it now...</line>
+
+        <line id="scene13Act0">Scholars? Rebels? morons? No, protesters.\nDo they want to see God?</line>
+        <line id="scene13Act1">Let us in! Let us see God! Show the evidence!\nYou lied! The Scholars lied!</line>
+        <line id="scene13Act2">Hey, Akid!</line>
+        <line id="scene13Act3">Came down here to see God, too?</line>
+        <line id="scene13Act4">No. I don't know what I came down here for.</line>
+        <line id="scene13Act5">Nothing. That's what. You came down here for no true,\nreal reason. You never have done anything for a real reason.\nIt's all emotions.</line>
+        <line id="scene13Act6">I will cut you open and spill them out onto the ground\nin front of these people, right here-</line>
+        <line id="scene13Act7">right now!</line>
+
+        <line id="scene14Act0">Where do you think you are? What do you think\nyou've done for yourself?</line>
+        <line id="scene14Act1">Are you addicted to pain? Show me,\nwhat moral have your learned, if none at all?</line>
+        <line id="scene14Act2">You're ability to leave problems? To think you're\nsome fucking martyr?</line>
+        <line id="scene14Act3">I'd think not.</line>
+
+        <line id="self0">They're here.</line>
+        <line id="self1">Mom is gonna get worried soon,</line>
+        <line id="self2">and super will be on the table.</line>
+        <line id="self3">A note from mom: Remember to head to the\nlibrary to meet with Sapiens.</line>
+        <line id="self4">Parents already left for work. I could leave right now,\nbut I need to confront one of my grudges first.\nIudeus, the gang.</line>
+        <line id="self5">They hang out in the Court around this time. Plus,\nthe gate to the Shallows doesn't open for Ponderosa citizens until 10.\nMight as well explore.</line>
+        <line id="self6">I gotta get out of here.\nI've never seen the security system acitvated before.</line>
+        <line id="self7">It's probably past 10 now,\nI can get down through that gate finally.</line>
+        <line id="self8">I can't be down here. I'm not in the same\nclass as the locals. They'll kill me.</line>
+        <line id="self9">Goddamn Scholars. I forgot about this monstrosity.</line>
+        <line id="self10">Another one! Where did the rest go?</line>
+        <line id="self11">No wonder why they don't teach\nus about this in Pre-Scholars.</line>
+        <line id="self12">That's what nihilism and anger does,\nI guess. So close now...</line>
+        <line id="self13">This must be over soon...</line>
+        <line id="self14">Is it over yet? Did I make it?\nIs this what I get for all this pain?</line>
+        <line id="self15">I don't know what I've changed about myself.\nMaybe nothing. But I know that the way\nto fulfillment must be here, somewhere.</line>
+        <line id="self16">Where else would it be if not at the end of the world?\nI guess I need to confront God first, if it even exists.\nI don't know why I trusted the Scholars on that one.</line>
+    </dialogue>
+</loc>

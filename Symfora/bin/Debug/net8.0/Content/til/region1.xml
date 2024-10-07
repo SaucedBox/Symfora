@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<regionset image="r_tileset1">
+    <ground slot="side_top" setID="63,64,65" offset="0,0"/>
+    <ground slot="centre" setID="66" offset="0,0"/>
+    <ground slot="corner_inv_tl" setID="67" offset="0,0"/>
+    <ground slot="corner_inv_tr" setID="68" offset="0,0"/>
+    <ground slot="corner_inv_bl" setID="69" offset="0,0"/>
+    <ground slot="corner_inv_br" setID="70" offset="0,0"/>
+
+    <ground slot="plat_top" setID="8" offset="0,0"/>
+    <ground slot="plat_bottom" setID="36" offset="0,0"/>
+    <ground slot="plat_right" setID="37" offset="0,0"/>
+    <ground slot="plat_left" setID="38" offset="0,0"/>
+
+    <ground slot="side_left" setID="72,81,90" offset="0,0"/>
+    <ground slot="side_right" setID="73,82,91" offset="0,0"/>
+    <ground slot="side_bottom" setID="74,83,92" offset="0,0"/>
+    <ground slot="slope_tu" setID="75,84,93" offset="0,0"/>
+    <ground slot="slope_td" setID="76,85,94" offset="0,0"/>
+    <ground slot="slope_bd" setID="77,86,95" offset="0,0"/>
+    <ground slot="slope_bu" setID="78,87,96" offset="0,0"/>
+    <ground slot="slope_tu_half_1" setID="79,88,97" offset="0,0"/>
+    <ground slot="slope_tu_half_2" setID="80,89,98" offset="0,0"/>
+
+    <ground slot="slope_td_half_1" setID="102,104,106" offset="0,0"/>
+    <ground slot="slope_td_half_2" setID="103,105,107" offset="0,0"/>
+    <ground slot="slope_bd_half_1" setID="100,109,108" offset="0,0"/>
+    <ground slot="slope_bd_half_2" setID="99,101,110" offset="0,0"/>
+    <ground slot="slope_bu_half_1" setID="111,113,115" offset="0,0"/>
+    <ground slot="slope_bu_half_2" setID="112,114,116" offset="0,0"/>
+
+    <groundExtra neighbour="centre" setID="54,55,56,57" chance="20" size="2,2"/>
+
+    <backgr slot="centre" setID="117,118,119" offset="0,0"/>
+    <backgr slot="side_left" setID="117,118,119" offset="0,0"/>
+    <backgr slot="side_right" setID="117,118,119" offset="0,0"/>
+    <backgr slot="side_top" setID="117,118,119" offset="0,0"/>
+    <backgr slot="side_bottom" setID="117,118,119" offset="0,0"/>
+    <backgr slot="corner_inv_tl" setID="117,118,119" offset="0,0"/>
+    <backgr slot="corner_inv_tr" setID="117,118,119" offset="0,0"/>
+    <backgr slot="corner_inv_bl" setID="117,118,119" offset="0,0"/>
+    <backgr slot="corner_inv_br" setID="117,118,119" offset="0,0"/>
+
+    <backgr slot="slope_bd" setID="120,121" offset="0,0"/>
+    <backgr slot="slope_td" setID="126,127" offset="0,0"/>
+    <backgr slot="slope_tu" setID="128,129" offset="0,0"/>
+    <backgr slot="slope_bu" setID="130,131" offset="0,0"/>
+
+    <backgr slot="slope_tu_half_1" setID="144" offset="0,0"/>
+    <backgr slot="slope_tu_half_2" setID="145" offset="0,0"/>
+    <backgr slot="slope_td_half_1" setID="146" offset="0,0"/>
+    <backgr slot="slope_td_half_2" setID="147" offset="0,0"/>
+    <backgr slot="slope_bd_half_1" setID="148" offset="0,0"/>
+    <backgr slot="slope_bd_half_2" setID="149" offset="0,0"/>
+    <backgr slot="slope_bu_half_1" setID="150" offset="0,0"/>
+    <backgr slot="slope_bu_half_2" setID="151" offset="0,0"/>
+
+    <backgrExtra neighbour="centre" setID="125,134" chance="50" size="1,2"/>
+    <backgrExtra neighbour="centre" setID="123,124,132,133" chance="25" size="2,2"/>
+
+    <trans bg="false" slot="side_top" side="left" setID="138" offset="0,0"/>
+    <trans bg="false" slot="side_bottom" side="right" setID="136" offset="0,0"/>
+    <trans bg="false" slot="side_right" side="top" setID="135" offset="0,0"/>
+    <trans bg="false" slot="side_left" side="bottom" setID="137" offset="0,0"/>
+    <trans bg="false" slot="centre" side="left" setID="139" offset="0,0"/>
+    <trans bg="false" slot="centre" side="right" setID="140" offset="0,0"/>
+    <trans bg="false" slot="centre" side="top" setID="141" offset="0,0"/>
+    <trans bg="false" slot="centre" side="bottom" setID="142" offset="0,0"/>
+</regionset>

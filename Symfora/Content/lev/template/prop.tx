@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="prop">
+  <properties>
+   <property name="rotationMult" type="float" value="1"/>
+   <property name="squib" type="int" value="-1"/>
+   <property name="squibSE" value=""/>
+   <property name="startRotation" type="int" value="0"/>
+   <property name="static" type="bool" value="false"/>
+   <property name="texture" value=""/>
+  </properties>
+  <point/>
+ </object>
+</template>

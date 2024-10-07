@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="trigger_keyInput" width="80" height="64">
+  <properties>
+   <property name="input" value=""/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>

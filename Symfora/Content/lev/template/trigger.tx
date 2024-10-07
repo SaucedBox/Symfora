@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="trigger" width="80" height="64">
+  <properties>
+   <property name="corpses" type="bool" value="false"/>
+   <property name="npcs" type="bool" value="false"/>
+   <property name="once" type="bool" value="true"/>
+   <property name="player" type="bool" value="true"/>
+   <property name="startActive" type="bool" value="true"/>
+  </properties>
+ </object>
+</template>
