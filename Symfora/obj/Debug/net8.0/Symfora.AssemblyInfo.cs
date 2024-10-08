@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe033cf690fd58d1bf5c910fcdc70c320654d8fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

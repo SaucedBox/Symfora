@@ -1,3 +1,9 @@
 /.DS_Store
 /.vs
 /.vscode
+/Symfora/Symfora.csproj
+/TripleS/TripleS.csproj
+/TripleS/fmod.dylib
+/TripleS/fmodstudio.dylib
+/TripleS/fmod.dll
+/TripleS/fmodstudio.dll
