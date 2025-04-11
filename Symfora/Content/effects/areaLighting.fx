@@ -34,7 +34,7 @@ float4 AreaLighting(float2 coords: TEXCOORD0): COLOR0
 
 	float3 lc = lightCol * visible * intensity * normLev;
 	col.rgb *= lc;
-	col.rgb += ambientLight;
+	col.rgb += ambientLight.rgb * clamp(col.a, 0.5f, 1);
 	return col;
 }
 

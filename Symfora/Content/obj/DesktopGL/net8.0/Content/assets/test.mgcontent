@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/Users/sawyer/Desktop/SymforaMaster/Symfora/Content/assets/test.png</SourceFile>
-  <SourceTime>2024-08-28T21:09:18-07:00</SourceTime>
-  <DestFile>/Users/sawyer/Desktop/SymforaMaster/Symfora/Content/bin/DesktopGL/Content/assets/test.xnb</DestFile>
-  <DestTime>2024-08-30T17:42:19.5806256-07:00</DestTime>
+  <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/test.png</SourceFile>
+  <SourceTime>2024-10-07T17:06:34.8288273-07:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/Content/assets/test.xnb</DestFile>
+  <DestTime>2024-10-07T17:07:53.0962179-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T10:05:56-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

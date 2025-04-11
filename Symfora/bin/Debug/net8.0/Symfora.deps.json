@@ -87,22 +87,22 @@
           "runtimes/win-arm/native/lua54.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.4.3.0"
           },
           "runtimes/win-arm64/native/lua54.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.4.3.0"
           },
           "runtimes/win-x64/native/lua54.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.4.3.0"
           },
           "runtimes/win-x86/native/lua54.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "5.4.3.0"
           }
         }
       },
@@ -156,7 +156,7 @@
           "runtimes/win-x64/native/SDL2.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.26.5.0"
           }
         }
       },
@@ -193,7 +193,7 @@
         "runtime": {
           "TripleS.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": ""
+            "fileVersion": "0.0.0.0"
           }
         }
       }

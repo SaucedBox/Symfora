@@ -1,14 +1,15 @@
 {
-    "activeFile": "lev/c8m0.tmx",
+    "activeFile": "lev/c2m1.tmx",
     "expandedProjectPaths": [
-        ".",
-        "bin/DesktopGL",
-        "bin/DesktopGL/Content/lev",
         "til",
+        ".",
+        "lev/template",
+        "bin/DesktopGL/Content/lev",
+        "bin/DesktopGL",
         "bin/DesktopGL/Content",
-        "lev",
-        "lev/template"
+        "lev"
     ],
+    "exportAsImage.drawTileGrid": false,
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "C:/Program Files (x86)/Steam/steamapps/common/Carrion/Content/Levels/jungle.json": {
@@ -55,48 +56,47 @@
         },
         "lev/c0m0.tmx": {
             "expandedObjectLayers": [
-                8,
                 9,
-                7,
                 4,
+                7,
                 3
             ],
-            "scale": 2,
-            "selectedLayer": 4,
+            "scale": 0.75,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 1280.25,
-                "y": 765.25
+                "x": 1280,
+                "y": 767.3333333333333
             }
         },
         "lev/c1m0a.tmx": {
             "expandedObjectLayers": [
                 8,
-                12,
                 9,
-                7,
                 4,
-                3
+                7,
+                3,
+                12
             ],
-            "scale": 0.5,
-            "selectedLayer": 7,
+            "scale": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 1281,
-                "y": 769
+                "x": 1280,
+                "y": 767.5
             }
         },
         "lev/c1m0b.tmx": {
             "expandedObjectLayers": [
                 8,
                 9,
-                7,
                 4,
+                7,
                 3
             ],
             "scale": 2,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 384.25,
-                "y": 256.25
+                "x": 384,
+                "y": 255.75
             }
         },
         "lev/c2m0.tmx": {
@@ -107,88 +107,88 @@
                 3
             ],
             "scale": 1.5,
-            "selectedLayer": 4,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1152.3333333333333,
-                "y": 640.3333333333333
+                "x": 1152,
+                "y": 639.6666666666666
             }
         },
         "lev/c2m1.tmx": {
             "expandedObjectLayers": [
                 8,
                 9,
-                7,
                 10,
                 4,
+                7,
                 3
             ],
-            "scale": 2,
-            "selectedLayer": 4,
+            "scale": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 896.25,
-                "y": 640.25
+                "x": 1539,
+                "y": 928.3333333333333
             }
         },
         "lev/c3m0.tmx": {
             "expandedObjectLayers": [
-                3,
-                4,
+                8,
                 9,
+                4,
                 7,
-                8
+                3
             ],
             "scale": 0.5,
-            "selectedLayer": 7,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 712,
-                "y": 816
+                "x": 1408,
+                "y": 895
             }
         },
         "lev/c3m1.tmx": {
             "expandedObjectLayers": [
                 8,
                 9,
-                7,
                 4,
+                7,
                 3
             ],
             "scale": 0.75,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 768.6666666666666,
-                "y": 768.6666666666666
+                "x": 768,
+                "y": 767.3333333333333
             }
         },
         "lev/c3m2.tmx": {
             "expandedObjectLayers": [
                 8,
-                13,
                 9,
-                7,
                 4,
-                3
+                7,
+                3,
+                13
             ],
             "scale": 1,
-            "selectedLayer": 9,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 896.5,
-                "y": 896.5
+                "x": 896,
+                "y": 895.5
             }
         },
         "lev/c3m3.tmx": {
             "expandedObjectLayers": [
                 8,
-                13,
                 9,
-                7,
                 4,
-                3
+                7,
+                3,
+                13
             ],
-            "scale": 0.25,
-            "selectedLayer": 5,
+            "scale": 0.5,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1026,
-                "y": 894
+                "x": 1024,
+                "y": 895
             }
         },
         "lev/c4m0.tmx": {
@@ -205,126 +205,126 @@
         },
         "lev/c4m0a.tmx": {
             "expandedObjectLayers": [
-                4,
-                13,
+                8,
                 9,
+                4,
                 7,
                 3,
-                8
+                13
             ],
-            "scale": 1.0719,
+            "scale": 1,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 1689.5232764250395,
-                "y": 1504.8045526634946
+                "x": 1152,
+                "y": 1023.5
             }
         },
         "lev/c4m0b.tmx": {
             "expandedObjectLayers": [
                 8,
                 9,
-                7,
                 4,
+                7,
                 3
             ],
             "scale": 0.5,
-            "selectedLayer": 7,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1025,
+                "x": 1024,
                 "y": 513
             }
         },
         "lev/c5m0.tmx": {
             "expandedObjectLayers": [
                 8,
-                13,
                 9,
-                7,
                 4,
-                3
+                7,
+                3,
+                13
             ],
-            "scale": 0.33,
-            "selectedLayer": 6,
+            "scale": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1534.848484848485,
-                "y": 1277.272727272727
+                "x": 1536,
+                "y": 1279.8333333333333
             }
         },
         "lev/c5m1.tmx": {
             "expandedObjectLayers": [
-                4,
-                13,
+                8,
                 9,
+                4,
                 7,
                 3,
-                8
+                13
             ],
             "scale": 0.5197,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1350.7792957475467,
-                "y": 417.54858572253215
+                "x": 894.7469694054261,
+                "y": 641.7163748316336
             }
         },
         "lev/c6m0.tmx": {
             "expandedObjectLayers": [
-                3,
+                8,
+                9,
                 4,
                 7,
-                8,
-                9
+                3
             ],
-            "scale": 0.2864,
-            "selectedLayer": 4,
+            "scale": 0.75,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 1152.2346368715084,
-                "y": 768.1564245810056
+                "x": 1152,
+                "y": 767.3333333333333
             }
         },
         "lev/c6m1.tmx": {
             "expandedObjectLayers": [
-                3,
+                8,
+                9,
                 4,
                 7,
-                8,
-                9
+                3
             ],
-            "scale": 0.2468,
-            "selectedLayer": 8,
+            "scale": 0.5,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 895.4619124797406,
-                "y": 1021.0696920583468
+                "x": 896,
+                "y": 1023
             }
         },
         "lev/c6m2.tmx": {
             "expandedObjectLayers": [
                 8,
-                12,
                 9,
-                7,
                 4,
-                3
+                7,
+                3,
+                12
             ],
-            "scale": 0.75,
-            "selectedLayer": 7,
+            "scale": 0.5,
+            "selectedLayer": 6,
             "viewCenter": {
-                "x": 1152.6666666666665,
-                "y": 895.3333333333333
+                "x": 1152,
+                "y": 895
             }
         },
         "lev/c7m0.tmx": {
             "expandedObjectLayers": [
-                3,
+                8,
+                9,
                 4,
                 7,
-                8,
-                9
+                3
             ],
-            "scale": 1.163,
-            "selectedLayer": 4,
+            "scale": 0.33,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 828.8907996560617,
-                "y": 1577.815993121238
+                "x": 1406.060606060606,
+                "y": 1153.0303030303032
             }
         },
         "lev/c8m0.tmx": {
@@ -334,11 +334,11 @@
                 7,
                 8
             ],
-            "scale": 0.4159,
+            "scale": 8,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 610.723731666266,
-                "y": -88.96369319547966
+                "x": 1378.25,
+                "y": 122.625
             }
         },
         "lev/c9m0a.tmx": {
@@ -346,26 +346,26 @@
                 3,
                 4,
                 7,
-                8,
-                9
+                9,
+                8
             ],
             "scale": 0.75,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 497.3333333333333,
-                "y": 2225.333333333333
+                "x": 1280,
+                "y": 1279.3333333333333
             }
         },
         "lev/c9m0b.tmx": {
             "expandedObjectLayers": [
-                3,
-                8
+                8,
+                3
             ],
             "scale": 0.9976,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 383.9214113873296,
-                "y": 255.61347233360064
+                "x": 384.9238171611868,
+                "y": 255.6134723336006
             }
         },
         "lev/cnull.tmx": {
@@ -391,7 +391,7 @@
             }
         },
         "til/devSet.tsx": {
-            "scaleInDock": 0.75,
+            "scaleInDock": 2,
             "scaleInEditor": 5.5
         },
         "til/reader.tsx": {
@@ -409,27 +409,39 @@
     "map.tileWidth": 32,
     "map.width": 100,
     "openFiles": [
-        "lev/c6m1.tmx",
-        "lev/c6m0.tmx",
+        "lev/c0m0.tmx",
+        "lev/c1m0a.tmx",
+        "lev/c1m0b.tmx",
+        "lev/c2m0.tmx",
+        "lev/c2m1.tmx",
+        "lev/c3m2.tmx",
+        "lev/c6m2.tmx",
+        "lev/c4m0a.tmx",
+        "lev/c4m0b.tmx",
         "lev/c7m0.tmx",
-        "lev/c8m0.tmx",
-        "lev/c9m0a.tmx"
+        "lev/c3m0.tmx",
+        "lev/c3m1.tmx",
+        "lev/c3m3.tmx",
+        "lev/c5m0.tmx",
+        "lev/c5m1.tmx",
+        "lev/c6m0.tmx",
+        "lev/c6m1.tmx"
     ],
     "project": "symfora.tiled-project",
     "property.type": "string",
     "recentFiles": [
+        "lev/c0m0.tmx",
+        "lev/c1m0a.tmx",
+        "lev/c1m0b.tmx",
+        "lev/c2m0.tmx",
         "lev/c6m1.tmx",
         "lev/c6m0.tmx",
-        "lev/c7m0.tmx",
-        "lev/c9m0a.tmx",
-        "lev/c8m0.tmx",
-        "lev/c3m0.tmx",
         "lev/c5m1.tmx",
-        "lev/c4m0a.tmx",
-        "lev/c9m0b.tmx",
-        "lev/c6m2.tmx",
-        "lev/c3m2.tmx",
-        "lev/c3m1.tmx"
+        "lev/c5m0.tmx",
+        "lev/c3m3.tmx",
+        "lev/c3m1.tmx",
+        "lev/c3m0.tmx",
+        "lev/c7m0.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

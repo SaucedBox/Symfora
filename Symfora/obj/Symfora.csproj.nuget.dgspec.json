@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sawyer/Desktop/SymforaMaster/Symfora/Symfora.csproj": {}
+    "C:\\Users\\sawye\\source\\games\\Symfora\\Symfora\\Symfora.csproj": {}
   },
   "projects": {
-    "/Users/sawyer/Desktop/SymforaMaster/Symfora/Symfora.csproj": {
+    "C:\\Users\\sawye\\source\\games\\Symfora\\Symfora\\Symfora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sawyer/Desktop/SymforaMaster/Symfora/Symfora.csproj",
+        "projectUniqueName": "C:\\Users\\sawye\\source\\games\\Symfora\\Symfora\\Symfora.csproj",
         "projectName": "Symfora",
-        "projectPath": "/Users/sawyer/Desktop/SymforaMaster/Symfora/Symfora.csproj",
-        "packagesPath": "/Users/sawyer/.nuget/packages/",
-        "outputPath": "/Users/sawyer/Desktop/SymforaMaster/Symfora/obj/",
+        "projectPath": "C:\\Users\\sawye\\source\\games\\Symfora\\Symfora\\Symfora.csproj",
+        "packagesPath": "C:\\Users\\sawye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sawye\\source\\games\\Symfora\\Symfora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sawyer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sawye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj": {
-                "projectPath": "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj"
+              "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\TripleS.csproj": {
+                "projectPath": "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\TripleS.csproj"
               }
             }
           }
@@ -72,26 +74,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj": {
+    "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\TripleS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj",
+        "projectUniqueName": "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\TripleS.csproj",
         "projectName": "TripleS",
-        "projectPath": "/Users/sawyer/Desktop/SymforaMaster/TripleS/TripleS.csproj",
-        "packagesPath": "/Users/sawyer/.nuget/packages/",
-        "outputPath": "/Users/sawyer/Desktop/SymforaMaster/TripleS/obj/",
+        "projectPath": "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\TripleS.csproj",
+        "packagesPath": "C:\\Users\\sawye\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sawye\\source\\games\\Symfora\\TripleS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sawyer/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sawye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

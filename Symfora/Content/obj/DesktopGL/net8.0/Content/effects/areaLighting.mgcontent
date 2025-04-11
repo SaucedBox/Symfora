@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/Users/sawyer/Desktop/SymforaMaster/Symfora/Content/effects/areaLighting.fx</SourceFile>
-  <SourceTime>2024-08-28T21:09:18-07:00</SourceTime>
-  <DestFile>/Users/sawyer/Desktop/SymforaMaster/Symfora/Content/bin/DesktopGL/Content/effects/areaLighting.xnb</DestFile>
-  <DestTime>2024-08-30T17:42:31.6554671-07:00</DestTime>
+  <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/areaLighting.fx</SourceFile>
+  <SourceTime>2025-04-09T19:14:35.0941701-07:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/Content/effects/areaLighting.xnb</DestFile>
+  <DestTime>2025-04-09T19:19:28.3403649-07:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2024-08-16T10:05:56-07:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

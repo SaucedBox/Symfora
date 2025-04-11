@@ -191,7 +191,7 @@ namespace TripleS {
         /// Initiates third phase of drawing.
         /// </summary>
 
-        float testTimer;
+        //float testTimer;
         public void PhaseThree(float time)
         {
             /*if (Lighting.TestRays != null)

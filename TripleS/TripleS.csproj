@@ -15,10 +15,10 @@
     <PackageReference Include="NLua" Version="1.6.0" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="fmod.dylib">
+    <None Update="fmod.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="fmodstudio.dylib">
+    <None Update="fmodstudio.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Master.strings.bank">

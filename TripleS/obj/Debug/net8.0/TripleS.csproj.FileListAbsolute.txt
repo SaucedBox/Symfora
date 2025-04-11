@@ -22,3 +22,16 @@
 /Users/sawyer/Desktop/SymforaMaster/TripleS/obj/Debug/net8.0/refint/TripleS.dll
 /Users/sawyer/Desktop/SymforaMaster/TripleS/obj/Debug/net8.0/TripleS.pdb
 /Users/sawyer/Desktop/SymforaMaster/TripleS/obj/Debug/net8.0/ref/TripleS.dll
+C:\Users\sawye\source\games\Symfora\TripleS\bin\Debug\net8.0\TripleS.deps.json
+C:\Users\sawye\source\games\Symfora\TripleS\bin\Debug\net8.0\TripleS.dll
+C:\Users\sawye\source\games\Symfora\TripleS\bin\Debug\net8.0\TripleS.pdb
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.csproj.AssemblyReference.cache
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.csproj.CoreCompileInputs.cache
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.sourcelink.json
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.dll
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\refint\TripleS.dll
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\TripleS.pdb
+C:\Users\sawye\source\games\Symfora\TripleS\obj\Debug\net8.0\ref\TripleS.dll
+C:\Users\sawye\source\games\Symfora\TripleS\bin\Debug\net8.0\fmod.dll
+C:\Users\sawye\source\games\Symfora\TripleS\bin\Debug\net8.0\fmodstudio.dll
