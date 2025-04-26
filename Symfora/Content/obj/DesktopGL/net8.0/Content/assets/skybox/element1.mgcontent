@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element1.png</SourceFile>
-  <SourceTime>2025-04-04T08:01:37.4593283-07:00</SourceTime>
+  <SourceTime>2025-04-15T19:50:56.4432882-07:00</SourceTime>
   <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/Content/assets/skybox/element1.xnb</DestFile>
-  <DestTime>2025-04-05T19:48:54.9733201-07:00</DestTime>
+  <DestTime>2025-04-15T19:54:19.0123414-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T10:05:56-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

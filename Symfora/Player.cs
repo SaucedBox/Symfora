@@ -632,6 +632,11 @@ namespace Symfora {
             {
                 Core.SpawnProjectile(new Projectile(int.Parse(args.Argument), null), Transform.Centre + new Vector2(64, 0), Vector2.Zero);
             }
+            else if (args.Command == "skybox" && args.Argument != "")
+            {
+                var s = args.Argument.Split(',');
+                Core._Skybox.DebugElement(s[0], int.Parse(s[1]), int.Parse(s[2]), s.Length > 3 ? int.Parse(s[3]) : -1);
+            }
             else if (args.Command == "cnpcst" && args.Argument != "")
             {
                 var npc = Core.GetClosestNPC(Transform.Centre, false, out float _);

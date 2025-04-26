@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Frozen;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace Symfora {
 
         private Texture2D background;
         private Texture2D abyss;
-        private List<SkyboxElement> elements;
+        private SkyboxElement[] elements;
         private Color darkness;
         private bool noStretch;
         private bool abyssParalax;
@@ -49,10 +50,10 @@ namespace Symfora {
             preEles = preEles.Where(x => x.Property.Contains("element")).ToArray();
             if(preEles.Length > 0)
             {
-                elements = new List<SkyboxElement>(preEles.Length);
+                var tElements = new List<SkyboxElement>(preEles.Length);
                 foreach (ParamMarker marker in preEles)
-                    elements.Add(ParseElement(marker.Contents, marker.Property));
-                elements = elements.OrderBy(x => x.ParalaxLayer).ToList();
+                    tElements.Add(ParseElement(marker.Contents, marker.Property));
+                elements = tElements.OrderBy(x => x.ParalaxLayer).ToArray();
             }
 
             var rpWnd = ParamLoader.GetParam<string>("skybox", SkyType, "ropeWind").Split(',');
@@ -88,14 +89,15 @@ namespace Symfora {
                     {
                         Vector2 target = renderer.View.Position;
                         var pos1 = new Vector2(((target.X - element.Position.X) / element.ParalaxLayer) + element.Position.X, ((target.Y - element.Position.Y) / element.ParalaxLayer) + element.Position.Y);
-                        Rectangle? b = null;
                         if(element.BoundsIndex != -1)
                         {
                             var tb = bounds[element.BoundsIndex];
-                            b = new Rectangle(tb.X - (int)element.Position.X, tb.Y - (int)element.Position.Y, tb.Width, tb.Height);
+                            int nx = tb.X - (int)pos1.X;
+                            int ny = tb.Y - (int)pos1.Y;
+                            renderer.BasicDraw(element.Image, bounds[element.BoundsIndex].Location.ToVector2(), 1, 1, source: new Rectangle(nx, ny, tb.Width, tb.Height));
                         }
-
-                        renderer.BasicDraw(element.Image, pos1, 1, 1, source: b);
+                        else
+                            renderer.BasicDraw(element.Image, pos1, 1, 1);
                     }
                 }
             }
@@ -124,6 +126,22 @@ namespace Symfora {
             for(int i = 0; i < 4; i++)
                 v[i] = int.Parse(seperands[i]);
             return new Rectangle(v[0], v[1], v[2], v[3]);
+        }
+
+        public void DebugElement(string imageName, int newX, int newY, float paralax)
+        {
+            imageName = "assets/skybox/" + imageName;
+            int ret = -1;
+            for(int i = 0; i < elements.Length; i++)
+            {
+                if (elements[i].Image.Name == imageName)
+                    ret = i;
+            }
+            if (ret != -1)
+            {
+                elements[ret].Position = new Vector2(newX, newY);
+                elements[ret].ParalaxLayer = paralax == -1f ? elements[ret].ParalaxLayer : paralax;
+            }
         }
     }
 

@@ -1,13 +1,13 @@
 {
-    "activeFile": "lev/c2m1.tmx",
+    "activeFile": "lev/c3m0.tmx",
     "expandedProjectPaths": [
-        "til",
-        ".",
-        "lev/template",
         "bin/DesktopGL/Content/lev",
-        "bin/DesktopGL",
+        ".",
+        "til",
         "bin/DesktopGL/Content",
-        "lev"
+        "bin/DesktopGL",
+        "lev",
+        "lev/template"
     ],
     "exportAsImage.drawTileGrid": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -56,10 +56,10 @@
         },
         "lev/c0m0.tmx": {
             "expandedObjectLayers": [
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                9
             ],
             "scale": 0.75,
             "selectedLayer": 5,
@@ -70,15 +70,15 @@
         },
         "lev/c1m0a.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                12
+                12,
+                8,
+                9
             ],
             "scale": 1,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
                 "x": 1280,
                 "y": 767.5
@@ -86,11 +86,11 @@
         },
         "lev/c1m0b.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 2,
             "selectedLayer": 7,
@@ -101,56 +101,57 @@
         },
         "lev/c2m0.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
-            "scale": 1.5,
-            "selectedLayer": 2,
+            "scale": 0.75,
+            "selectedLayer": 9,
             "viewCenter": {
                 "x": 1152,
-                "y": 639.6666666666666
+                "y": 639.3333333333333
             }
         },
         "lev/c2m1.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                10,
-                4,
                 7,
-                3
+                4,
+                3,
+                10,
+                8,
+                9
             ],
-            "scale": 3,
+            "scale": 0.75,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1539,
-                "y": 928.3333333333333
+                "x": 896,
+                "y": 639.3333333333333
             }
         },
         "lev/c3m0.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
-            "scale": 0.5,
+            "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 1408,
-                "y": 895
+                "y": 895.875
             }
         },
         "lev/c3m1.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 0.75,
             "selectedLayer": 2,
@@ -161,12 +162,12 @@
         },
         "lev/c3m2.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                13
+                13,
+                8,
+                9
             ],
             "scale": 1,
             "selectedLayer": 4,
@@ -177,12 +178,12 @@
         },
         "lev/c3m3.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                13
+                13,
+                8,
+                9
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -205,12 +206,12 @@
         },
         "lev/c4m0a.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                13
+                13,
+                8,
+                9
             ],
             "scale": 1,
             "selectedLayer": 7,
@@ -221,11 +222,11 @@
         },
         "lev/c4m0b.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -236,12 +237,12 @@
         },
         "lev/c5m0.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                13
+                13,
+                8,
+                9
             ],
             "scale": 3,
             "selectedLayer": 2,
@@ -252,12 +253,12 @@
         },
         "lev/c5m1.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                13
+                13,
+                8,
+                9
             ],
             "scale": 0.5197,
             "selectedLayer": 2,
@@ -268,11 +269,11 @@
         },
         "lev/c6m0.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 0.75,
             "selectedLayer": 2,
@@ -283,11 +284,11 @@
         },
         "lev/c6m1.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -298,12 +299,12 @@
         },
         "lev/c6m2.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
+                4,
                 3,
-                12
+                12,
+                8,
+                9
             ],
             "scale": 0.5,
             "selectedLayer": 6,
@@ -314,11 +315,11 @@
         },
         "lev/c7m0.tmx": {
             "expandedObjectLayers": [
-                8,
-                9,
-                4,
                 7,
-                3
+                4,
+                3,
+                8,
+                9
             ],
             "scale": 0.33,
             "selectedLayer": 2,
@@ -434,14 +435,14 @@
         "lev/c1m0a.tmx",
         "lev/c1m0b.tmx",
         "lev/c2m0.tmx",
+        "lev/c2m1.tmx",
+        "lev/c3m2.tmx",
+        "lev/c6m2.tmx",
+        "lev/c4m0a.tmx",
+        "lev/c4m0b.tmx",
+        "lev/c7m0.tmx",
         "lev/c6m1.tmx",
-        "lev/c6m0.tmx",
-        "lev/c5m1.tmx",
-        "lev/c5m0.tmx",
-        "lev/c3m3.tmx",
-        "lev/c3m1.tmx",
-        "lev/c3m0.tmx",
-        "lev/c7m0.tmx"
+        "lev/c6m0.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

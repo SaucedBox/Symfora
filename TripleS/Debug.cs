@@ -42,7 +42,7 @@ namespace TripleS {
             GameInputs.ToggleInputs(true);
             GameInputs.IncludeSpaces = true;
             command = "";
-            prevCommands = new List<string>(6);
+            prevCommands ??= new List<string>(6);
         }
 
         public static void CloseConsole()
@@ -68,6 +68,9 @@ namespace TripleS {
                     GameInputs.ToggleInputs(true);
 
                 command = GameInputs.Input;
+
+                if (GameInputs.OncePress(Keys.Up) && LastCommand != null)
+                    GameInputs.ModifyTextInput(LastCommand);
 
                 if (GameInputs.OncePress(Keys.Enter) && command.Length > 0)
                 {

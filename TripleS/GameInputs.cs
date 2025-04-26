@@ -61,6 +61,14 @@ namespace TripleS
         }
 
         /// <summary>
+        /// Changes text input to argument string.
+        /// </summary>
+        public static void ModifyTextInput(string add)
+        {
+            Input = add;
+        }
+
+        /// <summary>
         /// Returns true when left mouse is pressed only once.
         /// </summary>
         public static bool OnceLeftClick(ButtonState state)
