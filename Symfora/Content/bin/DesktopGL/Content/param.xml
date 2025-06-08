@@ -85,7 +85,7 @@
     <entry id="9">
       <prop name="script" type="string">s3m2</prop>
       <prop name="defaultTiles" type="int">0</prop>
-      <prop name="sky" type="int">0</prop>
+      <prop name="sky" type="int">13</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m2</prop>
       <prop name="pos" type="string">0,0</prop>
@@ -93,7 +93,7 @@
     <entry id="10">
       <prop name="script" type="string">s3m3</prop>
       <prop name="defaultTiles" type="int">0</prop>
-      <prop name="sky" type="int">2</prop>
+      <prop name="sky" type="int">12</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m3</prop>
       <prop name="pos" type="string">0,0</prop>
@@ -238,6 +238,23 @@
     <entry id="3">
       <prop name="base" type="string">skybox3</prop>
       <prop name="abyss" type="string">skyfade3</prop>
+      <prop name="element0" type="string">element45,2,370,1150</prop>
+      <prop name="element0" type="string">element46,1.45,850,1300</prop>
+      <prop name="element1" type="string">element47,2,2020,1200</prop>
+      <prop name="element1" type="string">element48,1.45,2500,1100</prop>
+      <prop name="element2" type="string">element49,2,410,700</prop>
+      <prop name="element2" type="string">element50,1.45,480,700</prop>
+      <prop name="element3" type="string">element51,2,300,150</prop>
+      <prop name="element3" type="string">element52,1.45,460,300</prop>
+      <prop name="element4" type="string">element53,2,1584,480</prop>
+      <prop name="element4" type="string">element54,1.45,1700,600</prop>
+      <prop name="element4" type="string">element55,1.02,20000,5000</prop>
+      <prop name="element1" type="string">element55,1.02,20000,5000</prop>
+      <prop name="bounds0" type="string">0,1136,1232,448</prop>
+      <prop name="bounds1" type="string">1904,1200,400,640</prop>
+      <prop name="bounds2" type="string">0,592,448,512</prop>
+      <prop name="bounds3" type="string">0,176,784,480</prop>
+      <prop name="bounds4" type="string">1584,480,720,720</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
@@ -293,6 +310,21 @@
       <prop name="base" type="string">skybox9</prop>
       <prop name="abyss" type="string"></prop>
       <prop name="anchor" type="int">1</prop>
+      <prop name="element0" type="string">element56,2,550,140</prop>
+      <prop name="element0" type="string">element57,1.45,1270,330</prop>
+      <prop name="element0" type="string">element58,1.6,700,500</prop>
+      <prop name="element1" type="string">element59,1.13,1250,800</prop>
+      <prop name="element1" type="string">element60,1.15,1250,1350</prop>
+      <prop name="element2" type="string">element61,1.45,1280,800</prop>
+      <prop name="element2" type="string">element62,1.6,700,800</prop>
+      <prop name="element2" type="string">element63,2,600,650</prop>
+      <prop name="element3" type="string">element64,1.13,1250,800</prop>
+      <prop name="element3" type="string">element60,1.15,-600,1350</prop>
+      <prop name="element3" type="string">element65,2,2570,760</prop>
+      <prop name="bounds0" type="string">80,0,688,608</prop>
+      <prop name="bounds1" type="string">1296,832,496,176</prop>
+      <prop name="bounds2" type="string">560,736,128,224</prop>
+      <prop name="bounds3" type="string">2368,656,688,1040</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
       <prop name="noStretch" type="bool">false</prop>
@@ -326,8 +358,69 @@
       <prop name="base" type="string">skybox2</prop>
       <prop name="abyss" type="string">skyfade2</prop>
       <prop name="element0" type="string">element19,2,2000,176</prop>
-      <prop name="element0" type="string">element20,1.3,2000,176</prop>
+      <prop name="element0" type="string">element20,1.6,2050,250</prop>
+      <prop name="element0" type="string">element21,1.45,1900,250</prop>
+      <prop name="element1" type="string">element22,2,2400,200</prop>
+      <prop name="element1" type="string">element23,1.6,2368,220</prop>
+      <prop name="element1" type="string">element24,1.45,2368,235</prop>
+      <prop name="element2" type="string">element19,2,656,848</prop>
+      <prop name="element2" type="string">element20,1.6,656,920</prop>
+      <prop name="element2" type="string">element21,1.45,656,848</prop>
+      <prop name="element3" type="string">element22,2,704,520</prop>
+      <prop name="element3" type="string">element23,1.6,704,480</prop>
+      <prop name="element3" type="string">element24,1.45,704,480</prop>
+      <prop name="element4" type="string">element25,1.6,600,180</prop>
+      <prop name="element4" type="string">element26,2,930,170</prop>
+      <prop name="element4" type="string">element27,1.45,400,170</prop>
+      <prop name="element5" type="string">element28,2,1350,1350</prop>
+      <prop name="element6" type="string">element29,2,2300,700</prop>
+      <prop name="element6" type="string">element30,1.6,2350,780</prop>
+      <prop name="element6" type="string">element31,1.45,2350,780</prop>
+      <prop name="element7" type="string">element32,2,350,50</prop>
+      <prop name="element7" type="string">element33,1.6,550,100</prop>
+      <prop name="element7" type="string">element34,1.6,530,780</prop>
+      <prop name="element7" type="string">element35,1.45,700,150</prop>
       <prop name="bounds0" type="string">2000,176,192,128</prop>
+      <prop name="bounds1" type="string">2368,176,208,112</prop>
+      <prop name="bounds2" type="string">656,848,176,144</prop>
+      <prop name="bounds3" type="string">704,480,112,224</prop>
+      <prop name="bounds4" type="string">896,160,384,1104</prop>
+      <prop name="bounds5" type="string">1136,1344,96,176</prop>
+      <prop name="bounds6" type="string">2192,592,624,1200</prop>
+      <prop name="bounds7" type="string">0,0,432,1280</prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">true,2,16</prop>
+      <prop name="darkness" type="float">1</prop>
+      <prop name="noStretch" type="bool">false</prop>
+      <prop name="ambient" type="string">#131318</prop>
+    </entry>
+    <entry id="12">
+      <prop name="base" type="string">skybox2</prop>
+      <prop name="abyss" type="string">skyfade2</prop>
+      <prop name="element0" type="string">element36,1.45,1056,0</prop>
+      <prop name="element0" type="string">element37,2,1100,0</prop>
+      <prop name="element0" type="string">element38,1.6,1150,0</prop>
+      <prop name="element1" type="string">element39,1.45,500,100</prop>
+      <prop name="element1" type="string">element40,1.6,700,250</prop>
+      <prop name="element2" type="string">element41,2,1500,550</prop>
+      <prop name="element2" type="string">element42,1.45,1460,730</prop>
+      <prop name="element2" type="string">element43,1.6,1450,660</prop>
+      <prop name="element2" type="string">element44,1.02,20000,7000</prop>
+      <prop name="bounds0" type="string">1056,0,400,384</prop>
+      <prop name="bounds1" type="string">0,0,784,1520</prop>
+      <prop name="bounds2" type="string">1376,464,672,544</prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">true,2,16</prop>
+      <prop name="darkness" type="float">1</prop>
+      <prop name="noStretch" type="bool">false</prop>
+      <prop name="ambient" type="string">#131318</prop>
+    </entry>
+    <entry id="13">
+      <prop name="base" type="string">skybox2</prop>
+      <prop name="abyss" type="string">skyfade2</prop>
+      <prop name="element0" type="string">element36,1.45,700,1800</prop>
+      <prop name="element0" type="string">element38,1.6,670,1600</prop>
+      <prop name="bounds0" type="string">464,1488,864,304</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>

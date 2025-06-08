@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4417f0767de56b581f2f4756735dc589bc09cd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ce23c2b39bac8c44b26a0053665650fda290b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Symfora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

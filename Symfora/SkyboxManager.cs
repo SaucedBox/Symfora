@@ -89,6 +89,7 @@ namespace Symfora {
                     {
                         Vector2 target = renderer.View.Position;
                         var pos1 = new Vector2(((target.X - element.Position.X) / element.ParalaxLayer) + element.Position.X, ((target.Y - element.Position.Y) / element.ParalaxLayer) + element.Position.Y);
+                        pos1 = element.ParalaxLayer == 1 ? element.Position + target : pos1;
                         if(element.BoundsIndex != -1)
                         {
                             var tb = bounds[element.BoundsIndex];

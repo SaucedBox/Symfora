@@ -1,13 +1,13 @@
 {
-    "activeFile": "lev/c3m0.tmx",
+    "activeFile": "lev/c5m0.tmx",
     "expandedProjectPaths": [
         "bin/DesktopGL/Content/lev",
-        ".",
         "til",
-        "bin/DesktopGL/Content",
+        "lev/template",
         "bin/DesktopGL",
-        "lev",
-        "lev/template"
+        ".",
+        "bin/DesktopGL/Content",
+        "lev"
     ],
     "exportAsImage.drawTileGrid": false,
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -138,11 +138,11 @@
                 8,
                 9
             ],
-            "scale": 4,
-            "selectedLayer": 2,
+            "scale": 0.75,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 1408,
-                "y": 895.875
+                "x": 2334.6666666666665,
+                "y": 545.3333333333334
             }
         },
         "lev/c3m1.tmx": {
@@ -156,8 +156,8 @@
             "scale": 0.75,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 768,
-                "y": 767.3333333333333
+                "x": 767.9999999999999,
+                "y": 768
             }
         },
         "lev/c3m2.tmx": {
@@ -169,11 +169,11 @@
                 8,
                 9
             ],
-            "scale": 1,
-            "selectedLayer": 4,
+            "scale": 0.75,
+            "selectedLayer": 6,
             "viewCenter": {
-                "x": 896,
-                "y": 895.5
+                "x": 1050.6666666666665,
+                "y": 650.6666666666665
             }
         },
         "lev/c3m3.tmx": {
@@ -185,11 +185,11 @@
                 8,
                 9
             ],
-            "scale": 0.5,
-            "selectedLayer": 2,
+            "scale": 1,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 1024,
-                "y": 895
+                "x": 1802,
+                "y": 810
             }
         },
         "lev/c4m0.tmx": {
@@ -206,18 +206,18 @@
         },
         "lev/c4m0a.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
                 13,
-                8,
-                9
+                3,
+                4,
+                7,
+                9,
+                8
             ],
-            "scale": 1,
-            "selectedLayer": 7,
+            "scale": 0.75,
+            "selectedLayer": 8,
             "viewCenter": {
-                "x": 1152,
-                "y": 1023.5
+                "x": 906.6666666666665,
+                "y": 692
             }
         },
         "lev/c4m0b.tmx": {
@@ -232,33 +232,33 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 1024,
-                "y": 513
+                "y": 514
             }
         },
         "lev/c5m0.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
-                13,
                 8,
-                9
+                9,
+                13,
+                3,
+                7,
+                4
             ],
-            "scale": 3,
-            "selectedLayer": 2,
+            "scale": 0.75,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 1536,
-                "y": 1279.8333333333333
+                "x": 2701.333333333333,
+                "y": 1150.6666666666665
             }
         },
         "lev/c5m1.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
-                13,
                 8,
-                9
+                9,
+                13,
+                3,
+                7,
+                4
             ],
             "scale": 0.5197,
             "selectedLayer": 2,
@@ -269,11 +269,11 @@
         },
         "lev/c6m0.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
                 8,
-                9
+                9,
+                3,
+                7,
+                4
             ],
             "scale": 0.75,
             "selectedLayer": 2,
@@ -284,11 +284,11 @@
         },
         "lev/c6m1.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
                 8,
-                9
+                9,
+                3,
+                7,
+                4
             ],
             "scale": 0.5,
             "selectedLayer": 2,
@@ -299,12 +299,12 @@
         },
         "lev/c6m2.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
-                12,
                 8,
-                9
+                9,
+                12,
+                3,
+                7,
+                4
             ],
             "scale": 0.5,
             "selectedLayer": 6,
@@ -315,11 +315,11 @@
         },
         "lev/c7m0.tmx": {
             "expandedObjectLayers": [
-                7,
-                4,
-                3,
                 8,
-                9
+                9,
+                3,
+                7,
+                4
             ],
             "scale": 0.33,
             "selectedLayer": 2,
@@ -410,39 +410,28 @@
     "map.tileWidth": 32,
     "map.width": 100,
     "openFiles": [
-        "lev/c0m0.tmx",
-        "lev/c1m0a.tmx",
-        "lev/c1m0b.tmx",
-        "lev/c2m0.tmx",
-        "lev/c2m1.tmx",
-        "lev/c3m2.tmx",
-        "lev/c6m2.tmx",
-        "lev/c4m0a.tmx",
-        "lev/c4m0b.tmx",
-        "lev/c7m0.tmx",
-        "lev/c3m0.tmx",
-        "lev/c3m1.tmx",
-        "lev/c3m3.tmx",
         "lev/c5m0.tmx",
         "lev/c5m1.tmx",
         "lev/c6m0.tmx",
-        "lev/c6m1.tmx"
+        "lev/c6m1.tmx",
+        "lev/c6m2.tmx",
+        "lev/c7m0.tmx"
     ],
     "project": "symfora.tiled-project",
     "property.type": "string",
     "recentFiles": [
-        "lev/c0m0.tmx",
-        "lev/c1m0a.tmx",
-        "lev/c1m0b.tmx",
-        "lev/c2m0.tmx",
-        "lev/c2m1.tmx",
-        "lev/c3m2.tmx",
-        "lev/c6m2.tmx",
-        "lev/c4m0a.tmx",
-        "lev/c4m0b.tmx",
         "lev/c7m0.tmx",
+        "lev/c6m2.tmx",
         "lev/c6m1.tmx",
-        "lev/c6m0.tmx"
+        "lev/c6m0.tmx",
+        "lev/c5m1.tmx",
+        "lev/c5m0.tmx",
+        "lev/c4m0a.tmx",
+        "lev/c3m3.tmx",
+        "lev/c3m2.tmx",
+        "lev/c3m1.tmx",
+        "lev/c3m0.tmx",
+        "lev/c4m0b.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
