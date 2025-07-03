@@ -264,6 +264,8 @@
     <entry id="4">
       <prop name="base" type="string">skybox4</prop>
       <prop name="abyss" type="string">skyfade4</prop>
+      <prop name="element0" type="string">element66,2,1500,160</prop>
+      <prop name="bounds0" type="string">1408,112,320,1024</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
@@ -273,6 +275,15 @@
     <entry id="5">
       <prop name="base" type="string">skybox5</prop>
       <prop name="abyss" type="string">skyfade5</prop>
+      <prop name="element0" type="string">element67,2,240,320</prop>
+      <prop name="element1" type="string">element68,2,750,975</prop>
+      <prop name="element1" type="string">element69,2,290,1470</prop>
+      <prop name="element2" type="string">element70,1.45,410,300</prop>
+      <prop name="element2" type="string">element71,1.45,900,300</prop>
+      <prop name="element2" type="string">element72,1.15,1100,300</prop>
+      <prop name="bounds0" type="string">240,272,624,544</prop>
+      <prop name="bounds1" type="string">240,816,624,608</prop>
+      <prop name="bounds2" type="string">240,272,624,1152</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
@@ -282,6 +293,12 @@
     <entry id="6">
       <prop name="base" type="string">skybox6</prop>
       <prop name="abyss" type="string">skyfade6</prop>
+      <prop name="element0" type="string">element73,1.45,900,300</prop>
+      <prop name="element1" type="string">element74,2,1960,360</prop>
+      <prop name="element2" type="string">element75,2,2000,770</prop>
+      <prop name="bounds0" type="string">0,256,688,1440</prop>
+      <prop name="bounds1" type="string">1792,336,400,240</prop>
+      <prop name="bounds2" type="string">1936,736,272,528</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>

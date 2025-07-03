@@ -445,3 +445,13 @@ C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skyb
 C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element63.xnb
 C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element64.xnb
 C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element65.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element66.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element67.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element68.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element69.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element70.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element71.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element72.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element73.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element74.xnb
+C:\Users\sawye\source\games\Symfora\Symfora\bin\Debug\net8.0\Content\assets\skybox\element75.xnb
