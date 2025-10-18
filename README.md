@@ -1,5 +1,5 @@
-# A Little Ditty
-For backup and systematic editing purposes only, between your Mac and PC.
+# Symfora and TripleS Game Engine
+Instructions for backup and systematic editing between Mac and PC below.
 Leave .csproj as is, don't ever edit it without putting changes below.
 
 ## .csproj Changes
