@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object class="anthill">
+  <properties>
+   <property name="npcID" type="int" value="0"/>
+   <property name="startActive" type="bool" value="false"/>
+   <property name="time" type="float" value="0"/>
+  </properties>
+  <point/>
+ </object>
+</template>

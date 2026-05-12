@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/til/r_tileset1.png</SourceFile>
-  <SourceTime>2024-10-07T17:06:35.0758836-07:00</SourceTime>
+  <SourceTime>2025-09-07T20:07:49.8652526-07:00</SourceTime>
   <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/Content/til/r_tileset1.xnb</DestFile>
-  <DestTime>2024-10-07T17:07:54.2124699-07:00</DestTime>
+  <DestTime>2025-09-07T20:08:35.5812773-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2024-08-16T10:05:56-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

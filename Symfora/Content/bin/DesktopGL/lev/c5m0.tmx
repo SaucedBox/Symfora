@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="291">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="317">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
@@ -513,16 +513,16 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,59,80,80,80,80,80,80,60,71,71,71,71,71,71,71,
-71,72,0,0,0,0,0,0,27,60,71,71,71,71,71,71,
-71,72,0,0,0,0,0,0,0,27,80,80,60,71,71,71,
-71,68,62,11,0,0,0,0,0,0,0,0,70,71,71,71,
-71,71,71,68,11,0,0,0,0,0,0,0,70,71,71,71,
-71,71,71,71,68,11,0,0,0,0,0,0,70,71,71,71,
-71,71,71,71,71,68,62,62,62,62,62,62,69,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,72,0,0,0,0,0,0,27,60,71,71,59,80,80,80,
+71,72,0,0,0,0,0,0,0,27,80,80,18,0,0,0,
+71,68,62,11,0,0,0,0,0,0,0,0,0,0,0,0,
+71,71,71,68,11,0,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,68,11,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,68,62,62,62,62,11,0,0,0,0,0,
+71,71,71,71,71,71,71,71,71,71,68,11,0,0,0,0,
+71,71,71,71,71,71,71,71,71,71,71,68,62,62,11,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,68,11,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,68,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="96" y="48" width="16" height="16">
@@ -530,17 +530,17 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,59,80,80,80,80,80,80,80,80,80,60,71,71,71,71,
+80,18,0,0,0,0,0,0,0,0,0,27,60,71,71,71,
+0,0,0,0,0,0,0,0,0,0,0,0,27,60,71,71,
+0,0,0,0,0,0,0,0,0,0,0,0,0,27,80,60,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,61,62,69,
+0,0,0,0,0,0,0,0,0,0,0,0,0,70,71,71,
+0,0,0,0,0,0,0,0,0,0,0,10,62,69,71,71,
+0,0,0,0,0,0,0,0,0,10,62,69,71,71,71,71,
+62,62,62,62,62,62,62,62,62,69,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="112" y="48" width="16" height="16">
@@ -1893,13 +1893,13 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
-71,71,71,71,71,71,71,71,71,71,71,71,71,59,18,0,
-71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,0,
-71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,0,
-71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,0,
-71,71,71,71,71,71,71,71,71,71,71,71,59,81,0,0,
-71,71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,59,18,0,0,0
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0
 </chunk>
    <chunk x="0" y="32" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
@@ -2093,25 +2093,25 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,59,80,80,80,
-71,71,71,71,71,71,71,71,71,59,80,80,81,0,0,0,
-71,71,71,71,71,59,80,80,80,18,0,0,0,0,0,0,
+71,71,71,71,71,71,71,71,59,80,80,80,80,80,80,80,
+71,71,71,71,71,71,71,71,72,0,0,0,0,0,0,0,
+71,71,71,71,71,59,80,80,81,0,0,0,0,0,0,0,
 71,71,59,80,80,18,0,0,0,0,0,0,0,0,0,0,
 59,80,18,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
    <chunk x="176" y="32" width="16" height="16">
-71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,59,18,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,
-71,71,71,71,71,71,71,71,59,80,81,0,0,0,0,0,
-71,71,71,71,71,59,80,80,18,0,0,0,0,0,0,0,
-71,71,59,80,80,18,0,0,0,0,0,0,0,0,0,0,
-80,80,18,0,0,0,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,72,0,
+71,71,71,71,71,71,71,71,71,59,80,80,80,80,81,0,
+71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,0,
+71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,0,
+80,80,80,80,80,80,80,80,80,81,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -3633,8 +3633,265 @@
  </layer>
  <objectgroup id="13" name="notes"/>
  <objectgroup color="#7de8b9" id="11" name="deco"/>
+ <objectgroup id="3" name="general">
+  <object id="118" name="trans_start" class="transition" x="2608" y="48" width="48" height="16">
+   <properties>
+    <property name="endTarget" value=""/>
+    <property name="start" type="bool" value="true"/>
+    <property name="targetLevel" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="204" class="ladder" x="208" y="448" width="16" height="432">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="205" class="sinkpit" x="1152" y="480" width="448" height="16">
+   <properties>
+    <property name="count" type="int" value="2"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="maxAttacking" type="int" value="1"/>
+    <property name="skin" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="206" class="ladder" x="2304" y="1008" width="16" height="304">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="207" class="ladder" x="560" y="864" width="16" height="224">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="208" class="ladder" x="1336" y="1648" width="16" height="432">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="210" class="ladder" x="2960" y="1328" width="16" height="272">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="211" class="sinkpit" x="544" y="464" width="64" height="16">
+   <properties>
+    <property name="count" type="int" value="2"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="maxAttacking" type="int" value="1"/>
+    <property name="skin" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="213" class="sinkpit" x="2384" y="1808" width="96" height="16">
+   <properties>
+    <property name="count" type="int" value="2"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="maxAttacking" type="int" value="1"/>
+    <property name="skin" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="226" class="collider" x="2816" y="704" width="32" height="319">
+   <properties>
+    <property name="tags" value=""/>
+   </properties>
+  </object>
+  <object id="227" name="trig_doorBlock" class="trigger" x="1456" y="1392" width="80" height="64">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="231" class="catalyst_jet" x="2082" y="2072" width="28" height="8">
+   <properties>
+    <property name="charged" type="bool" value="false"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="232" class="spiralDoor" x="2592" y="288" width="16" height="32">
+   <properties>
+    <property name="startActive" type="bool" value="true"/>
+    <property name="teleportTarget" value=""/>
+   </properties>
+  </object>
+  <object id="233" class="spiralDoor" x="448" y="848" width="16" height="32">
+   <properties>
+    <property name="startActive" type="bool" value="true"/>
+    <property name="teleportTarget" value=""/>
+   </properties>
+  </object>
+  <object id="234" class="spiralDoor" x="1888" y="1632" width="16" height="32">
+   <properties>
+    <property name="startActive" type="bool" value="true"/>
+    <property name="teleportTarget" value=""/>
+   </properties>
+  </object>
+  <object id="255" name="trig_doorBlock1" class="trigger" x="2224" y="1712" width="32" height="96">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="263" class="reverb" x="488" y="599" width="600" height="600">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="3"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="264" class="reverb" x="1040" y="633" width="600" height="600">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="3"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="265" class="reverb" x="1548" y="672" width="600" height="600">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="3"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="266" class="reverb" x="2109" y="706" width="600" height="600">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="3"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="267" class="reverb" x="1175" y="176" width="398" height="398">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="2"/>
+    <property name="wetness" type="float" value="4"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="268" class="reverb" x="2261" y="1477" width="375" height="375">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="2"/>
+    <property name="wetness" type="float" value="4"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="269" class="reverb" x="1084" y="1274" width="891" height="891">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="2"/>
+    <property name="wetness" type="float" value="4"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="270" class="reverb" x="2032" y="1909" width="265" height="265">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="2"/>
+    <property name="wetness" type="float" value="4"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="272" name="trig_fallPlain1" class="trigger" x="-511" y="1120" width="655" height="64">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="273" name="trig_fallPlain1" class="trigger" x="2992" y="2128" width="655" height="64">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="282" name="enemyClip" class="collider" x="2160" y="816" width="32" height="415">
+   <properties>
+    <property name="tags" value="ex_player"/>
+   </properties>
+  </object>
+  <object id="290" class="transition" x="2832" y="2432" width="48" height="32">
+   <properties>
+    <property name="endTarget" value="trans_start"/>
+    <property name="start" type="bool" value="false"/>
+    <property name="targetLevel" type="int" value="14"/>
+   </properties>
+  </object>
+  <object id="294" name="trig_craze" class="trigger" x="864" y="736" width="64" height="352">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="303" class="sceneBrain" x="2464" y="976">
+   <properties>
+    <property name="acts" value="14"/>
+    <property name="scene" type="int" value="11"/>
+   </properties>
+  </object>
+  <object id="305" name="trig_bigone" class="trigger" x="2352" y="816" width="64" height="208">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="306" name="trig_gorjan1" class="trigger" x="2400" y="1968" width="64" height="128">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="308" name="trig_gorjanDissapear" class="trigger" x="1840" y="1600" width="32" height="64">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="310" class="collider" x="2256" y="1712" width="33" height="96">
+   <properties>
+    <property name="tags" value="ex_player"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup color="#fffa61" id="8" name="lights">
-  <object id="160" class="light_area" x="-48" y="-112" width="656" height="672">
+  <object id="160" class="light_area" x="-352" y="-112" width="960" height="672">
    <properties>
     <property name="brightness" type="float" value="1"/>
     <property name="color" type="color" value="#ffdcddff"/>
@@ -3642,7 +3899,7 @@
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="161" class="light_area" x="-48" y="464" width="368" height="512">
+  <object id="161" class="light_area" x="-352" y="464" width="672" height="512">
    <properties>
     <property name="brightness" type="float" value="1"/>
     <property name="color" type="color" value="#ffdcddff"/>
@@ -3800,7 +4057,7 @@
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="175" class="light_area" x="1552" y="705" width="816" height="608">
+  <object id="175" class="light_area" x="1712" y="705" width="656" height="608">
    <properties>
     <property name="brightness" type="float" value="0.2"/>
     <property name="color" type="color" value="#ffdcddff"/>
@@ -4144,223 +4401,33 @@
    </properties>
    <point/>
   </object>
- </objectgroup>
- <objectgroup id="3" name="general">
-  <object id="118" name="trans_start" class="transition" x="2608" y="48" width="48" height="16">
+  <object id="311" class="light" x="1600" y="929">
    <properties>
-    <property name="endTarget" value=""/>
-    <property name="start" type="bool" value="true"/>
-    <property name="targetLevel" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="204" class="ladder" x="208" y="448" width="16" height="432">
-   <properties>
-    <property name="draw" type="bool" value="true"/>
-    <property name="skin" type="int" value="0"/>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffdcddff"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1"/>
+    <property name="shadows" type="bool" value="false"/>
     <property name="startActive" type="bool" value="true"/>
    </properties>
+   <point/>
   </object>
-  <object id="205" class="sinkpit" x="1152" y="480" width="448" height="16">
+  <object id="313" class="light" x="1504" y="1168">
    <properties>
-    <property name="count" type="int" value="2"/>
-    <property name="draw" type="bool" value="true"/>
-    <property name="maxAttacking" type="int" value="1"/>
-    <property name="skin" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="206" class="ladder" x="2304" y="1008" width="16" height="304">
-   <properties>
-    <property name="draw" type="bool" value="true"/>
-    <property name="skin" type="int" value="0"/>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffde58"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
     <property name="startActive" type="bool" value="true"/>
    </properties>
-  </object>
-  <object id="207" class="ladder" x="560" y="864" width="16" height="224">
-   <properties>
-    <property name="draw" type="bool" value="true"/>
-    <property name="skin" type="int" value="0"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="208" class="ladder" x="1336" y="1648" width="16" height="432">
-   <properties>
-    <property name="draw" type="bool" value="true"/>
-    <property name="skin" type="int" value="0"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="210" class="ladder" x="2960" y="1328" width="16" height="272">
-   <properties>
-    <property name="draw" type="bool" value="true"/>
-    <property name="skin" type="int" value="0"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="211" class="sinkpit" x="544" y="464" width="64" height="16">
-   <properties>
-    <property name="count" type="int" value="2"/>
-    <property name="draw" type="bool" value="true"/>
-    <property name="maxAttacking" type="int" value="1"/>
-    <property name="skin" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="212" class="sinkpit" x="2640" y="1344" width="128" height="16">
-   <properties>
-    <property name="count" type="int" value="2"/>
-    <property name="draw" type="bool" value="true"/>
-    <property name="maxAttacking" type="int" value="1"/>
-    <property name="skin" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="213" class="sinkpit" x="2384" y="1808" width="96" height="16">
-   <properties>
-    <property name="count" type="int" value="2"/>
-    <property name="draw" type="bool" value="true"/>
-    <property name="maxAttacking" type="int" value="1"/>
-    <property name="skin" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="226" class="collider" x="2816" y="704" width="32" height="319">
-   <properties>
-    <property name="tags" value=""/>
-   </properties>
-  </object>
-  <object id="227" name="trig_doorBlock" class="trigger" x="1456" y="1392" width="80" height="64">
-   <properties>
-    <property name="corpses" type="bool" value="false"/>
-    <property name="npcs" type="bool" value="false"/>
-    <property name="once" type="bool" value="true"/>
-    <property name="player" type="bool" value="true"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="231" class="catalyst_jet" x="2082" y="2072" width="28" height="8">
-   <properties>
-    <property name="charged" type="bool" value="false"/>
-    <property name="draw" type="bool" value="true"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="232" class="spiralDoor" x="2592" y="288" width="16" height="32">
-   <properties>
-    <property name="startActive" type="bool" value="true"/>
-    <property name="teleportTarget" value=""/>
-   </properties>
-  </object>
-  <object id="233" class="spiralDoor" x="448" y="848" width="16" height="32">
-   <properties>
-    <property name="startActive" type="bool" value="true"/>
-    <property name="teleportTarget" value=""/>
-   </properties>
-  </object>
-  <object id="234" class="spiralDoor" x="1888" y="1632" width="16" height="32">
-   <properties>
-    <property name="startActive" type="bool" value="true"/>
-    <property name="teleportTarget" value=""/>
-   </properties>
-  </object>
-  <object id="255" name="trig_doorBlock1" class="trigger" x="2224" y="1712" width="32" height="96">
-   <properties>
-    <property name="corpses" type="bool" value="false"/>
-    <property name="npcs" type="bool" value="false"/>
-    <property name="once" type="bool" value="true"/>
-    <property name="player" type="bool" value="true"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="263" class="reverb" x="488" y="599" width="600" height="600">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="0"/>
-    <property name="wetness" type="float" value="3"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="264" class="reverb" x="1040" y="633" width="600" height="600">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="0"/>
-    <property name="wetness" type="float" value="3"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="265" class="reverb" x="1548" y="672" width="600" height="600">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="0"/>
-    <property name="wetness" type="float" value="3"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="266" class="reverb" x="2109" y="706" width="600" height="600">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="0"/>
-    <property name="wetness" type="float" value="3"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="267" class="reverb" x="1175" y="176" width="398" height="398">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="2"/>
-    <property name="wetness" type="float" value="4"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="268" class="reverb" x="2261" y="1477" width="375" height="375">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="2"/>
-    <property name="wetness" type="float" value="4"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="269" class="reverb" x="1084" y="1274" width="891" height="891">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="2"/>
-    <property name="wetness" type="float" value="4"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="270" class="reverb" x="2032" y="1909" width="265" height="265">
-   <properties>
-    <property name="minRadius" type="float" value="10"/>
-    <property name="reverbType" type="int" value="2"/>
-    <property name="wetness" type="float" value="4"/>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="272" name="trig_fallPlain1" class="trigger" x="-511" y="1120" width="655" height="64">
-   <properties>
-    <property name="corpses" type="bool" value="false"/>
-    <property name="npcs" type="bool" value="false"/>
-    <property name="once" type="bool" value="true"/>
-    <property name="player" type="bool" value="true"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="273" name="trig_fallPlain1" class="trigger" x="2992" y="2128" width="655" height="64">
-   <properties>
-    <property name="corpses" type="bool" value="false"/>
-    <property name="npcs" type="bool" value="false"/>
-    <property name="once" type="bool" value="true"/>
-    <property name="player" type="bool" value="true"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="282" class="collider" x="2160" y="816" width="32" height="415">
-   <properties>
-    <property name="tags" value="ex_player"/>
-   </properties>
-  </object>
-  <object id="290" class="transition" x="2832" y="2432" width="48" height="32">
-   <properties>
-    <property name="endTarget" value="trans_start"/>
-    <property name="start" type="bool" value="false"/>
-    <property name="targetLevel" type="int" value="14"/>
-   </properties>
+   <point/>
   </object>
  </objectgroup>
  <objectgroup color="#8aadff" id="9" name="puzzles">
@@ -4593,6 +4660,15 @@
    </properties>
    <polyline points="58,75 58,-221 -134,-221"/>
   </object>
+  <object id="293" name="tome" class="switch" x="1200" y="1072">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="1"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <objectgroup color="#ff8284" id="7" name="npcs">
   <object id="259" class="npc" x="1658" y="1882">
@@ -4700,22 +4776,12 @@
     <property name="id" type="int" value="1"/>
     <property name="noticeDist" type="int" value="150"/>
     <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
+    <property name="phantom" type="int" value="1"/>
     <property name="wanderDist" type="int" value="0"/>
    </properties>
    <point/>
   </object>
   <object id="283" class="npc" x="2812" y="1295">
-   <properties>
-    <property name="id" type="int" value="1"/>
-    <property name="noticeDist" type="int" value="150"/>
-    <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
-    <property name="wanderDist" type="int" value="0"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="284" class="npc" x="2578" y="1291">
    <properties>
     <property name="id" type="int" value="1"/>
     <property name="noticeDist" type="int" value="150"/>
@@ -4759,6 +4825,56 @@
    <properties>
     <property name="id" type="int" value="4"/>
     <property name="noticeDist" type="int" value="150"/>
+    <property name="perma" type="bool" value="false"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="292" class="npc" x="-340" y="-278">
+   <properties>
+    <property name="id" type="int" value="24"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="298" name="gorjan" class="npc" x="2422" y="980">
+   <properties>
+    <property name="id" type="int" value="27"/>
+    <property name="noticeDist" type="int" value="100"/>
+    <property name="perma" type="bool" value="false"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="299" name="jesersant" class="npc" x="2448" y="992">
+   <properties>
+    <property name="id" type="int" value="26"/>
+    <property name="noticeDist" type="int" value="100"/>
+    <property name="perma" type="bool" value="false"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="300" name="bafixi" class="npc" x="2473" y="992">
+   <properties>
+    <property name="id" type="int" value="26"/>
+    <property name="noticeDist" type="int" value="100"/>
+    <property name="perma" type="bool" value="false"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="304" name="lucant" class="npc" x="2503" y="992">
+   <properties>
+    <property name="id" type="int" value="26"/>
+    <property name="noticeDist" type="int" value="100"/>
     <property name="perma" type="bool" value="false"/>
     <property name="phantom" type="int" value="0"/>
     <property name="wanderDist" type="int" value="0"/>

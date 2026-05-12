@@ -72,4 +72,20 @@ end
 
 function trigger_trig_boss(state)
     ST.FlipEnt("door7")
+    ST.AwakeBoss("boss")
+end
+
+function npc_boss()
+    ST.SetEnt("door8", false)
+end
+
+function trigger_trig_fallPlain1()
+    ST.FallKillPlayer()
+end
+
+function switch_tome(active)
+    ST.SetGS(67 + 8, 1)
+end
+function switch_tome1(active)
+    ST.SetGS(67 + 3, 1)
 end

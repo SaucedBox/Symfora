@@ -34,7 +34,20 @@
     <ground slot="corner_bl" setID="143" offset="0,0"/>
     <ground slot="corner_br" setID="71" offset="0,0"/>
 
-    <backgr slot="centre" setID="117,118,119" offset="0,0"/>
+    <ground slot="centre_right" setID="159" offset="0,0"/>
+    <ground slot="centre_left" setID="161" offset="0,0"/>
+    <ground slot="centre_top" setID="152" offset="0,0"/>
+    <ground slot="centre_bottom" setID="160" offset="0,0"/>
+    <ground slot="centre_corner_tl" setID="155" offset="0,0"/>
+    <ground slot="centre_corner_tr" setID="156" offset="0,0"/>
+    <ground slot="centre_corner_bl" setID="158" offset="0,0"/>
+    <ground slot="centre_corner_br" setID="157" offset="0,0"/>
+    <ground slot="centre_corner_inv_tl" setID="163" offset="0,0"/>
+    <ground slot="centre_corner_inv_tr" setID="162" offset="0,0"/>
+    <ground slot="centre_corner_inv_bl" setID="154" offset="0,0"/>
+    <ground slot="centre_corner_inv_br" setID="153" offset="0,0"/>
+
+    <backgr slot="centre" setID="117,118,119,117,118,119,117,118,119" offset="0,0"/>
     <backgr slot="side_left" setID="117,118,119" offset="0,0"/>
     <backgr slot="side_right" setID="117,118,119" offset="0,0"/>
     <backgr slot="side_top" setID="117,118,119" offset="0,0"/>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="326">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="382">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
+ <tileset firstgid="118" source="../til/props.tsx"/>
+ <tileset firstgid="184" source="../til/r_tileset0.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
    <chunk x="0" y="0" width="16" height="16">
@@ -32,7 +34,7 @@
 71,71,71,0,0,0,0,0,0,0,0,71,71,71,71,71,
 71,71,71,71,0,0,0,0,0,0,0,71,71,71,71,71,
 71,71,71,71,71,0,0,0,0,0,0,71,71,71,71,71,
-60,71,71,71,71,71,71,0,0,0,0,0,0,0,0,0,
+60,71,71,71,71,71,71,0,0,0,0,0,71,71,71,71,
 70,71,71,71,71,71,71,71,71,0,0,0,0,0,0,0,
 70,71,71,71,71,71,71,71,71,0,0,0,0,0,0,0,
 69,71,71,71,71,71,71,71,71,71,71,71,71,71,0,0,
@@ -50,7 +52,7 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-0,0,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 0,0,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -244,10 +246,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,59,80,80,80,80,60,71,71,71,
-71,71,71,71,59,80,80,18,0,0,0,0,27,80,60,71,
+71,71,71,71,59,80,80,81,0,0,0,0,79,80,60,71,
 71,71,71,71,72,0,0,0,0,0,0,0,0,0,70,71,
-71,71,71,71,68,62,14,15,0,0,61,63,0,10,69,71,
-71,71,71,71,71,71,71,68,62,62,69,68,62,69,71,71,
+71,71,71,71,68,62,62,63,0,0,0,0,0,0,70,71,
+71,71,71,71,71,71,71,68,62,62,62,62,62,62,69,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,0,0,0,0,0,0,0,71,71,71,71,
@@ -672,7 +674,44 @@
   </data>
  </layer>
  <layer id="1" name="ground" width="64" height="32">
-  <data encoding="csv"/>
+  <data encoding="csv">
+   <chunk x="96" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1158,1159,1159,1160,1159,1159,1160,1159,1160,1161,1159,1160,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="112" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1161,1159,1159,1160,1159,1159,1159,1160,1161,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
  </layer>
  <layer id="2" name="collision" width="64" height="32">
   <data encoding="csv">
@@ -697,16 +736,16 @@
    <chunk x="16" y="0" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 60,71,71,71,71,71,71,71,71,71,71,59,80,80,80,60,
-70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,27,
-70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
-27,60,71,71,71,71,71,71,71,71,71,68,62,62,11,0,
-0,27,60,71,71,71,71,71,71,71,71,71,71,71,68,14,
-0,0,27,60,71,71,71,71,71,71,71,71,71,71,71,71,
-0,0,0,70,71,71,71,71,71,71,71,71,71,71,71,71,
-0,0,0,27,80,80,60,71,71,71,71,71,71,71,71,71,
+70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,70,
+70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,70,
+70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,70,
+70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,70,
+70,71,71,71,71,71,71,71,71,71,71,72,0,0,0,79,
+27,60,71,71,71,71,71,71,71,71,71,72,0,0,0,0,
+0,27,60,71,71,71,71,71,71,71,71,72,0,0,0,0,
+0,0,27,60,71,71,71,71,71,71,71,72,0,0,0,0,
+0,0,0,70,71,71,71,71,71,71,71,72,0,0,0,0,
+0,0,0,27,80,80,60,71,71,71,71,68,62,62,62,62,
 0,0,0,0,0,0,82,83,60,71,71,71,71,71,71,71,
 0,0,0,0,0,0,0,0,82,83,60,71,71,71,71,71,
 0,0,0,0,0,0,0,0,0,0,82,83,60,71,71,71,
@@ -715,16 +754,16 @@
    <chunk x="32" y="0" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-60,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-27,60,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-0,27,80,80,80,80,80,80,80,80,80,80,80,60,71,71,
-0,0,0,0,0,0,0,0,0,0,0,0,0,82,83,80,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,59,80,80,80,80,80,60,71,71,
+71,71,71,71,71,59,80,18,0,0,0,0,0,82,83,80,
+80,80,80,80,80,18,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-68,62,62,62,62,62,62,62,14,15,0,0,0,0,0,0,
-71,71,71,71,71,71,71,71,71,68,62,62,62,62,14,15,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,68,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -1488,14 +1527,7 @@
 </chunk>
   </data>
  </layer>
- <objectgroup color="#ffffff" id="11" name="regions">
-  <object id="305" class="tileRegion" x="0" y="496" width="320" height="432">
-   <properties>
-    <property name="tilesetID" type="int" value="1"/>
-    <property name="transition" type="bool" value="true"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup color="#ffffff" id="11" name="regions"/>
  <objectgroup id="3" name="general">
   <object id="145" name="trig_tutorial" class="trigger" x="48" y="736" width="144" height="80">
    <properties>
@@ -1622,6 +1654,46 @@
     <property name="tags" value=""/>
    </properties>
   </object>
+  <object id="331" name="trans_start" class="transition" x="192" y="32" width="64" height="32">
+   <properties>
+    <property name="endTarget" value=""/>
+    <property name="start" type="bool" value="true"/>
+    <property name="targetLevel" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="332" class="transition" x="448" y="32" width="48" height="32">
+   <properties>
+    <property name="endTarget" value="trans_start"/>
+    <property name="start" type="bool" value="false"/>
+    <property name="targetLevel" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="333" class="catalyst" x="458" y="168" width="28" height="8">
+   <properties>
+    <property name="boostMult" type="float" value="1"/>
+    <property name="charged" type="bool" value="false"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="334" name="trig_serp" class="trigger" x="1744" y="336" width="32" height="80">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="true"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="338" name="trig_dia" class="trigger" x="784" y="112" width="80" height="64">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#7de8b9" id="12" name="deco">
   <object id="307" class="rope" x="272" y="608">
@@ -1632,6 +1704,270 @@
     <property name="width" type="float" value="1"/>
    </properties>
    <polyline points="0,0 0,64"/>
+  </object>
+  <object id="358" class="prop" gid="122" x="1877.85" y="420" width="35" height="20">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp0"/>
+   </properties>
+  </object>
+  <object id="359" class="prop" gid="123" x="1866.83" y="426.675" width="26" height="23" rotation="346.74">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp1"/>
+   </properties>
+  </object>
+  <object id="360" class="prop" gid="124" x="1905" y="421" width="32" height="20">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp2"/>
+   </properties>
+  </object>
+  <object id="361" class="prop" gid="125" x="1831.53" y="422.442" width="24" height="22" rotation="7.04443">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp3"/>
+   </properties>
+  </object>
+  <object id="362" class="prop" gid="122" x="1812" y="422.79" width="35" height="20" rotation="353.944">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp0"/>
+   </properties>
+  </object>
+  <object id="363" class="prop" gid="123" x="1844" y="427" width="26" height="23">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp1"/>
+   </properties>
+  </object>
+  <object id="364" class="prop" gid="125" x="1891.85" y="419" width="24" height="22" rotation="20.7915">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp3"/>
+   </properties>
+  </object>
+  <object id="365" class="prop" gid="133" x="1894.31" y="338.098" width="47" height="37" rotation="213.605">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL0"/>
+   </properties>
+  </object>
+  <object id="366" class="prop" gid="133" x="1916" y="312" width="47" height="37" rotation="163.649">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL0"/>
+   </properties>
+  </object>
+  <object id="367" class="prop" gid="135" x="1957" y="308" width="40" height="44" rotation="178.856">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL2"/>
+   </properties>
+  </object>
+  <object id="368" class="prop" gid="136" x="1979" y="318" width="40" height="39" rotation="168.622">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL3"/>
+   </properties>
+  </object>
+  <object id="369" class="prop" gid="134" x="1997" y="302" width="34" height="46" rotation="141.513">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL1"/>
+   </properties>
+  </object>
+  <object id="370" class="prop" gid="133" x="2049" y="306" width="47" height="37" rotation="170.907">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL0"/>
+   </properties>
+  </object>
+  <object id="371" class="prop" gid="133" x="2052" y="298" width="47" height="37" rotation="121.468">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaL2"/>
+   </properties>
+  </object>
+  <object id="372" class="prop" gid="137" x="2079.41" y="334.56" width="25" height="23" rotation="149.868">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaM0"/>
+   </properties>
+  </object>
+  <object id="373" class="prop" gid="137" x="1987" y="333" width="25" height="23" rotation="149.868">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaM0"/>
+   </properties>
+  </object>
+  <object id="374" class="prop" gid="138" x="1930" y="354" width="24" height="18" rotation="242.083">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rockShaM1"/>
+   </properties>
+  </object>
+  <object id="375" class="prop" gid="124" x="1991" y="450" width="32" height="20" rotation="40.7416">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp2"/>
+   </properties>
+  </object>
+  <object id="376" class="prop" gid="122" x="1980" y="460" width="35" height="20" rotation="349.024">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp0"/>
+   </properties>
+  </object>
+  <object id="377" class="prop" gid="170" x="1960" y="443" width="20" height="27" rotation="18.77">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="tallgrassSwampBig1"/>
+   </properties>
+  </object>
+  <object id="378" class="prop" gid="169" x="1947" y="438" width="20" height="29" rotation="5.08043">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="tallgrassSwampBig0"/>
+   </properties>
+  </object>
+  <object id="379" class="prop" gid="168" x="1927" y="418" width="13" height="26" rotation="5.08043">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="tallgrassSwamp2"/>
+   </properties>
+  </object>
+  <object id="380" class="prop" gid="167" x="1929" y="414" width="13" height="27" rotation="44.2496">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="tallgrassSwamp1"/>
+   </properties>
+  </object>
+  <object id="381" class="prop" gid="146" x="2062" y="384" width="42" height="33" rotation="16.8345">
+   <properties>
+    <property name="foreground" type="bool" value="false"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="true"/>
+    <property name="texture" value="rootsBigRed0"/>
+   </properties>
   </object>
  </objectgroup>
  <objectgroup color="#ff8284" id="7" name="npcs">
@@ -1655,7 +1991,7 @@
    </properties>
    <point/>
   </object>
-  <object id="246" class="npc" x="768" y="576">
+  <object id="246" name="throngler" class="npc" x="768" y="576">
    <properties>
     <property name="id" type="int" value="8"/>
     <property name="noticeDist" type="int" value="400"/>
@@ -1798,12 +2134,98 @@
    </properties>
    <point/>
   </object>
+  <object id="336" name="tome" class="switch" x="912" y="336">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="1"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="345" class="prop" gid="122" x="317.847" y="691" width="35" height="20">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp0"/>
+   </properties>
+  </object>
+  <object id="350" class="prop" gid="123" x="306.832" y="697.675" width="26" height="23" rotation="346.74">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp1"/>
+   </properties>
+  </object>
+  <object id="351" class="prop" gid="124" x="282.847" y="688" width="32" height="20">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp2"/>
+   </properties>
+  </object>
+  <object id="352" class="prop" gid="125" x="271.528" y="693.442" width="24" height="22" rotation="7.04443">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp3"/>
+   </properties>
+  </object>
+  <object id="354" class="prop" gid="122" x="252" y="693.79" width="35" height="20" rotation="353.944">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp0"/>
+   </properties>
+  </object>
+  <object id="355" class="prop" gid="123" x="286.847" y="699" width="26" height="23">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp1"/>
+   </properties>
+  </object>
+  <object id="356" class="prop" gid="125" x="331.847" y="690" width="24" height="22" rotation="20.7915">
+   <properties>
+    <property name="foreground" type="bool" value="true"/>
+    <property name="noDestroy" type="bool" value="true"/>
+    <property name="rotationMult" type="float" value="1"/>
+    <property name="squib" type="int" value="-1"/>
+    <property name="squibSE" value=""/>
+    <property name="static" type="bool" value="false"/>
+    <property name="texture" value="bushSwamp3"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#fffa61" id="9" name="lights">
   <object id="279" class="light" x="230" y="192">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="4"/>
+    <property name="brightness" type="float" value="3"/>
     <property name="color" type="color" value="#ffdcddff"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -1817,7 +2239,7 @@
   <object id="280" class="light" x="152" y="652">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="4"/>
+    <property name="brightness" type="float" value="3"/>
     <property name="color" type="color" value="#ffdcddff"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -1831,7 +2253,7 @@
   <object id="281" class="light" x="522" y="784">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="4"/>
+    <property name="brightness" type="float" value="3"/>
     <property name="color" type="color" value="#ffdcddff"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -1845,7 +2267,7 @@
   <object id="282" class="light" x="2060" y="731">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="4"/>
+    <property name="brightness" type="float" value="3"/>
     <property name="color" type="color" value="#ffdcddff"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -1859,7 +2281,7 @@
   <object id="283" class="light" x="1952" y="368">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="4"/>
+    <property name="brightness" type="float" value="3"/>
     <property name="color" type="color" value="#ffdcddff"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -1943,7 +2365,7 @@
   <object id="289" class="light" x="1568" y="544">
    <properties>
     <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="3"/>
+    <property name="brightness" type="float" value="2"/>
     <property name="color" type="color" value="#fffbffef"/>
     <property name="dirRadius" type="float" value="80"/>
     <property name="directional" type="bool" value="false"/>
@@ -2010,7 +2432,7 @@
    </properties>
    <point/>
   </object>
-  <object id="294" class="light" x="672" y="96">
+  <object id="294" class="light" x="704" y="96">
    <properties>
     <property name="angle" type="float" value="270"/>
     <property name="brightness" type="float" value="3"/>
@@ -2182,6 +2604,9 @@
    <point/>
   </object>
   <object id="216" class="node" x="1392" y="1056">
+   <point/>
+  </object>
+  <object id="340" class="node" x="272" y="240">
    <point/>
   </object>
  </objectgroup>

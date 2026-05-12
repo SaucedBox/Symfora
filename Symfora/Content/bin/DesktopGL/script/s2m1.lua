@@ -31,6 +31,20 @@ function trigger_trig_doorBlock(active)
 end
 
 function trigger_trig_boss(active)
+    ST.StartScene(9)
+end
+
+function scene9_act2()
     ST.FlipEnt("door4")
+    ST.FlipEnt("boss_anthill")
     ST.AwakeBoss("boss")
+end
+
+function trigger_trig_dia(active)
+    ST.SelfDialogue("self8")
+end
+
+function npc_boss()
+    ST.SetEnt("door8", false)
+    ST.FlipEnt("boss_anthill")
 end

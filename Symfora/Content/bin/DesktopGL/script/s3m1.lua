@@ -30,3 +30,7 @@ end
 function magnet_magnet3(holding)
     ST.FlipEnt("door4")
 end
+
+function trigger_trig_dia()
+    ST.SelfDialogue("self9")
+end

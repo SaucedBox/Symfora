@@ -8,9 +8,8 @@ using Microsoft.Xna.Framework.Content;
 using TripleS.Tiled;
 using TripleS.Physics;
 using System.Data;
-using TripleS.Lighting;
-using System.ComponentModel;
-using System.Reflection.Emit;
+using System.IO;
+using System.Xml;
 
 namespace TripleS {
     public class LevelHandler {
@@ -23,6 +22,7 @@ namespace TripleS {
         public bool Active { get; set; }
         public bool DrawLevel { get; set; }
         public bool BackCull { get; set; }
+        public bool CanDraw { get { return Active && DrawLevel && loaded && !MainMenu; } set { } }
 
         public static int CurrentLevel { get; private set; }
         public static int TileWidth { get; private set; }
@@ -33,6 +33,7 @@ namespace TripleS {
         public static Rectangle MapBounds { get; private set; }
         public static List<Collider> Colliders { get; private set; }
         public static TileDrawData[] DrawData { get; private set; }
+        public static string[] PropImages { get; private set; }
         //public static Dictionary<string, Rectangle> AreaPortals { get; private set; }
         //public static string CurrentAP { get; set; }
         public static Vector2 WorldPos { get; set; }
@@ -126,6 +127,7 @@ namespace TripleS {
 
                     MapBounds = GetBounds(map.Layers.Where(x => x.name == "collision").First());
 
+                    LoadProps(content.RootDirectory + "/til/props.tsx");
                     NodegraphBuiler.ResetGraph();
                     var objLayers = map.Layers.Where(x => x.type == TiledLayerType.ObjectLayer && x.name != "notes");
                     EntityMan = new EntityManager(content, eTypes);
@@ -159,7 +161,7 @@ namespace TripleS {
                 for (int i = 0; i < DrawData.Length; i++)
                 {
                     TileDrawData data = DrawData[i];
-                    if (data.GID != 0 && data.LayerName == "collision" && data.NormGid != -1)
+                    if (data.GID != 0 && data.NormGid != -1) //&& data.LayerName == "collision"
                     {
                         Texture2D tex = tileTextures[DecideTexture("devSet")];
                         var mapTileset = map.GetTiledMapTileset(data.NormGid);
@@ -177,9 +179,9 @@ namespace TripleS {
 
         public void StandardDraw(Renderer renderer)
         {
-            if (Active && DrawLevel && loaded && !MainMenu)
+            if (CanDraw)
             {
-                var bl = new string[2] { "collision", "foreground" };
+                var bl = new string[2] { "collision", "foreground"};
                 ProperDrawLevel(renderer, bl, DrawData);
                 EntityMan.DrawEnts(renderer);
             }
@@ -187,7 +189,7 @@ namespace TripleS {
 
         public void DrawBackground(Renderer renderer)
         {
-            if (Active && DrawLevel && loaded && !MainMenu)
+            if (CanDraw)
             {
                 var bl = new string[1] { "background_back" };
                 ProperDrawLevel(renderer, bl, DrawData, true);
@@ -196,9 +198,9 @@ namespace TripleS {
 
         public void DrawForeground(Renderer renderer)
         {
-            if (Active && DrawLevel && loaded && !MainMenu)
+            if (CanDraw)
             {
-                var bl = new string[1] { "foreground_front" };
+                var bl = new string[1] { "foreground" };
                 ProperDrawLevel(renderer, bl, DrawData, true);
             }
         }
@@ -226,8 +228,9 @@ namespace TripleS {
                             cull = true;
                         if (cull)
                         {
-                            Texture2D tex = data.Mapped ? Mapper.TilesetTextures[data.Tileset] : tileTextures[data.Tileset]; 
-                            renderer.BasicDraw(tex, data.Destination.Location.ToVector2(), layerName, drawLayer, 1, 0, data.Mirror, col, data.Source);
+                            Texture2D tex = Mapper.TilesetTextures[data.Tileset];
+                            var dest = data.GID == 161 ? new Vector2(0, 0) : data.Destination.Location.ToVector2();
+                            renderer.BasicDraw(tex, dest, layerName, drawLayer, 1, 0, data.Mirror, col, data.Source);
                         }
                         else
                             continue;
@@ -379,21 +382,22 @@ namespace TripleS {
                                 {
                                     int nextIndex = Math.Clamp(index + 1, 0, ch.width * ch.height);
                                     int nextGid = x == ch.width - 1 ? (ch.x - (chunkWidth * ch.width * 16) == 0 || chunkIndex == layer.chunks.Length - 1 ? -1 : layer.chunks[chunkIndex + 1].data[nextIndex - ch.width]) : ch.data[nextIndex];
-                                    //int lastIndex = index - 1;
-                                    //int lastGid = x == 0 ? (ch.x == 0 || chunkIndex == 0 ? -1 : layer.chunks[chunkIndex - 1].data[lastIndex + ch.width]) : ch.data[lastIndex];
+                                    int lastIndex = index - 1;
+                                    int lastGid = x == 0 ? (ch.x == 0 || chunkIndex == 0 ? -1 : layer.chunks[chunkIndex - 1].data[lastIndex + ch.width]) : ch.data[lastIndex];
                                     int belowIndex = index + ch.width;
                                     int belowGid = y == ch.height - 1 ? (chunkIndex + chunkWidth >= layer.chunks.Length ? -1 : layer.chunks[chunkIndex + chunkWidth].data[belowIndex - (ch.width * ch.height)]) : ch.data[belowIndex];
-                                    //int aboveIndex = index - ch.width;
-                                    //int aboveGid = y == 0 ? (chunkIndex - chunkWidth < 0 ? -1 : layer.chunks[chunkIndex - chunkWidth].data[aboveIndex + (ch.width * ch.height)]) : ch.data[aboveIndex];
+                                    int aboveIndex = index - ch.width;
+                                    int aboveGid = y == 0 ? (chunkIndex - chunkWidth < 0 ? -1 : layer.chunks[chunkIndex - chunkWidth].data[aboveIndex + (ch.width * ch.height)]) : ch.data[aboveIndex];
+                                    Vector4 neighbours = new Vector4(aboveGid, lastGid, nextGid, belowGid); //x: top, y: left, z: right, w: bottom
 
                                     /*make sure you add exp into Mapper.MapTile's args
                                     int exp = -1;
                                     if ((belowGid == 0 || aboveGid == 0 || nextGid == 0 || lastGid == 0) && layer.name == "collision")
                                         exp = 0;*/
 
-                                    var preSet = Mapper.MapTile(layer.name, gid, destination.Location.ToVector2(), drawLayer, nextGid, belowGid, -1);
+                                    var preSet = Mapper.MapTile(layer.name, gid, destination.Location.ToVector2(), drawLayer, neighbours, -1);
                                     if (preSet.HasValue)
-                                        dd[layerIndex].Add(preSet.Value);
+                                        dd[layerIndex].Add(preSet.Value); //(n % 3) + 1
                                     //else
                                         //dd[layerIndex].Add(new TileDrawData(0, 0, "collision", 0, gid, Rectangle.Empty, destination, -1, false, -1));
                                 }
@@ -564,6 +568,20 @@ namespace TripleS {
                             preNormGid = 54;
 
                         var preMake = gdd[i];
+                        var similar = dd[groundColLayerIndex].Where(x => x.Destination.Location == preMake.Destination.Location);
+                        //1 3 4 6    59 60 68 69 
+                        bool corner = !IsInvCorner(brothers[1]) && !IsInvCorner(brothers[3]) && !IsInvCorner(brothers[4]) && !IsInvCorner(brothers[6]);
+                        if (similar.Any() && !similar.First().Neath && corner)
+                        {
+                            var m = Mapper.MapTile(preMake.LayerName, preNormGid, preMake.Destination.Location.ToVector2(), preMake.DrawLayer, Vector4.Zero, 0, true);
+                            if (m.HasValue)
+                            {
+                                preMake.Source = m.Value.Source;
+                                //preMake.GID = m.Value.GID;
+                                preMake.Mapped = true;
+                                preMake.LayerName = m.Value.LayerName;
+                            }
+                        }
                         preMake.NormGid = preNormGid;
                         gdd[i] = preMake;
                     }
@@ -620,6 +638,11 @@ namespace TripleS {
 
 
             return master.ToArray();
+        }
+
+        private bool IsInvCorner(int gidPlusOne)
+        {
+            return gidPlusOne switch { 59 or 60 or 68 or 69 => true, _ => false };
         }
 
         public int GetGIDFromPos(Vector2 pos, string layerName)
@@ -1122,27 +1145,6 @@ namespace TripleS {
             return new Rectangle((int)WorldPos.X, (int)WorldPos.Y, horiChunks, vertChunks);
         }
 
-        public Entity[] GetEntByInterface(Type inter)
-        {
-            List<Entity> tents = new List<Entity>();
-            foreach (Entity ent in EntityMan.Entities)
-            {
-                if (ent.GetType().GetInterfaces().Contains(inter))
-                    tents.Add(ent);
-            }
-            return tents.ToArray();
-        }
-
-        public int GetCurentLev()
-        {
-            return CurrentLevel;
-        }
-
-        private Rectangle VecToRec(int x, int y)
-        {
-            return new Rectangle(x, y, 0, 0);
-        }
-
         private void AddVert(Vert vert)
         {
             if(Verts.Where(x => x.Position == vert.Position).Count() == 0)
@@ -1150,20 +1152,57 @@ namespace TripleS {
                 Verts.Add(vert);
             }
         }
+
+        public static void LoadProps(string propTilesetPath)
+        {
+            string contents = "";
+            using (FileStream fs = File.OpenRead(propTilesetPath))
+            {
+                using (StreamReader sr = new StreamReader(fs))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        contents += line;
+                    }
+                }
+            }
+
+            if (contents != "")
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.LoadXml(contents);
+
+                var sections = doc.SelectNodes("tileset/tile");
+                if (sections.Count > 0)
+                {
+                    PropImages = new string[sections.Count];
+                    for (int i = 0; i < sections.Count; i++)
+                    {
+                        if (sections[i].FirstChild != null) 
+                        {
+                            string val = sections[i].FirstChild.Attributes["source"].Value[16..];
+                            PropImages[i] = val.Remove(val.IndexOf('.')); 
+                        }
+                    }
+                }
+            }
+        }
     }
 
     public struct TileDrawData {
-        public string LayerName { get; }
+        public string LayerName { set; get; }
         public int Tileset { get; }
-        public int GID { get; }
-        public Rectangle Source { get; }
-        public Rectangle Destination { get; }
+        public int GID { set;  get; }
+        public bool Neath { get; }
+        public Rectangle Source { set;  get; }
+        public Rectangle Destination { set;  get; }
         public float DrawLayer { get; }
         public SpriteEffects Mirror { get; }
         public int NormGid { get; set; }
         public bool Mapped { get; set; }
         public int Exposness  { get; set; }
-        public TileDrawData(float dl, SpriteEffects mir, string layer, int ts, int gid, Rectangle source, Rectangle dest, int normGid, bool mapped, int exp = -1)
+        public TileDrawData(float dl, SpriteEffects mir, string layer, int ts, int gid, Rectangle source, Rectangle dest, int normGid, bool mapped, int exp = -1, bool neath = false)
         {
             Mirror = mir;
             DrawLayer = dl;
@@ -1175,6 +1214,7 @@ namespace TripleS {
             NormGid = normGid;
             Mapped = mapped;
             Exposness = exp;
+            Neath = neath;
         }
 
         public TileDrawData(Rectangle dest, int exp)
@@ -1188,6 +1228,7 @@ namespace TripleS {
             Destination = dest;
             NormGid = 0;
             Mapped = false;
+            Neath = false;
             Exposness = exp;
         }
     }

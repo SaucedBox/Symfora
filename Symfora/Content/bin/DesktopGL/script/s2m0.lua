@@ -14,6 +14,7 @@ function trigger_trig_tutorial()
     ST.Tutorial(4)
     --ST.Tutorial(5)
     ST.Tutorial(6)
+    ST.SaveGame()
 end
 
 function trigger_trig_tutorial1()
@@ -37,8 +38,11 @@ function switch_switch3()
 end
 
 function switch_switch1(active)
-    ST.SetNPCState("chase", 1, 1)
     ST.FlipEnt("door3")
+end
+
+function trigger_trig_serp()
+    ST.SetNPCState("chase", 1, 1)
 end
 
 function switch_switch2(active)
@@ -58,5 +62,15 @@ end
 function trigger_trig_chase()
     ST.FlipEnt("door5")
     ST.FlipEnt("chaseClip")
-    ST.SetNPCState("chase", 0, 1)
+    ST.SetNPCState("chase", 0, 1)    
+    ST.SelfDialogue("self0")
+end
+
+function switch_tome(active)
+    ST.SetGS(67 + 1, 1)
+end
+
+function trigger_trig_dia()
+    ST.SelfDialogue("self1")
+    ST.SelfDialogue("self2")
 end

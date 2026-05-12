@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="141">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="13" nextobjectid="216">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
@@ -1197,7 +1197,7 @@
 0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,79,80,80,60,71,71,71,71,71,71,71
+0,0,0,0,25,79,80,80,60,71,71,71,71,71,71,71
 </chunk>
    <chunk x="96" y="16" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -1255,7 +1255,7 @@
 </chunk>
    <chunk x="32" y="32" width="16" height="16">
 0,0,0,0,0,70,71,71,71,72,0,0,0,0,0,0,
-0,0,0,0,0,79,80,80,80,81,0,0,0,0,0,0,
+0,0,0,0,0,79,80,80,80,81,25,25,25,25,25,25,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1273,7 +1273,7 @@
 </chunk>
    <chunk x="48" y="32" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1541,6 +1541,24 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
+   <chunk x="64" y="64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
    <chunk x="80" y="64" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1700,8 +1718,8 @@
 0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
 62,62,63,0,0,0,0,70,71,71,71,71,71,71,71,71,
 71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
-71,59,81,0,0,0,0,70,71,71,71,71,71,71,71,71,
-59,81,0,0,0,0,0,70,71,71,71,71,71,71,71,71
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="0" y="96" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,
@@ -1721,8 +1739,7 @@
 71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,
 71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0
 </chunk>
-   <chunk x="80" y="96" width="16" height="16">
-0,0,0,0,0,0,79,80,80,80,80,80,80,80,80,80,
+   <chunk x="16" y="96" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1732,6 +1749,61 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="96" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="96" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="96" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1739,23 +1811,41 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </chunk>
+   <chunk x="80" y="96" width="16" height="16">
+0,0,0,0,0,0,79,80,80,80,80,80,80,80,60,71,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,60,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70
+</chunk>
    <chunk x="96" y="96" width="16" height="16">
-81,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="0" y="112" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,72,0,0,0,0,0,
@@ -1848,10 +1938,10 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="80" y="112" width="16" height="16">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,69,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -1866,10 +1956,10 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="96" y="112" width="16" height="16">
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-62,62,62,62,62,62,62,69,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,
+71,71,68,62,62,62,62,69,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -1885,10 +1975,275 @@
 </chunk>
   </data>
  </layer>
- <objectgroup color="#ff8284" id="7" name="npcs"/>
- <objectgroup color="#fffa61" id="8" name="lights"/>
+ <objectgroup color="#fffa61" id="8" name="lights">
+  <object id="141" class="light" x="464" y="208">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffe9b0"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" class="light" x="240" y="224">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffc69e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" class="light" x="1040" y="176">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffe9b0"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" class="light" x="736" y="256">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffc69e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="145" class="light" x="1048" y="515">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffe7af"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.5"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="146" class="light" x="768" y="448">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffc69e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" class="light" x="416" y="464">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffe7af"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.5"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="149" class="light" x="631" y="544">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" class="light" x="1376" y="560">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="151" class="light" x="1312" y="784">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffc69e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="153" class="light" x="496" y="928">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="1.75"/>
+    <property name="color" type="color" value="#fffff7be"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.5"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="154" class="light" x="224" y="928">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="155" class="light" x="816" y="928">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="1.75"/>
+    <property name="color" type="color" value="#fffff7be"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.5"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="156" class="light" x="1120" y="1296">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffda7e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="157" class="light" x="832" y="1296">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffda7e"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="160" class="light" x="1600" y="1424">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="1.75"/>
+    <property name="color" type="color" value="#fffff7be"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.5"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="162" class="light" x="464" y="1408">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="1.25"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="163" class="light" x="1392" y="1472">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="4"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="164" class="light" x="1520" y="1008">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffeeb9"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="2"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup color="#7de8b9" id="11" name="deco"/>
- <objectgroup color="#8aadff" id="9" name="puzzles"/>
  <objectgroup id="3" name="general">
   <object id="139" name="trans_start" class="transition" x="160" y="48" width="48" height="16">
    <properties>
@@ -1902,6 +2257,386 @@
     <property name="startActive" type="bool" value="true"/>
     <property name="teleportTarget" value=""/>
    </properties>
+  </object>
+  <object id="159" name="trig_fallPlain1" class="trigger" x="176" y="1696" width="1344" height="144">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="165" class="transition" x="1584" y="1808" width="64" height="32">
+   <properties>
+    <property name="endTarget" value="trans_start"/>
+    <property name="start" type="bool" value="false"/>
+    <property name="targetLevel" type="int" value="17"/>
+   </properties>
+  </object>
+  <object id="166" class="reverb" x="46" y="870" width="976" height="976">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="1"/>
+    <property name="wetness" type="float" value="15"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="167" class="reverb" x="733" y="717" width="1140" height="1140">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="1"/>
+    <property name="wetness" type="float" value="15"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="174" class="reverb" x="124" y="55" width="676" height="676">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="8"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="175" class="reverb" x="694" y="71" width="676" height="676">
+   <properties>
+    <property name="minRadius" type="float" value="10"/>
+    <property name="reverbType" type="int" value="0"/>
+    <property name="wetness" type="float" value="8"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="176" class="ladder" x="1456" y="608" width="16" height="240">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="177" class="blockade" x="672" y="240" width="16" height="80">
+   <properties>
+    <property name="ballistaVunerable" type="bool" value="false"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="type" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="178" class="sinkpit" x="800" y="624" width="273" height="16">
+   <properties>
+    <property name="count" type="int" value="4"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="maxAttacking" type="int" value="2"/>
+    <property name="skin" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="188" name="catalyst1" class="catalyst" x="514" y="616" width="28" height="8">
+   <properties>
+    <property name="boostMult" type="float" value="1"/>
+    <property name="charged" type="bool" value="false"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="193" name="trig_blockBoosts" class="trigger" x="592" y="544" width="32" height="80">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="194" name="trig_letBoosts" class="trigger" x="624" y="544" width="48" height="80">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="195" name="trig_blockBoosts" class="trigger" x="256" y="640" width="80" height="32">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="196" name="trig_letBoosts" class="trigger" x="256" y="672" width="80" height="32">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="204" class="collider" x="656" y="544" width="16" height="80">
+   <properties>
+    <property name="tags" value="ex_player"/>
+   </properties>
+  </object>
+  <object id="206" class="collider" x="1152" y="864" width="336" height="16">
+   <properties>
+    <property name="tags" value=""/>
+   </properties>
+  </object>
+  <object id="209" name="trig_boss" class="trigger" x="971" y="1349" width="149" height="11">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="214" class="collider" x="680" y="896" width="16" height="400">
+   <properties>
+    <property name="tags" value="ex_player"/>
+   </properties>
+  </object>
+  <object id="215" class="collider" x="1232" y="880" width="16" height="416">
+   <properties>
+    <property name="tags" value="ex_player"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff8284" id="7" name="npcs">
+  <object id="197" class="npc" x="468" y="220">
+   <properties>
+    <property name="id" type="int" value="17"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="198" class="npc" x="1224" y="771">
+   <properties>
+    <property name="id" type="int" value="17"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="1"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="199" class="npc" x="1273" y="793">
+   <properties>
+    <property name="id" type="int" value="17"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="200" class="npc" x="470" y="523">
+   <properties>
+    <property name="id" type="int" value="17"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="201" class="npc" x="832" y="474">
+   <properties>
+    <property name="id" type="int" value="17"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="202" class="npc" x="1217" y="241">
+   <properties>
+    <property name="id" type="int" value="11"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="203" class="npc" x="158" y="430">
+   <properties>
+    <property name="id" type="int" value="11"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="208" name="boss" class="npc" x="1024" y="1306">
+   <properties>
+    <property name="id" type="int" value="31"/>
+    <property name="noticeDist" type="int" value="300"/>
+    <property name="perma" type="bool" value="true"/>
+    <property name="phantom" type="int" value="0"/>
+    <property name="wanderDist" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#8aadff" id="9" name="puzzles">
+  <object id="168" name="door1" class="door" x="1184" y="224" width="16" height="96">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="169" name="switch1" class="switch" x="976" y="304">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="170" class="wireOverlay" x="882" y="367">
+   <properties>
+    <property name="target" value="switch1"/>
+   </properties>
+   <polyline points="94,-63 94,-23 286,-23 310,-47"/>
+  </object>
+  <object id="171" name="door2" class="door" x="1008" y="320" width="80" height="16">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="172" name="switch2" class="switch" x="1280" y="304">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="173" class="wireOverlay" x="1184" y="368">
+   <properties>
+    <property name="target" value="switch2"/>
+   </properties>
+   <polyline points="96,-64 96,-39 -96,-39"/>
+  </object>
+  <object id="179" name="door3" class="door" x="1408" y="560" width="16" height="64">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="180" name="door4" class="door" x="624" y="544" width="16" height="80">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="181" name="door5" class="door" x="256" y="624" width="80" height="16">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="182" name="door6" class="door" x="1584" y="1472" width="64" height="16">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="183" name="magnet1" class="magnet" x="256" y="592">
+   <properties>
+    <property name="direction" type="bool" value="true"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="size" type="int" value="2"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="184" class="wireOverlay" x="86" y="691">
+   <properties>
+    <property name="target" value="magnet1"/>
+   </properties>
+   <polyline points="170,-99 154,-99 154,-59 170,-59"/>
+  </object>
+  <object id="185" name="magnet2" class="magnet" x="1264" y="448">
+   <properties>
+    <property name="direction" type="bool" value="true"/>
+    <property name="draw" type="bool" value="true"/>
+    <property name="size" type="int" value="2"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="186" class="wireOverlay" x="1389" y="518">
+   <properties>
+    <property name="target" value="magnet2"/>
+   </properties>
+   <polyline points="-757,106 -757,122 -141,122 -141,-54 -125,-70 -21,-70 27,-22 27,42"/>
+  </object>
+  <object id="191" name="switch3" class="switch" x="1184" y="832">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="false"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="192" class="wireOverlay" x="810" y="792">
+   <properties>
+    <property name="target" value="switch3"/>
+   </properties>
+   <polyline points="374,40 342,40 342,-149 -282,-149 -282,-168"/>
+  </object>
+  <object id="207" name="tome" class="switch" x="464" y="304">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="1"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="210" name="bossSwitch1" class="switch" x="464" y="1393">
+   <properties>
+    <property name="draw" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="211" name="bossSwitch2" class="switch" x="1392" y="1457">
+   <properties>
+    <property name="draw" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="212" name="bossSwitch3" class="switch" x="1568" y="1072">
+   <properties>
+    <property name="draw" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="0"/>
+    <property name="startActive" type="bool" value="false"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <objectgroup color="#00ff00" id="4" name="nodegraph">

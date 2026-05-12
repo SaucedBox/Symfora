@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<regionset image="r_tileset0">
+    <ground slot="corner_inv_tl" setID="1092" offset="0,0"/>
+    <ground slot="corner_inv_tr" setID="1091" offset="0,0"/>
+    <ground slot="corner_inv_bl" setID="1036" offset="0,0"/>
+    <ground slot="corner_inv_br" setID="1035" offset="0,0"/>
+
+    <ground slot="side_top" setID="1031,1032,1033" offset="0,0"/>
+    <ground slot="side_left" setID="1086,1142,1198" offset="0,0"/>
+    <ground slot="side_right" setID="1090,1146,1202" offset="0,0"/>
+    <ground slot="side_bottom" setID="1255,1256,1257" offset="0,0"/>
+    <ground slot="side_left_neath_top" setID="1147" offset="0,0"/>
+    <ground slot="side_left_neath_bottom" setID="1203" offset="0,0"/>
+    <ground slot="side_right_neath_top" setID="1148" offset="0,0"/>
+    <ground slot="side_right_neath_bottom" setID="1204" offset="0,0"/>
+
+    <ground slot="slope_tu" setID="1041" offset="0,0"/>
+    <ground slot="slope_td" setID="1042" offset="0,0"/>
+    <ground slot="slope_bd" setID="1209" offset="0,0"/>
+    <ground slot="slope_bu" setID="1210" offset="0,0"/>
+
+    <ground slot="plat_top" setID="2529,2530,2531" offset="0,0"/>
+    <ground slot="plat_bottom" setID="2538,2539,2540" offset="0,0"/>
+    <ground slot="plat_right" setID="37" offset="0,0"/>
+    <ground slot="plat_left" setID="38" offset="0,0"/>
+
+    <ground slot="slope_tu_half_1" setID="1037" offset="0,0"/>
+    <ground slot="slope_tu_half_2" setID="1038" offset="0,0"/>
+    <ground slot="slope_td_half_1" setID="1040" offset="0,0"/>
+    <ground slot="slope_td_half_2" setID="1039" offset="0,0"/>
+    <ground slot="slope_bd_half_1" setID="1205" offset="0,0"/>
+    <ground slot="slope_bd_half_2" setID="1206" offset="0,0"/>
+    <ground slot="slope_bu_half_1" setID="1208" offset="0,0"/>
+    <ground slot="slope_bu_half_2" setID="1207" offset="0,0"/>
+
+    <ground slot="slope_tu_half_1_neath" setID="1093" offset="0,0"/>
+    <ground slot="slope_tu_half_2_neath" setID="1094" offset="0,0"/>
+    <ground slot="slope_td_half_1_neath" setID="1096" offset="0,0"/>
+    <ground slot="slope_td_half_2_neath" setID="1095" offset="0,0"/>
+    <ground slot="slope_bd_half_1_neath" setID="1149" offset="0,0"/>
+    <ground slot="slope_bd_half_2_neath" setID="1150" offset="0,0"/>
+    <ground slot="slope_bu_half_1_neath" setID="1152" offset="0,0"/>
+    <ground slot="slope_bu_half_2_neath" setID="1151" offset="0,0"/>
+    <ground slot="slope_tu_neath" setID="1097" offset="0,0"/>
+    <ground slot="slope_td_neath" setID="1098" offset="0,0"/>
+    <ground slot="slope_bd_neath" setID="1153" offset="0,0"/>
+    <ground slot="slope_bu_neath" setID="1154" offset="0,0"/>
+
+    <ground slot="corner_tl" setID="1030" offset="0,0"/>
+    <ground slot="corner_tr" setID="1034" offset="0,0"/>
+    <ground slot="corner_bl" setID="1254" offset="0,0"/>
+    <ground slot="corner_br" setID="1258" offset="0,0"/>
+
+    <ground slot="centre" setID="1144" offset="0,0"/>
+    <ground slot="centre_right" setID="1145" offset="0,0"/>
+    <ground slot="centre_left" setID="1143" offset="0,0"/>
+    <ground slot="centre_top" setID="1088" offset="0,0"/>
+    <ground slot="centre_bottom" setID="1200" offset="0,0"/>
+    <ground slot="centre_corner_tl" setID="1087" offset="0,0"/>
+    <ground slot="centre_corner_tr" setID="1089" offset="0,0"/>
+    <ground slot="centre_corner_bl" setID="1199" offset="0,0"/>
+    <ground slot="centre_corner_br" setID="1201" offset="0,0"/>
+
+    <backgr slot="centre" setID="2003,2004,2005,2059,2060,2061,2115,2116,2117" offset="0,0"/>
+    <backgr slot="side_left" setID="2002,2058,2114" offset="0,0"/>
+    <backgr slot="side_right" setID="2006,2062,2118" offset="0,0"/>
+    <backgr slot="side_top" setID="1947,1948,1949" offset="0,0"/>
+    <backgr slot="side_bottom" setID="2171,2172,2173" offset="0,0"/>
+    <backgr slot="corner_inv_tl" setID="2008" offset="0,0"/>
+    <backgr slot="corner_inv_tr" setID="2007" offset="0,0"/>
+    <backgr slot="corner_inv_bl" setID="1952" offset="0,0"/>
+    <backgr slot="corner_inv_br" setID="1951" offset="0,0"/>
+    <backgr slot="corner_tl" setID="1946" offset="0,0"/>
+    <backgr slot="corner_tr" setID="1950" offset="0,0"/>
+    <backgr slot="corner_bl" setID="2170" offset="0,0"/>
+    <backgr slot="corner_br" setID="2174" offset="0,0"/>
+</regionset>

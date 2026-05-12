@@ -90,3 +90,10 @@ function codeSwitch(id)
         ST.SetEnt("door6", false)
     end
 end
+
+function trigger_trig_fallPlain1()
+    ST.FallKillPlayer()
+end
+function trigger_trig_dia()
+    ST.SelfDialogue("self12")
+end

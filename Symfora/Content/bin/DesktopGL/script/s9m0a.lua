@@ -33,3 +33,11 @@ function trigger_trig_deFlight()
     ST.SoanoFlight(false)
     ST.SetNPCState("npcStalker", 0, 0)
 end
+
+function trigger_trig_fallPlain1()
+    ST.FallKillPlayer()
+end
+
+function switch_tome(active)
+    ST.SetGS(67 + 8, 1)
+end

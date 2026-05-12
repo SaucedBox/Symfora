@@ -19,6 +19,7 @@ namespace TripleS.Scripting {
         public List<EntityProp> Properties { get; set; }
         public bool Active { get; set; }
         public int UUID { get; set; }
+        public int GID { get; set; }
         public virtual DefaultProp[] DefaultProperties { get; protected set; }
         public virtual string ID { get; protected set; }
         public bool Static { get; protected set; }
@@ -28,6 +29,7 @@ namespace TripleS.Scripting {
         public string StartActiveProperty { get; protected set; }
         public Polygon? Polyigonal { get; set; }
         public int DrawLayer { get; set; }
+        public float Rotation { get; set; }
         public Vector2 Centre 
         { 
             private set { }

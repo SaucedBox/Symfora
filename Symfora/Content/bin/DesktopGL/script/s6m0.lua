@@ -76,3 +76,7 @@ end
 function switch_switch3(state)
     ST.FlipEnt("door10")
 end
+
+function trigger_trig_fallPlain1()
+    ST.FallKillPlayer()
+end

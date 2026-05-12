@@ -1236,7 +1236,7 @@ namespace Symfora {
                 new DefaultProp("drawStretched", TiledPropertyType.Bool),
                 new DefaultProp("width", TiledPropertyType.Float),
                 new DefaultProp("segments", TiledPropertyType.Int),
-                new DefaultProp("texture", TiledPropertyType.String)
+                new DefaultProp("skin", TiledPropertyType.Int)
 
             };
             Static = true;
@@ -1247,20 +1247,16 @@ namespace Symfora {
         public override void Load(ContentManager content)
         {
             base.Load(content);
-
-            Texture2D[] textures;
-            var sProp = GetEntProp<string>("texture").Split(',');
-            if (sProp.Length > 0 && sProp[0] != "")
-            {
-                textures = new Texture2D[sProp.Length];
-                for(int i = 0; i < sProp.Length; i++)
-                    textures[i] = AssetManager.GetDynamicAsset(sProp[i]);
-            }
-            else
-                textures = new Texture2D[1] { SSS.Square }; 
+      
+            int skin = GetEntProp<int>("skin");
+            string type = (skin % 3) switch { 1 => "swamp", 2 => "red", _ => "green" } + (skin > 2 ? 'F' : 'S');
+            type = skin == 6 ? "cable" : type;
+            Texture2D[] textures = new Texture2D[3];
+            for(int i = 0; i < 3; i++)
+                textures[i] = AssetManager.GetAsset("props/vine_" + type + i);
 
             int entHeight = (int)Polyigonal.Value.Points[1].Y - (int)Polyigonal.Value.Points[0].Y;
-            float length = GetEntProp<bool>("drawStretched") ? entHeight / GetEntProp<int>("segments") : textures[0].Height;
+            float length = GetEntProp<bool>("drawStretched") ? entHeight / GetEntProp<int>("segments") : 8;
             RopeEngine.AddRope(GetEntProp<int>("segments"), length, GetEntProp<float>("width"), GetEntProp<bool>("drawStretched"), Position, textures);
         }
     }
@@ -1275,6 +1271,8 @@ namespace Symfora {
         private bool noMove;
         private float goofyRandom;
         private bool dead;
+        private bool noDestroy;
+        public bool foreground;
 
         public EntProp()
         {
@@ -1283,10 +1281,10 @@ namespace Symfora {
             {
                 new DefaultProp("static", TiledPropertyType.Bool),
                 new DefaultProp("rotationMult", TiledPropertyType.Float),
-                new DefaultProp("startRotation", TiledPropertyType.Int),
-                new DefaultProp("texture", TiledPropertyType.String),
                 new DefaultProp("squib", TiledPropertyType.Int),
-                new DefaultProp("squibSE", TiledPropertyType.String)
+                new DefaultProp("squibSE", TiledPropertyType.String),
+                new DefaultProp("noDestroy", TiledPropertyType.Bool),
+                new DefaultProp("foreground", TiledPropertyType.Bool)
             };
             Static = true;
             Point = false;
@@ -1297,14 +1295,16 @@ namespace Symfora {
         {
             base.Load(content);
 
-            string texPath = GetEntProp<string>("texture");
+            string texPath = LevelHandler.PropImages[GID - 118];
             if (texPath != "")
-            {
-                texture = AssetManager.GetDynamicAsset(texPath);
+            {            
+                foreground = GetEntProp<bool>("foreground");
+                texture = AssetManager.GetDynamicAsset("assets/props/" + texPath);
                 rotMult = GetEntProp<float>("rotationMult");
-                startRot = MathHelper.ToRadians(GetEntProp<int>("startRotation"));
+                startRot = MathHelper.ToRadians(Rotation);
                 rotation = startRot;
                 noMove = GetEntProp<bool>("static");
+                noDestroy = GetEntProp<bool>("noDestroy");
                 var r = new Random((int)(Position.X + Position.Y) / 2);
                 goofyRandom = r.Next(0, 50);
             }
@@ -1344,10 +1344,13 @@ namespace Symfora {
                     }
                     rotation += MathHelper.ToRadians(velocity);
 
-                    Vector2 target = Transform.RotateAroundAPoint(Position, MathHelper.ToDegrees(rotation + MathF.PI), texture.Height / 2);
+                    var newrot = rotation - (MathF.PI / 2);
+                    var dir1 = new Vector2(MathF.Cos(newrot), MathF.Sin(newrot)) * (texture.Height / 2);
+                    var dir2 = new Vector2(MathF.Cos(rotation), MathF.Sin(rotation)) * (texture.Width / 2);
+                    Vector2 target = Position + dir1 + dir2;
                     if (CollisionEngine.PointInRect(Core._Player.Transform.GetRectangle(), target) && MathF.Abs(Core._Player.Transform.Velocity.X) > 0.05f)
                     {
-                        velocity = -Core._Player.Transform.Velocity.X;
+                        velocity = -Math.Clamp(Core._Player.Transform.Velocity.X / 2f, -4, 4);
                         timer = MathF.Abs(velocity);
                         blowUp = true;
                     }
@@ -1355,7 +1358,7 @@ namespace Symfora {
                 else
                     blowUp = CollisionEngine.PointInRect(Core._Player.Transform.GetRectangle(), Position + new Vector2(texture.Width / 2, texture.Height / 2));
 
-                if (blowUp)
+                if (blowUp && !noDestroy)
                 {
                     int squibID = GetEntProp<int>("squib");
                     if (squibID != -1)
@@ -1373,13 +1376,21 @@ namespace Symfora {
 
         public override void Draw(Renderer renderer)
         {
-            base.Draw(renderer);
+            if (!foreground)
+            {
+                base.Draw(renderer);
+                RealDraw(renderer);
+            }
+        }
+
+        public void RealDraw(Renderer renderer)
+        {
             if (texture != null && !dead)
             {
                 if (noMove)
-                    renderer.BasicDraw(texture, Position, 1, 1, rot: startRot);
+                    renderer.BasicDraw(texture, Position, 1, 1, rot: rotation, rotSource: new Vector2(0, texture.Height));
                 else
-                    renderer.Batch.Draw(texture, Position, null, Color.White, rotation + appliedWind, new Vector2(texture.Width / 2, 0), new Vector2(1, 1), SpriteEffects.None, 0);
+                    renderer.Batch.Draw(texture, Position, null, Color.White, rotation + (appliedWind - (0.25f * rotMult)), new Vector2(0, texture.Height), new Vector2(1, 1), SpriteEffects.None, 1f);
             }
         }
     }
@@ -1492,6 +1503,64 @@ namespace Symfora {
                     ScriptManager.ExecuteFunction($"scene{scene}_act{DialogueManager.CurrentAct}", Array.Empty<object>());
                 past = ri;
             }
+        }
+    }
+
+    public class EntAnthill : Entity {
+
+        public UUID npcUUID { get; private set; }
+        private float timer;
+        private float maxTime;
+        private List<UUID> npcList;
+
+        public EntAnthill()
+        {
+            ID = "anthill";
+            DefaultProperties = new DefaultProp[3]
+            {
+                new DefaultProp("npcID", TiledPropertyType.Int),
+                new DefaultProp("time", TiledPropertyType.Float),
+                new DefaultProp("startActive", TiledPropertyType.Bool)
+            };
+            Static = true;
+            Point = true;
+            StartActiveProperty = "startActive";
+        }
+
+        public override void Load(ContentManager content)
+        {
+            maxTime = GetEntProp<float>("time");
+            npcList = new List<UUID>(3);
+            base.Load(content);
+        }
+
+        public override void Update(GameTime time)
+        {
+            timer += SSS.Delta;
+            if(timer > maxTime && Active)
+            {
+                timer = 0;
+                bool canSpawn = npcList.Count < 3;
+                if (!canSpawn)
+                {
+                    for (int i = 0; i < npcList.Count; i++)
+                    {
+                        if(Core.GetNPC(npcList[i].MainUUID).Corpse)
+                        {
+                            canSpawn = true;
+                            npcList.Remove(npcList[i]);
+                        }
+                    }
+                }
+
+                if (canSpawn)
+                {
+                    var npc = new NPC(GetEntProp<int>("npcID"), 100, 0, PhantomType.None);
+                    Core.SpawnNPC(npc, Centre);
+                    npcList.Add(npc.UUID);
+                }
+            }
+            base.Update(time);
         }
     }
 }

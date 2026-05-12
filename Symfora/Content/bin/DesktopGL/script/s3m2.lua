@@ -74,3 +74,7 @@ end
 function npc_clog()
     ST.FlipEnt("clogClip")
 end
+
+function switch_tome(active)
+    ST.SetGS(67 + 2, 1)
+end

@@ -14,14 +14,16 @@ namespace Symfora {
         public static float WindSpeed { get; set; } //2
         public static float WindAmp { get; set; } //24
 
+        public static Random ran;
         static float windTimer = 0f;
 
         public static int AddRope(int segCount, float length, float width, bool imageStretch, Vector2 pos, Texture2D[] textures)
         {
             Ropes ??= new List<RopeSegment[]>();
             RopeTextures ??= new List<Texture2D[]>();
+            ran ??= new Random();
 
-            var rope = new RopeSegment[10];
+            var rope = new RopeSegment[segCount];
             for (int i = 0; i < segCount; i++)
             {
                 rope[i] = new RopeSegment(length, width, new Vector2(pos.X, pos.Y + (length * i)), i - 1, imageStretch);
@@ -49,7 +51,7 @@ namespace Symfora {
                 {
                     float wind = 0f;
                     if (EnableWind)
-                        wind = (MathF.Sin(windTimer + ri) * 0.5f + 0.5f) / WindAmp + 0.05f;
+                        wind = (MathF.Sin(windTimer + ri) * 0.5f + 0.5f) / WindAmp;
 
                     var rope = Ropes[ri];
                     for (int i = 0; i < rope.Length; i++)
@@ -71,7 +73,7 @@ namespace Symfora {
                         rope[i].Rotation += MathHelper.ToRadians(rope[i].Velocity);
 
                         float trueWindAmp = WindAmp / 120 * windFlag;
-                        float realRot = rope[i].Rotation + (wind * (i + 1)) + trueWindAmp;
+                        float realRot = rope[i].Rotation + (wind * (i + 1)) + trueWindAmp - (0.2f * windFlag);
                         if (rope[i].Parent != -1)
                         {
                             rope[i].Position = Transform.RotateAroundAPoint(rope[rope[i].Parent].Position, MathHelper.ToDegrees(rope[rope[i].Parent].GlobalRotation + MathF.PI), rope[rope[i].Parent].Length);
@@ -79,11 +81,11 @@ namespace Symfora {
                             rope[i].GlobalRotation = realRot;
                         }
                         else
-                            rope[i].GlobalRotation = rope[i].Rotation + trueWindAmp + (0.05f * windFlag);
+                            rope[i].GlobalRotation = rope[i].Rotation + trueWindAmp - (0.2f * windFlag);
                         realRot += MathF.PI / 2;
                         rope[i].OldVelocity = rope[i].Velocity;
 
-                        rope[i].AppliedRotation = realRot;
+                        rope[i].AppliedRotation = realRot - (MathF.PI * 0.5f);
                     }
                 }
             }
@@ -98,19 +100,7 @@ namespace Symfora {
                     var rope = Ropes[ri];
                     for (int i = 0; i < rope.Length; i++)
                     {
-                        Texture2D texture = RopeTextures[ri][0]; //start end texture
-                        if (RopeTextures[ri].Length > 1)
-                        {
-                            if (i == rope.Length - 1)
-                                texture = RopeTextures[ri][RopeTextures[i].Length - 1]; //end end texture
-                            else if (RopeTextures[ri].Length > 2 && i != 0)
-                            {
-                                int mid = RopeTextures[ri].Length - 2;
-                                mid = (rope.Length - 2) / mid;
-                                mid = (int)MathF.Floor((i - 1) / mid) * mid;
-                                texture = RopeTextures[ri][mid]; //middle textures
-                            }
-                        }
+                        Texture2D texture = RopeTextures[ri][rope[i].SubImage];
 
                         if (rope[i].Stretch)
                             renderer.Batch.Draw(texture, rope[i].Position, null, Color.White, rope[i].AppliedRotation, Vector2.Zero, new Vector2(rope[i].Length, rope[i].Width), SpriteEffects.None, 0);
@@ -144,6 +134,7 @@ namespace Symfora {
         public bool Stretch { get; set; }
         public float Width { get; set; }
         public float UngulateTimer { get; set; }
+        public int SubImage { get; set; }
 
         public RopeSegment(float len, float width, Vector2 pos, int parent, bool imageStretch)
         {
@@ -158,6 +149,7 @@ namespace Symfora {
             Stretch = imageStretch;
             Width = width;
             UngulateTimer = 0;
+            SubImage = RopeEngine.ran.Next(0, 3);
         }
     }
 }

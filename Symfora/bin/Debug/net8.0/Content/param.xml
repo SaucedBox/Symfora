@@ -6,7 +6,10 @@
     <entry id="0">
       <prop name="location" type="string">devSet</prop>
     </entry>
-    
+    <entry id="1">
+      <prop name="location" type="string">r_tileset0</prop>
+    </entry>
+
   </parSection>
   <parSection name="level">
 
@@ -28,15 +31,15 @@
     </entry>
     <entry id="2">
       <prop name="script" type="string">s0m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
-      <prop name="sky" type="int">1</prop>
+      <prop name="defaultTiles" type="int">1</prop>
+      <prop name="sky" type="int">14</prop>
       <prop name="name" type="string">c0</prop>
       <prop name="file" type="string">c0m0</prop>
       <prop name="pos" type="string">0,0</prop>
     </entry>
     <entry id="3">
       <prop name="script" type="string">s1m0a</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">3</prop>
       <prop name="sky" type="int">1</prop>
       <prop name="name" type="string">c1</prop>
       <prop name="file" type="string">c1m0a</prop>
@@ -44,7 +47,7 @@
     </entry>
     <entry id="4">
       <prop name="script" type="string">s1m0b</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">23</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c1</prop>
       <prop name="file" type="string">c1m0b</prop>
@@ -52,7 +55,7 @@
     </entry>
     <entry id="5">
       <prop name="script" type="string">s2m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">5</prop>
       <prop name="sky" type="int">10</prop>
       <prop name="name" type="string">c2</prop>
       <prop name="file" type="string">c2m0</prop>
@@ -60,7 +63,7 @@
     </entry>
     <entry id="6">
       <prop name="script" type="string">s2m1</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">5</prop>
       <prop name="sky" type="int">2</prop>
       <prop name="name" type="string">c2</prop>
       <prop name="file" type="string">c2m1</prop>
@@ -68,7 +71,7 @@
     </entry>
     <entry id="7">
       <prop name="script" type="string">s3m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">7</prop>
       <prop name="sky" type="int">11</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m0</prop>
@@ -76,7 +79,7 @@
     </entry>
     <entry id="8">
       <prop name="script" type="string">s3m1</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">19</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m1</prop>
@@ -84,7 +87,7 @@
     </entry>
     <entry id="9">
       <prop name="script" type="string">s3m2</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">19</prop>
       <prop name="sky" type="int">13</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m2</prop>
@@ -92,7 +95,7 @@
     </entry>
     <entry id="10">
       <prop name="script" type="string">s3m3</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">7</prop>
       <prop name="sky" type="int">12</prop>
       <prop name="name" type="string">c3</prop>
       <prop name="file" type="string">c3m3</prop>
@@ -100,7 +103,7 @@
     </entry>
     <entry id="11">
       <prop name="script" type="string">s4m0a</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">10</prop>
       <prop name="sky" type="int">3</prop>
       <prop name="name" type="string">c4</prop>
       <prop name="file" type="string">c4m0a</prop>
@@ -108,7 +111,7 @@
     </entry>
     <entry id="12">
       <prop name="script" type="string">s4m0b</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">10</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c4</prop>
       <prop name="file" type="string">c4m0b</prop>
@@ -116,7 +119,7 @@
     </entry>
     <entry id="13">
       <prop name="script" type="string">s5m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">12</prop>
       <prop name="sky" type="int">9</prop>
       <prop name="name" type="string">c5</prop>
       <prop name="file" type="string">c5m0</prop>
@@ -124,7 +127,7 @@
     </entry>
     <entry id="14">
       <prop name="script" type="string">s5m1</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">12</prop>
       <prop name="sky" type="int">4</prop>
       <prop name="name" type="string">c5</prop>
       <prop name="file" type="string">c5m1</prop>
@@ -132,7 +135,7 @@
     </entry>
     <entry id="15">
       <prop name="script" type="string">s6m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">14</prop>
       <prop name="sky" type="int">5</prop>
       <prop name="name" type="string">c5</prop>
       <prop name="file" type="string">c6m0</prop>
@@ -140,7 +143,7 @@
     </entry>
     <entry id="16">
       <prop name="script" type="string">s6m1</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">18</prop>
       <prop name="sky" type="int">8</prop>
       <prop name="name" type="string">c6</prop>
       <prop name="file" type="string">c6m1</prop>
@@ -148,7 +151,7 @@
     </entry>
     <entry id="17">
       <prop name="script" type="string">s6m2</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">14</prop>
       <prop name="sky" type="int">6</prop>
       <prop name="name" type="string">c6</prop>
       <prop name="file" type="string">c6m2</prop>
@@ -156,7 +159,7 @@
     </entry>
     <entry id="18">
       <prop name="script" type="string">s7m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">24</prop>
       <prop name="sky" type="int">7</prop>
       <prop name="name" type="string">c7</prop>
       <prop name="file" type="string">c7m0</prop>
@@ -164,7 +167,7 @@
     </entry>
     <entry id="19">
       <prop name="script" type="string">s8m0</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">21</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c8</prop>
       <prop name="file" type="string">c8m0</prop>
@@ -172,7 +175,7 @@
     </entry>
     <entry id="20">
       <prop name="script" type="string">s9m0a</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">21</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c9</prop>
       <prop name="file" type="string">c9m0a</prop>
@@ -180,7 +183,7 @@
     </entry>
     <entry id="21">
       <prop name="script" type="string">s2m1</prop>
-      <prop name="defaultTiles" type="int">0</prop>
+      <prop name="defaultTiles" type="int">21</prop>
       <prop name="sky" type="int">0</prop>
       <prop name="name" type="string">c9</prop>
       <prop name="file" type="string">c9m0b</prop>
@@ -309,6 +312,9 @@
       <prop name="base" type="string">skybox7</prop>
       <prop name="abyss" type="string">skyfade7</prop>
       <prop name="anchor" type="int">1</prop>
+      <prop name="element0" type="string">element80,1.1,2500,-800</prop>
+      <prop name="element0" type="string">element81,1.325,980,350</prop>
+      <prop name="bounds0" type="string">224,336,1968,1488</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
       <prop name="noStretch" type="bool">false</prop>
@@ -318,9 +324,15 @@
       <prop name="base" type="string">skybox8</prop>
       <prop name="abyss" type="string"></prop>
       <prop name="anchor" type="int">1</prop>
-      <prop name="darkness" type="float">0.25</prop>
+      <prop name="element" type="string">element76,1.2,0,0</prop>
+      <prop name="element" type="string">element79,1.125,0,0</prop>
+      <prop name="element0" type="string">element77,2,350,450</prop>
+      <prop name="element1" type="string">element78,2,176,800</prop>
+      <prop name="bounds0" type="string">288,448,592,208</prop>
+      <prop name="bounds1" type="string">176,800,1408,480</prop>
+      <prop name="darkness" type="float">0.75</prop>
       <prop name="ropeWind" type="string">false,1,1</prop>
-      <prop name="noStretch" type="bool">true</prop>
+      <prop name="noStretch" type="bool">false</prop>
       <prop name="ambient" type="string">#0A0208</prop>
     </entry>
     <entry id="9">
@@ -366,7 +378,7 @@
       <prop name="bounds2" type="string">176,128,96,112</prop>
       <prop name="bounds3" type="string">1984,672,128,112</prop>
       <prop name="bounds4" type="string">1856,336,176,80</prop>
-      <prop name="ropeWind" type="string">true,2,16</prop>
+      <prop name="ropeWind" type="string">true,2,25</prop>
       <prop name="darkness" type="float">1</prop>
       <prop name="noStretch" type="bool">false</prop>
       <prop name="ambient" type="string">#131318</prop>
@@ -438,6 +450,15 @@
       <prop name="element0" type="string">element36,1.45,700,1800</prop>
       <prop name="element0" type="string">element38,1.6,670,1600</prop>
       <prop name="bounds0" type="string">464,1488,864,304</prop>
+      <prop name="anchor" type="int">1</prop>
+      <prop name="ropeWind" type="string">true,2,16</prop>
+      <prop name="darkness" type="float">1</prop>
+      <prop name="noStretch" type="bool">false</prop>
+      <prop name="ambient" type="string">#131318</prop>
+    </entry>
+    <entry id="14">
+      <prop name="base" type="string">skybox1</prop>
+      <prop name="abyss" type="string">skyfade1</prop>
       <prop name="anchor" type="int">1</prop>
       <prop name="ropeWind" type="string">true,2,16</prop>
       <prop name="darkness" type="float">1</prop>
@@ -646,6 +667,90 @@
       <prop name="rect" type="string">44,27,9,9</prop>
     </entry>
     <entry id="11">
+      <prop name="name" type="string">props/vine_greenS0</prop>
+      <prop name="rect" type="string">0,0,1,8</prop>
+    </entry>
+    <entry id="12">
+      <prop name="name" type="string">props/vine_greenS1</prop>
+      <prop name="rect" type="string">0,9,1,8</prop>
+    </entry>
+    <entry id="13">
+      <prop name="name" type="string">props/vine_greenS2</prop>
+      <prop name="rect" type="string">0,18,1,8</prop>
+    </entry>
+    <entry id="14">
+      <prop name="name" type="string">props/vine_swampS0</prop>
+      <prop name="rect" type="string">2,0,1,8</prop>
+    </entry>
+    <entry id="15">
+      <prop name="name" type="string">props/vine_swampS1</prop>
+      <prop name="rect" type="string">2,9,1,8</prop>
+    </entry>
+    <entry id="16">
+      <prop name="name" type="string">props/vine_swampS2</prop>
+      <prop name="rect" type="string">2,18,1,8</prop>
+    </entry>
+    <entry id="17">
+      <prop name="name" type="string">props/vine_redS0</prop>
+      <prop name="rect" type="string">4,0,1,8</prop>
+    </entry>
+    <entry id="18">
+      <prop name="name" type="string">props/vine_redS1</prop>
+      <prop name="rect" type="string">4,9,1,8</prop>
+    </entry>
+    <entry id="19">
+      <prop name="name" type="string">props/vine_redS2</prop>
+      <prop name="rect" type="string">4,18,1,8</prop>
+    </entry>
+    <entry id="20">
+      <prop name="name" type="string">props/vine_greenF0</prop>
+      <prop name="rect" type="string">6,0,3,8</prop>
+    </entry>
+    <entry id="21">
+      <prop name="name" type="string">props/vine_greenF1</prop>
+      <prop name="rect" type="string">6,9,3,8</prop>
+    </entry>
+    <entry id="22">
+      <prop name="name" type="string">props/vine_greenF2</prop>
+      <prop name="rect" type="string">6,18,3,8</prop>
+    </entry>
+    <entry id="23">
+      <prop name="name" type="string">props/vine_swampF0</prop>
+      <prop name="rect" type="string">10,0,3,8</prop>
+    </entry>
+    <entry id="24">
+      <prop name="name" type="string">props/vine_swampF1</prop>
+      <prop name="rect" type="string">10,9,3,8</prop>
+    </entry>
+    <entry id="25">
+      <prop name="name" type="string">props/vine_swampF2</prop>
+      <prop name="rect" type="string">10,18,3,8</prop>
+    </entry>
+    <entry id="26">
+      <prop name="name" type="string">props/vine_redF0</prop>
+      <prop name="rect" type="string">14,0,3,8</prop>
+    </entry>
+    <entry id="27">
+      <prop name="name" type="string">props/vine_redF1</prop>
+      <prop name="rect" type="string">14,9,3,8</prop>
+    </entry>
+    <entry id="28">
+      <prop name="name" type="string">props/vine_redF2</prop>
+      <prop name="rect" type="string">14,18,3,8</prop>
+    </entry>
+    <entry id="29">
+      <prop name="name" type="string">props/vine_cable0</prop>
+      <prop name="rect" type="string">18,0,1,8</prop>
+    </entry>
+    <entry id="30">
+      <prop name="name" type="string">props/vine_cable1</prop>
+      <prop name="rect" type="string">18,9,1,8</prop>
+    </entry>
+    <entry id="31">
+      <prop name="name" type="string">props/vine_cable2</prop>
+      <prop name="rect" type="string">18,18,1,8</prop>
+    </entry>
+    <entry id="32">
       <prop name="name" type="string">ui_boostDead</prop>
       <prop name="rect" type="string">54,34,16,16</prop>
     </entry>

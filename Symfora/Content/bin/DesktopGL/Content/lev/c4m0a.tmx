@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="376">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="378">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
+ <tileset firstgid="118" source="../til/props.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
    <chunk x="16" y="0" width="16" height="16">
@@ -988,10 +989,10 @@
 0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,0,71,0,0,71,71,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,71,71,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,0,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="96" y="96" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -1009,7 +1010,7 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-0,0,0,71,71,71,71,71,71,71,71,71,71,71,71,71
+71,71,0,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="112" y="96" width="16" height="16">
 71,71,71,71,71,71,71,72,0,0,0,0,0,0,0,0,
@@ -2232,16 +2233,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-68,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-71,68,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
-71,71,68,62,62,62,11,0,0,0,0,0,0,0,0,0,
-71,71,71,71,71,71,68,11,0,0,0,0,0,0,0,0,
-71,71,71,71,71,71,71,68,11,0,0,0,0,0,0,0,
-71,71,71,71,71,71,71,71,68,11,0,0,0,0,0,0,
-71,71,71,71,71,71,71,71,71,68,14,15,0,0,0,0,
-71,71,71,71,71,71,71,71,71,71,71,68,62,62,62,14,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
+68,62,62,62,62,63,25,0,25,25,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,72,0,0,0,0,0,0,0,0,0,0,
+71,71,71,71,71,68,62,62,62,62,62,62,62,62,62,62
 </chunk>
    <chunk x="96" y="96" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2257,9 +2258,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-68,14,15,0,0,0,0,0,0,0,0,0,0,0,0,0,
-71,71,68,62,62,62,62,62,62,62,62,62,62,62,62,62
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62
 </chunk>
    <chunk x="112" y="96" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2585,7 +2586,7 @@
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="341" class="collider" x="1323" y="1312" width="13" height="336">
+  <object id="341" class="collider" x="1323" y="1312" width="13" height="320">
    <properties>
     <property name="tags" value="ex_player"/>
    </properties>
@@ -2597,7 +2598,7 @@
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="347" name="trig_boss" class="trigger" x="1472" y="1312" width="40" height="432">
+  <object id="347" name="trig_boss" class="trigger" x="1472" y="1312" width="40" height="464">
    <properties>
     <property name="corpses" type="bool" value="false"/>
     <property name="npcs" type="bool" value="false"/>
@@ -3158,7 +3159,7 @@
    </properties>
    <point/>
   </object>
-  <object id="258" class="light" x="1478" y="1722">
+  <object id="258" class="light" x="1488" y="1774">
    <properties>
     <property name="angle" type="float" value="270"/>
     <property name="brightness" type="float" value="2"/>
@@ -3172,7 +3173,7 @@
    </properties>
    <point/>
   </object>
-  <object id="259" class="light" x="1386" y="1671">
+  <object id="259" class="light" x="1376" y="1630">
    <properties>
     <property name="angle" type="float" value="270"/>
     <property name="brightness" type="float" value="2"/>
@@ -3442,7 +3443,7 @@
    </properties>
    <polyline points="-47,7 -47,17 -79,17"/>
   </object>
-  <object id="329" name="door7" class="door" x="1336" y="1312" width="32" height="352">
+  <object id="329" name="door7" class="door" x="1336" y="1312" width="32" height="320">
    <properties>
     <property name="draw" type="bool" value="true"/>
     <property name="skin" type="int" value="0"/>
@@ -3462,7 +3463,7 @@
    <properties>
     <property name="target" value="switchBoss"/>
    </properties>
-   <polyline points="-47,7 -47,15 9,31 9,68 41,68"/>
+   <polyline points="-47,7 -47,15 9,31 41,31"/>
   </object>
   <object id="363" name="tome" class="switch" x="544" y="960">
    <properties>
@@ -3606,6 +3607,9 @@
    <point/>
   </object>
   <object id="213" class="node" x="2096" y="1664">
+   <point/>
+  </object>
+  <object id="376" class="node" x="1440" y="1616">
    <point/>
   </object>
  </objectgroup>

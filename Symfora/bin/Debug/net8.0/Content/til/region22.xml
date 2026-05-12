@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<regionset image="r_tileset0">
+    <ground slot="corner_inv_tl" setID="967" offset="0,0"/>
+    <ground slot="corner_inv_tr" setID="966" offset="0,0"/>
+    <ground slot="corner_inv_bl" setID="936" offset="0,0"/>
+    <ground slot="corner_inv_br" setID="935" offset="0,0"/>
+
+    <ground slot="side_top" setID="931,932,933" offset="0,0"/>
+    <ground slot="side_left" setID="961,992,1023" offset="0,0"/>
+    <ground slot="side_right" setID="965,996,1027" offset="0,0"/>
+    <ground slot="side_bottom" setID="1055,1056,1057" offset="0,0"/>
+
+    <ground slot="plat_top" setID="1422,1423,1424" offset="0,0"/>
+    <ground slot="plat_bottom" setID="1391,1392,1393" offset="0,0"/>
+    <ground slot="plat_right" setID="771,802,833" offset="0,0"/>
+    <ground slot="plat_left" setID="772,803,834" offset="0,0"/>
+
+    <ground slot="slope_bd_half_1" setID="1028" offset="0,0"/>
+    <ground slot="slope_bd_half_2" setID="1029" offset="0,0"/>
+    <ground slot="slope_bu_half_1" setID="1030" offset="0,0"/>
+    <ground slot="slope_bu_half_2" setID="1031" offset="0,0"/>
+
+    <ground slot="slope_bd_half_1_neath" setID="997" offset="0,0"/>
+    <ground slot="slope_bd_half_2_neath" setID="998" offset="0,0"/>
+    <ground slot="slope_bu_half_1_neath" setID="999" offset="0,0"/>
+    <ground slot="slope_bu_half_2_neath" setID="1000" offset="0,0"/>
+
+    <ground slot="corner_tl" setID="930" offset="0,0"/>
+    <ground slot="corner_tr" setID="934" offset="0,0"/>
+    <ground slot="corner_bl" setID="1054" offset="0,0"/>
+    <ground slot="corner_br" setID="1058" offset="0,0"/>
+
+    <ground slot="centre" setID="994" offset="0,0"/>
+    <ground slot="centre_right" setID="994" offset="0,0"/>
+    <ground slot="centre_left" setID="994" offset="0,0"/>
+    <ground slot="centre_top" setID="994" offset="0,0"/>
+    <ground slot="centre_bottom" setID="994" offset="0,0"/>
+    <ground slot="centre_corner_tl" setID="994" offset="0,0"/>
+    <ground slot="centre_corner_tr" setID="994" offset="0,0"/>
+    <ground slot="centre_corner_bl" setID="994" offset="0,0"/>
+    <ground slot="centre_corner_br" setID="994" offset="0,0"/>
+
+    <backgr slot="centre" setID="1287,1288,1289,1318,1319,1320,1349,1350,1351" offset="0,0"/>
+</regionset>

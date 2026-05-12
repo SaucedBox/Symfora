@@ -2032,7 +2032,7 @@
    </properties>
    <point/>
   </object>
-  <object id="273" name="clog" class="npc" x="1484" y="1244">
+  <object id="273" name="clog" class="npc" x="704" y="784">
    <properties>
     <property name="id" type="int" value="21"/>
     <property name="noticeDist" type="int" value="300"/>

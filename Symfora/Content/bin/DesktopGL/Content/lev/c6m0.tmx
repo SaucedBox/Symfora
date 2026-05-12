@@ -2447,7 +2447,7 @@
   </object>
   <object id="252" name="inp3" class="trigger_keyInput" x="1120" y="848" width="368" height="352">
    <properties>
-    <property name="input" value="sadwad"/>
+    <property name="input" value="wsswws"/>
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>

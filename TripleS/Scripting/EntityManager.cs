@@ -70,6 +70,8 @@ namespace TripleS.Scripting {
                             }
                         }
 
+                        ent.GID = obj.gid;
+                        ent.Rotation = obj.rotation;
                         ent.Position = position;
                         ent.Bounds = bounds;
                         ent.Name = obj.name;

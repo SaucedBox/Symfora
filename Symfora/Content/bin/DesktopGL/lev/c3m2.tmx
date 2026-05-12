@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="289">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="298">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
@@ -18,8 +18,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,0,71,71,71,71,71,71,72,0,
-0,0,0,0,0,0,0,0,71,71,71,71,71,71,72,0
+0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,
+0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="16" y="0" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -36,8 +36,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,
-0,0,0,0,0,0,0,10,69,71,71,71,71,71,71,71
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="32" y="0" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -130,35 +130,35 @@
 71,71,71,71,71,71,71,71,71,71,71,71,0,0,0,0
 </chunk>
    <chunk x="0" y="16" width="16" height="16">
-0,0,0,0,0,0,0,0,71,71,71,71,71,71,72,0,
-0,0,0,0,0,0,0,0,71,71,71,71,71,71,68,11,
-0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,72,
-0,0,0,0,0,71,71,71,0,80,60,71,71,71,71,72,
-0,0,0,0,0,71,0,0,0,0,27,60,71,71,71,72,
-0,0,0,0,0,0,0,0,0,0,0,70,71,71,71,68,
-0,0,0,0,0,0,0,0,0,0,0,70,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,0,70,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,10,69,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,70,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,70,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,0,70,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,61,69,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,70,71,71,71,71,71,71,
-0,0,0,0,0,0,0,10,62,69,71,71,71,71,71,71,
-0,0,0,0,0,0,0,0,0,71,71,71,71,71,71,71
+0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,
+0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,
+0,0,0,0,0,0,0,0,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71,
+0,0,0,0,0,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="16" y="16" width="16" height="16">
-0,0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,10,69,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-0,0,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-14,15,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-71,72,0,0,0,0,70,71,71,71,71,71,71,71,71,71,
-71,72,0,0,61,62,69,71,71,71,71,71,71,71,71,71,
-71,68,11,0,70,71,71,71,71,71,71,71,71,71,71,71,
-71,71,68,62,69,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -177,11 +177,11 @@
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
-71,71,71,59,80,80,80,80,80,60,71,71,71,71,71,71,
-71,71,71,72,0,0,0,0,0,70,71,71,71,71,71,71,
-71,71,71,68,63,0,0,0,10,69,71,71,71,71,71,71,
-71,71,71,71,72,0,0,0,70,71,71,71,71,71,71,71,
-71,71,71,71,72,0,0,0,70,71,71,71,71,71,71,71
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71
 </chunk>
    <chunk x="48" y="16" width="16" height="16">
 71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
@@ -292,7 +292,7 @@
 0,0,0,0,0,0,71,71,71,0,0,0,0,0,0,0
 </chunk>
    <chunk x="32" y="32" width="16" height="16">
-71,71,71,71,68,62,62,62,69,71,71,71,71,71,71,71,
+71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,71,
 71,71,71,71,71,71,71,71,71,71,71,71,71,0,0,0,
 71,71,71,71,71,71,71,71,71,71,71,0,0,0,0,0,
 71,71,71,71,71,71,71,71,71,0,0,0,0,0,0,0,
@@ -1957,7 +1957,7 @@
     <property name="id" type="int" value="7"/>
     <property name="noticeDist" type="int" value="100"/>
     <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
+    <property name="phantom" type="int" value="1"/>
     <property name="wanderDist" type="int" value="0"/>
    </properties>
    <point/>
@@ -2218,48 +2218,6 @@
    </properties>
    <point/>
   </object>
-  <object id="183" class="light" x="128" y="384">
-   <properties>
-    <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="3"/>
-    <property name="color" type="color" value="#ffdcddff"/>
-    <property name="dirRadius" type="float" value="80"/>
-    <property name="directional" type="bool" value="false"/>
-    <property name="falloff" type="float" value="2"/>
-    <property name="radius" type="float" value="1"/>
-    <property name="shadows" type="bool" value="false"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="184" class="light" x="617" y="483">
-   <properties>
-    <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="3"/>
-    <property name="color" type="color" value="#ffdcddff"/>
-    <property name="dirRadius" type="float" value="80"/>
-    <property name="directional" type="bool" value="false"/>
-    <property name="falloff" type="float" value="2"/>
-    <property name="radius" type="float" value="1"/>
-    <property name="shadows" type="bool" value="false"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="185" class="light" x="304" y="288">
-   <properties>
-    <property name="angle" type="float" value="270"/>
-    <property name="brightness" type="float" value="3"/>
-    <property name="color" type="color" value="#ffdcddff"/>
-    <property name="dirRadius" type="float" value="80"/>
-    <property name="directional" type="bool" value="false"/>
-    <property name="falloff" type="float" value="2"/>
-    <property name="radius" type="float" value="1"/>
-    <property name="shadows" type="bool" value="false"/>
-    <property name="startActive" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
   <object id="186" class="light_area" x="433" y="1632" width="958" height="257">
    <properties>
     <property name="brightness" type="float" value="1"/>
@@ -2347,6 +2305,48 @@
     <property name="directional" type="bool" value="false"/>
     <property name="falloff" type="float" value="2"/>
     <property name="radius" type="float" value="8"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="292" class="light" x="608" y="496">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffd69c"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.25"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="294" class="light" x="320" y="400">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="3"/>
+    <property name="color" type="color" value="#ffffd69c"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="1.25"/>
+    <property name="shadows" type="bool" value="false"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="295" class="light" x="144" y="416">
+   <properties>
+    <property name="angle" type="float" value="270"/>
+    <property name="brightness" type="float" value="2"/>
+    <property name="color" type="color" value="#ffffa667"/>
+    <property name="dirRadius" type="float" value="80"/>
+    <property name="directional" type="bool" value="false"/>
+    <property name="falloff" type="float" value="2"/>
+    <property name="radius" type="float" value="3"/>
     <property name="shadows" type="bool" value="false"/>
     <property name="startActive" type="bool" value="true"/>
    </properties>
@@ -2638,6 +2638,15 @@
     <property name="target" value="magnet6"/>
    </properties>
    <polyline points="112,96 96,112 96,256 104,264 160,264"/>
+  </object>
+  <object id="291" name="tome" class="switch" x="688" y="368">
+   <properties>
+    <property name="draw" type="bool" value="true"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="skin" type="int" value="1"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <objectgroup color="#00ff00" id="4" name="nodegraph">

@@ -59,7 +59,7 @@ namespace Symfora {
 
             LocalizationManager.Initialize(Languages.English);
 
-            var entTypes = new Type[24] {
+            var entTypes = new Type[25] {
                 typeof(EntCatalyst),
                 typeof(EntJetCatalyst),
                 typeof(EntDoor),
@@ -83,7 +83,8 @@ namespace Symfora {
                 typeof(EntProp),
                 typeof(EntTriggerInput),
                 typeof(EntAdvancedScene),
-                typeof(EntSinkpit)
+                typeof(EntSinkpit),
+                typeof(EntAnthill)
             };
             _LevelHandler = new LevelHandler("lev", "til", "script", 1, entTypes);
             _Skybox = new SkyboxManager();
@@ -299,6 +300,7 @@ namespace Symfora {
                 RopeEngine.Draw(_Renderer);
             }
             _Player.Draw(_Renderer);
+            DrawForegroundProps(_Renderer);
 
             _Renderer.PhaseThree((float)gameTime.TotalGameTime.TotalSeconds);
             if (!SSS.PreviewMode)
@@ -487,6 +489,20 @@ namespace Symfora {
         public static bool HasUpgradeOn(Upgrade upgrade)
         {
             return _Player.Upgrades != null && _Player.Upgrades.Contains(upgrade);
+        }
+
+        private static void DrawForegroundProps(Renderer renderer)
+        {
+            _LevelHandler.DrawForeground(renderer);
+            if (_LevelHandler.CanDraw)
+            {
+                //needs optimization
+                foreach (EntProp prop in _LevelHandler.EntityMan.Entities.Where(x => x.GetType() == typeof(EntProp)).Cast<EntProp>())
+                {
+                    if(prop.foreground)
+                        prop.RealDraw(renderer);
+                }
+            }
         }
     }
 }

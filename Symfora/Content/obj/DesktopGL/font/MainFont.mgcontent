@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/font/MainFont.bmp</SourceFile>
-  <SourceTime>2023-12-14T18:41:20.8684867-08:00</SourceTime>
-  <DestFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/bin/DesktopGL/font/MainFont.xnb</DestFile>
-  <DestTime>2024-07-21T11:39:54.4980902-07:00</DestTime>
+  <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/font/MainFont.bmp</SourceFile>
+  <SourceTime>2024-10-07T17:06:35.0068673-07:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/font/MainFont.xnb</DestFile>
+  <DestTime>2025-09-19T08:23:01.1958415-07:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T09:17:54-07:00</ImporterTime>
   <Processor>FontTextureProcessor</Processor>

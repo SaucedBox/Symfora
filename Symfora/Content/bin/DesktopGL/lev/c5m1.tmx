@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="231">
+<map version="1.9" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="16" tileheight="16" infinite="1" nextlayerid="14" nextobjectid="234">
  <tileset firstgid="1" source="../til/devSet.tsx"/>
  <layer id="5" name="background" width="64" height="32" tintcolor="#433b35">
   <data encoding="csv">
@@ -1390,6 +1390,15 @@
     <property name="startActive" type="bool" value="true"/>
    </properties>
   </object>
+  <object id="232" name="trig_dia" class="trigger" x="1520" y="144" width="48" height="96">
+   <properties>
+    <property name="corpses" type="bool" value="false"/>
+    <property name="npcs" type="bool" value="false"/>
+    <property name="once" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+    <property name="startActive" type="bool" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#fffa61" id="8" name="lights">
   <object id="143" class="light_area" x="1568" y="-96" width="368" height="1472">
@@ -1702,26 +1711,6 @@
    </properties>
    <point/>
   </object>
-  <object id="217" class="npc" x="1492" y="442">
-   <properties>
-    <property name="id" type="int" value="15"/>
-    <property name="noticeDist" type="int" value="300"/>
-    <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
-    <property name="wanderDist" type="int" value="0"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="218" class="npc" x="1474" y="886">
-   <properties>
-    <property name="id" type="int" value="15"/>
-    <property name="noticeDist" type="int" value="300"/>
-    <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
-    <property name="wanderDist" type="int" value="0"/>
-   </properties>
-   <point/>
-  </object>
   <object id="219" class="npc" x="1217" y="981">
    <properties>
     <property name="id" type="int" value="15"/>
@@ -1787,7 +1776,7 @@
     <property name="id" type="int" value="17"/>
     <property name="noticeDist" type="int" value="300"/>
     <property name="perma" type="bool" value="false"/>
-    <property name="phantom" type="int" value="0"/>
+    <property name="phantom" type="int" value="1"/>
     <property name="wanderDist" type="int" value="0"/>
    </properties>
    <point/>

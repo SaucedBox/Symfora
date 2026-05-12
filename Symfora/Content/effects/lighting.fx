@@ -50,7 +50,7 @@ float4 Lighting(float2 coords: TEXCOORD0): COLOR0
 	float falloff = -((distance - falloffDist) / 2 - 1);
 	falloff = clamp(falloff, 0, 1);
 	intensity *= falloff;
-	intensity *= Dither(intensity, pos.x, pos.y);
+	//intensity *= Dither(intensity, pos.x, pos.y);
 
 	float normLum = (norm.r + norm.g + norm.b) / 3;
 	float shadLev = floor(shad) > 0 || shadow == 0 ? 1 : 0.75f;

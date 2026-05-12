@@ -666,13 +666,16 @@ namespace TripleS.Tiled
                     continue;
                 }
 
-                if (File.Exists(path))
+                if (!path.Contains("props"))
                 {
-                    tilesets.Add(mapTileset.firstgid, new TiledTileset(path));
-                }
-                else
-                {
-                    throw new TiledException("Cannot locate tileset '" + path + "'. Please make sure the source folder is correct and it ends with a slash.");
+                    if (File.Exists(path))
+                    {
+                        tilesets.Add(mapTileset.firstgid, new TiledTileset(path));
+                    }
+                    else
+                    {
+                        throw new TiledException("Cannot locate tileset '" + path + "'. Please make sure the source folder is correct and it ends with a slash.");
+                    }
                 }
             }
 

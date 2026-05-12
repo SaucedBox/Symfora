@@ -4,9 +4,653 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/humPart1.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/humPart2.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/humPart3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/anthill.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/antena0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/antena1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamAltBrown.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamAltCrim.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamAltSwamp.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamBrown.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamBrownBroken0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamBrownBroken1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamCrim.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamRed.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamRedBroken0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamRedBroken1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/beamSwamp.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/blood.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/breaker0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/breaker1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bridge.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbClus0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbClus1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbClus2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbClus3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbClus4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bulbPlant5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushGreen3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushLime0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushLime1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushLime2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushLime3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushSwamp0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushSwamp1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushSwamp2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/bushSwamp3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cable9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableBg0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableBg1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableBg2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableBg3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableBg4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableCluster0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/cableCluster1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/catGrowthGreen.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/catGrowthRed.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/clogCorpse0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/clogCorpse1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/crate0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/crate1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/debris0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/debris1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/debris2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/debris3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/dinnerTable.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/facCircut0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/facCircut1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/facPanel0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/facPanel1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/facTruss.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/fence.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/fern0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/fern1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/fern2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/fernStem.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/finaleBeamer.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/flower0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/flower1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/flower2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/flower3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirBluL.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirBluS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirBluS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirJunc0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirJunc1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirStrip0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirStrip1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirYelL.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirYelS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/girdirYelS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassGreenSmall0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassGreenSmall1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassLime0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassLime1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassLime2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassLimeSmall0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassLimeSmall1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassRedSmall0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassRedSmall1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassSwamp0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassSwamp1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassSwamp2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassSwampSmall0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/grassSwampSmall1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/industDoor0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/industDoor1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/industDoor2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/intDoor.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/kidArt.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/kidBed.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/kidCabinet.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/kidShelf.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/kidSpare.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplate0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplate1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateBg0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateBg1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateRedBg0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/labplateRedBg1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leaf6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leafCluster0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leafCluster1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leafCluster2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/leafCluster3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShit6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libShitTool.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/libWorktable.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightDarksouls.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightFloor.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightHanging.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightNoble.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightNobleCeil.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightPlant0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightPlant1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightPlantFloor.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightRing.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightRod.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightRodBase.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/lightWall.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossGreen3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossGreen4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossLime0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossLime1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossLime2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossLime3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossLime4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossRed4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossSwamp0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossSwamp1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossSwamp2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossSwamp3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/mossSwamp4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilPatch5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTend0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTend1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTend2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTend3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/oilTiny7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/overlayCaution0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/overlayCaution1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/overlayGoober0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/overlayGoober1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/overlayGoober2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelAperture0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelAperture1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelAperture2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelAperture3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelCircut0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelCircut1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelFrame0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelFrame1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelFrame2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelFrame3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelPipes0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pannelPipes1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillar6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillarGills0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillarGills1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pillarGills2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeAccGoop.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeAccValve0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeAccValve1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroLB.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroLD0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroLD1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroMB0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroMB1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeBroMD.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiLB.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiLD0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiLD1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiMB0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiMB1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pipeWhiMD.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantGreen3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/plantRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/ponderosa.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/poster0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/poster1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/poster2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/poster3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pump0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pump1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/pumpStation.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/redwood.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlaS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockChlbS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockCouS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlaS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtChlbS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtCouS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtDisS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtParS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDirtShaS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockDisS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockGauS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockParS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockRelS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaL0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaL1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaL2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaL3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaM0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaM1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaM2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaM3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaM4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaS0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaS1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaS2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rockShaS3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigBrown0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigBrown1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigBrown2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigBrown3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigBrown4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBigRed4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBrown0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBrown1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBrown2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsBrown3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/rootsRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab11.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslab9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg11.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sandslabBg9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageArrow0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageArrow1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetter6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetterA.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetterB.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetterC.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageLetterD.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/signageMessage7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/smallFern0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/smallFern1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/facElevator.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseChl7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseCou0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseCou1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseCou2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseDis0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseDis1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseDis2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseDis3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseDis4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFac0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFac1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFac2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFac3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFac4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseFacAbyss.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/housePar6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseRel0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseRel1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseSha0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseSha1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/houseSha2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/pyramid.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/towerBrigde0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/towerBrigde1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/towerSegment.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/struct/towerTop.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sunflowerBase.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sunflowerHead.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/sunflowerMutant.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassGreenBig0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassGreenBig1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassLime0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassLime1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassLime2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassLimeBig0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassLimeBig1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassRedBig0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassRedBig1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassSwamp0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassSwamp1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassSwamp2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassSwampBig0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tallgrassSwampBig1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/toolbox.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/toolPillar.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tpuzzle0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tpuzzle1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/tpuzzle2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vent0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vent1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vent2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/ventDuct0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/ventDuct1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/ventDuct2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vine.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineEater0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineEater1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineFat0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineFat1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineFat2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineGreen9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLarge.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLargeCurve.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLargeEnd.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineLime9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed10.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed6.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed7.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/vineRed9.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe0.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe1.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe2.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe3.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe4.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe5.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/props/wireframe6.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element0.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element1.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element10.png</File>
@@ -81,7 +725,13 @@
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element73.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element74.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element75.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element76.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element77.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element78.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element79.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element8.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element80.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element81.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/element9.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/skybox1.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/skybox2.png</File>
@@ -99,12 +749,7 @@
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/skyfade5.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/skyfade6.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/skybox/skyfade7.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/sparkPart.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/test.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/testPart.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/ui.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/wire_hori.png</File>
-    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/assets/wire_vert.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/areaLighting.fx</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/bloom.fx</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/lighting.fx</File>
@@ -116,9 +761,656 @@
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/font/MainFont_italy.bmp</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/font/MainFont_small.bmp</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/til/devSet.png</File>
+    <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/til/r_tileset0.png</File>
     <File>C:/Users/sawye/source/games/Symfora/Symfora/Content/til/r_tileset1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

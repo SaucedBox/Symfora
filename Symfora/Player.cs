@@ -468,7 +468,7 @@ namespace Symfora {
                 color = Ramming ? Color.Crimson : color;
                 color = CanProjCata ? Color.Lime : color;
                 color = SuperBoost ? Color.Blue : color;
-                renderer.BasicDraw(SSS.Square, Transform.GetRectangle(), 1, 1, col: color);
+                renderer.BasicDraw(SSS.Square, Transform.GetRectangle(), 0, 0, col: color);
 
                 if (rallyTimer > 0)
                     renderer.DrawText(Debug.DebugFont, "x" + Rallies, Transform.Position + new Vector2(Transform.Width + 2, 6), 1, 1, col: Color.Orange);

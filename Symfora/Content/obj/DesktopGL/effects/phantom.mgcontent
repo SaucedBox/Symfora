@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/phantom.fx</SourceFile>
-  <SourceTime>2024-02-11T09:13:33.1575154-08:00</SourceTime>
-  <DestFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/bin/DesktopGL/effects/phantom.xnb</DestFile>
-  <DestTime>2024-07-10T18:50:29.4620932-07:00</DestTime>
+  <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/phantom.fx</SourceFile>
+  <SourceTime>2024-10-07T17:06:35.0038676-07:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/effects/phantom.xnb</DestFile>
+  <DestTime>2025-09-19T08:23:00.9357812-07:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2020-08-10T09:17:54-07:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

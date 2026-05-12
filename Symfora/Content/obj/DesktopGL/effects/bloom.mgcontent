@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/effects/bloom.fx</SourceFile>
-  <SourceTime>2024-03-18T17:15:02.1666615-07:00</SourceTime>
-  <DestFile>C:/Users/sawye/source/games/Symfora Project/Symfora/Content/bin/DesktopGL/effects/bloom.xnb</DestFile>
-  <DestTime>2024-07-10T18:50:29.023994-07:00</DestTime>
+  <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/bloom.fx</SourceFile>
+  <SourceTime>2024-10-07T17:06:35.0038676-07:00</SourceTime>
+  <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/effects/bloom.xnb</DestFile>
+  <DestTime>2025-09-19T08:23:00.4280592-07:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2020-08-10T09:17:54-07:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

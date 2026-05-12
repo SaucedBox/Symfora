@@ -47,7 +47,7 @@
         <line id="upgrade8">Refelection</line>
         <line id="upgrade9">Weaver's Key</line>
         <line id="upgrade0Desc">All projectiles will damage blockades\ninstead of just ballista rounds. Deflected\nprojectiles will also deal more damage.</line>
-        <line id="upgrade1Desc">When you deflected a projectile, a second\nprojectile will be created and fly\nin the opposite direction.</line>
+        <line id="upgrade1Desc">When you deflect a projectile, a second\nprojectile will be created and fly\nin the opposite direction.</line>
         <line id="upgrade2Desc">Vertical ramming will result in two rapid\nback-and-forth spurts.</line>
         <line id="upgrade3Desc">Throwing a corpse will create a homing\nprojectile upon hitting the ground.</line>
         <line id="upgrade4Desc">Ramming into an enemy will send said enemy\nflying upwards.</line>
@@ -91,13 +91,16 @@
         <line id="mainmenuWipeConfirm">Are you sure you want to delete this save?</line>
         <line id="generalYes">Yes</line>
         <line id="generalNo">No</line>
-        <line id="mainmenuCopyright">Copyright 2024 Delirium Software, All Rights Reserved.</line>
+        <line id="mainmenuCopyright">Copyright 2025 Delirium Software, All Rights Reserved.</line>
         <line id="boss0">Stenonat</line>
         <line id="boss1">Fynalie</line>
         <line id="boss2">Lake Monstrosity</line>
         <line id="boss3">Jesersant</line>
         <line id="boss4">Bafixi</line>
         <line id="boss5">Azaprota</line>
+        <line id="riddle0">Move your body. Half 1:\nUp in the cosmos\nDown in the abyss\nDown with the poor</line>
+        <line id="riddle1">Move your body. Half 2:\nThe pyramid of the rich\nThe tree that touches the sky\nThe dark line at the base</line>
+        <line id="inputCodeHint">Move your body.</line>
     </ui>
     <dialogue>
         <line id="tutorial0">Use {0} and {1} to move.</line>

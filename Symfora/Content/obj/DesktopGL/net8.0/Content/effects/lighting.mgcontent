@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/effects/lighting.fx</SourceFile>
-  <SourceTime>2025-04-09T19:14:33.5603102-07:00</SourceTime>
+  <SourceTime>2026-03-04T21:57:38.2408379-08:00</SourceTime>
   <DestFile>C:/Users/sawye/source/games/Symfora/Symfora/Content/bin/DesktopGL/Content/effects/lighting.xnb</DestFile>
-  <DestTime>2025-04-09T19:19:28.5424103-07:00</DestTime>
+  <DestTime>2026-03-04T21:57:42.8201559-08:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2024-08-16T10:05:56-07:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

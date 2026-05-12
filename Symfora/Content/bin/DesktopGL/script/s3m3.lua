@@ -54,4 +54,44 @@ end
 
 function trigger_trig_bossStart(holding)
     ST.SetEnt("door6", true)
+    ST.SelfDialogue("self10")
+    ST.AwakeBoss("boss")
+end
+local top = false
+local bottom = false
+function trigger_trig_bossNPCCheck(holding)
+    top = true
+    if bottom then
+        phase2()
+    end
+end
+function trigger_trig_bossMid(holding)
+    bottom = true
+    if top then
+        phase2()
+    end
+end
+function phase2()
+    ST.SetNPCState("boss", 0, 3)
+    ST.SetAllEnts("door4", true)
+end
+
+function switch_bal1_switch(state)
+    npcState = ST.GetNPCState("boss", 0)
+    if state and npcState == 1 then
+        ST.ShootBallista("ballista1")
+    end
+end
+function switch_bal2_switch(state)
+    npcState = ST.GetNPCState("boss", 0)
+    if state and npcState == 1 then
+        ST.ShootBallista("ballista2")
+    end
+end
+
+function custom_fynalie()
+    ST.SetAllEnts("door4", false)
+end
+function npc_boss()
+    ST.SetEnt("door5", false)
 end

@@ -23,15 +23,15 @@ namespace TripleS {
         private List<Rectangle> pannelRequest;
         private List<string> pannelRequestSlot;
         private List<int[]> pannelRequestID;
-        private static readonly int[] secOverlIDs = new int[13] { 96, 98, 91, 106, 87, 89, 105, 107, 97, 113, 114, 115, 116 };
+        private static readonly int[] secOverlIDs = [90, 91, 92, 93, 94, 99, 100, 101, 102, 103, 108, 109, 110];
 
-        public TileDrawData? MapTile(string layer, int gid, Vector2 drawPos, float drawLayer, int next, int below, int exposeness)
+        public TileDrawData? MapTile(string layer, int gid, Vector2 drawPos, float drawLayer, Vector4 neighbours, int exposeness, bool shadow = false)
         {
             rng ??= new Random(69420);
-            string targetSlot = GIDToSlotName(gid);
+            string targetSlot = shadow ? ShadowGIDToSlotName(gid) : GIDToSlotName(gid, neighbours);
             string targetXmlType = layer switch { "collision" => "ground", "background" => "backgr", "foreground" => "overlay", _ => throw new NotImplementedException() };
             if (layer == "foreground")
-                targetXmlType += secOverlIDs.Contains(gid) ? "2" : "1";
+                targetXmlType += secOverlIDs.Contains(gid - 1) ? "2" : "1";
 
             int sr = GetRegionFromPos(drawPos, out string transSide);
             targetXmlType = transSide == "" ? targetXmlType : "trans";
@@ -41,6 +41,8 @@ namespace TripleS {
 
             var baseNode = regionMaps[sr].SelectSingleNode($"regionset/{targetXmlType}[@slot='{targetSlot}']{addition}");
             var selImg = TilesetTextures.Where(x => x.Name[4..] == regionMaps[sr].SelectSingleNode("regionset").Attributes["image"].Value).First(); //or just use completeTilesets[sr]
+            var factorNode = regionMaps[sr].SelectSingleNode($"regionset/factor[@layer='{targetXmlType}']");
+            int factor = factorNode != null && !targetSlot.Contains("plat") ? int.Parse(factorNode.InnerText) : 0;
 
             if (baseNode != null)
             {
@@ -51,20 +53,25 @@ namespace TripleS {
                     offset = new Vector2(int.Parse(things[0]), int.Parse(things[1]));
                 }
 
-                int eVal = SelectExtraGID(sr, targetXmlType, drawPos, targetSlot, next, below);
+                int eVal = SelectExtraGID(sr, targetXmlType, drawPos, targetSlot, (int)neighbours.X, (int)neighbours.W);
                 int trueGid;
-                if (eVal == -1)
+                if (eVal == -1) //if it's not an extra detail, set gid to whats in the node unless it has multiple for random selection
                 {
                     if (baseNode.Attributes["setID"].Value.Contains(','))
                     {
                         var things = baseNode.Attributes["setID"].Value.Split(',');
-                        trueGid = int.Parse(things[rng.Next(things.Length)]);
+                        bool bg = layer == "background" && (targetSlot == "centre" || targetSlot.Contains("side"));
+                        int tx = (int)drawPos.X / 16 % 3;
+                        int ty = (int)drawPos.Y / 16 % 3;
+                        int index = targetSlot.Contains("side") ? (targetSlot.Contains("right") ? ty : tx) : (ty * 3) + tx;
+                        trueGid = bg ? int.Parse(things[index]) : int.Parse(things[rng.Next(things.Length)]);
                     }
                     else
                         trueGid = int.Parse(baseNode.Attributes["setID"].Value);
                 }
-               else
+                else
                     trueGid = eVal;
+                trueGid += factor;
 
                 int w = selImg.Width / 16;
                 int y = (int)MathF.Floor((trueGid + 1) / w);
@@ -74,7 +81,8 @@ namespace TripleS {
                 x = (x * 16) - (int)offset.X;
 
                 layer = layer == "collision" ? "ground" : layer;
-                return new TileDrawData(drawLayer, SpriteEffects.None, layer, sr, (int)MathUtil.MinClamp(trueGid, 1), new Rectangle(x, y, 16 + (int)offset.Y, 16 + (int)offset.X), new Rectangle((int)drawPos.X, (int)drawPos.Y, 16, 16), -1, true, exposeness);
+                var neath = targetSlot.Contains("neath");
+                return new TileDrawData(drawLayer, SpriteEffects.None, layer, sr, (int)MathUtil.MinClamp(trueGid, 1), new Rectangle(x, y, 16 + (int)offset.Y, 16 + (int)offset.X), new Rectangle((int)drawPos.X, (int)drawPos.Y, 16, 16), -1, true, exposeness, neath: neath);
             }
             else
                 return null;
@@ -137,25 +145,27 @@ namespace TripleS {
                 return null;
         }
 
-        public static string GIDToSlotName(int gid)
+        public static string GIDToSlotName(int gid, Vector4 n)
         {
             gid--;
+            n -= Vector4.One;
             return gid switch
             {
                 2 => "single",
-                69 or 99 or 96 => "side_left",
-                71 or 101 or 98 => "side_right",
+                69 or 99 or 96 => n.X == 9 || n.X == 11 ? "side_left_neath_top" : (n.W == 26 || n.W == 81 ? "side_left_neath_bottom" : "side_left"),
+                71 or 101 or 98 => n.X == 10 || n.X == 14 ? "side_right_neath_top" : (n.W == 17 || n.W == 81 ? "side_right_neath_bottom" : "side_right"),
                 61 or 88 or 91 => "side_top",
                 79 or 109 or 106 => "side_bottom",
                 60 or 90 or 87 => "corner_tl",
                 62 or 92 or 89 => "corner_tr",
                 78 or 108 or 105 => "corner_bl",
                 80 or 110 or 107 => "corner_br",
-                70 or 100 or 97 => "centre",
-                58 or 93 or 113 => "corner_inv_br",
-                59 or 94 or 114 => "corner_inv_bl",
-                67 or 102 or 115 => "corner_inv_tr",
-                68 or 103 or 116 => "corner_inv_tl",
+                70 => n.X == 13 || n.X == 12 ? n.X switch { 13 => "slope_td_half_2_neath", 12 => "slope_tu_half_2_neath", _ => "centre" } : n.W switch { 82 => "slope_bd_half_2_neath", 83 => "slope_bu_half_2_neath", _ => "centre" },
+                100 or 97 => "centre",
+                58 or 93 or 113 => n.W switch { 84 => "slope_bu_half_1_neath", 17 => "slope_bu_neath", _ => "corner_inv_br" },
+                59 or 94 or 114 => n.W switch { 81 => "slope_bd_half_1_neath", 26 => "slope_bd_neath", _ => "corner_inv_bl" },
+                67 or 102 or 115 => n.X switch { 14 => "slope_td_half_1_neath", 10 => "slope_td_neath", _ => "corner_inv_tr" },
+                68 or 103 or 116 => n.X switch { 11 => "slope_tu_half_1_neath", 9 => "slope_tu_neath", _ => "corner_inv_tl" },
                 25 => "plat_right",
                 24 => "plat_top",
                 15 => "plat_bottom",
@@ -168,10 +178,31 @@ namespace TripleS {
                 12 => "slope_tu_half_2",
                 14 => "slope_td_half_1",
                 13 => "slope_td_half_2",
-                83 => "slope_bu_half_1",
-                84 => "slope_bu_half_2",
+                84 => "slope_bu_half_1",
+                83 => "slope_bu_half_2",
                 81 => "slope_bd_half_1",
                 82 => "slope_bd_half_2",
+                _ => "",
+            };
+        }
+
+        public static string ShadowGIDToSlotName(int gid)
+        {
+            gid--;
+            return gid switch
+            {
+                55 => "centre_right",
+                54 => "centre_left",
+                64 => "centre_top",
+                63 => "centre_bottom",
+                66 => "centre_corner_tl",
+                65 => "centre_corner_tr",
+                57 => "centre_corner_bl",
+                56 => "centre_corner_br",
+                53 => "centre_corner_inv_tl",
+                52 => "centre_corner_inv_tr",
+                51 => "centre_corner_inv_bl",
+                44 => "centre_corner_inv_br",
                 _ => "",
             };
         }
@@ -232,8 +263,8 @@ namespace TripleS {
 
                 if (canRequest)
                 {
-                    string nextSlot = GIDToSlotName(nextGid);
-                    string belowSlot = GIDToSlotName(belowGid);
+                    string nextSlot = GIDToSlotName(nextGid, Vector4.Zero);
+                    string belowSlot = GIDToSlotName(belowGid, Vector4.Zero);
                     foreach (XmlNode node in regionMaps[region].SelectNodes("regionset/" + targetNodeName + "Extra"))
                     {
                         int r = rng.Next(int.Parse(node.Attributes["chance"].Value));

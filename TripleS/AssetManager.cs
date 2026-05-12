@@ -140,11 +140,13 @@ namespace TripleS {
 
         public static Texture2D GetDynamicAsset(string path)
         {
-            if (Assets.ContainsKey(path)) {            
-                return GetAsset(path);
+            if (Assets.TryGetValue(path, out Texture2D value)) {            
+                return value;
             }
             else {
-                return SSS.Game.Content.Load<Texture2D>(path);
+                var img = SSS.Game.Content.Load<Texture2D>(path);
+                Assets.Add(path, img);
+                return img;
             }
         }
     }

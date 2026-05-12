@@ -97,3 +97,30 @@ function triDoor2(state)
         ST.SetEnt("door6", true)
     end
 end
+
+function trigger_trig_fallPlain1()
+    ST.FallKillPlayer()
+end
+
+function switch_tome(active)
+    ST.SetGS(67 + 4, 1)
+end
+
+function trigger_trig_craze()
+    ST.StartScene(10)
+end
+function trigger_trig_bigone()
+    ST.StartScene(11)
+end
+function trigger_trig_gorjanDissapear()
+    ST.SetNPCState("gorjan", 0, 4)
+end
+function trigger_trig_gorjan1()
+    ST.SetNPCState("gorjan", 3, 2)
+end
+
+function scene11_act14()
+    ST.SetNPCState("gorjan", 0, 1)
+    ST.SetEnt("enemyClip", false)
+    ST.SetEnt("door2", false)
+end
